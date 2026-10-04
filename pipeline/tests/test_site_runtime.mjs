@@ -16,7 +16,7 @@ const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)]
   .filter(match => !/\bsrc\s*=/.test(match[1])).map(match => match[2]);
 assert.equal(scripts.length, 2, 'Expected before-paint theme script and app script');
 const exportCode = `window.TEST = {state, overview, members, leaderboards, stages, dataView,
-  trends, render, eventBar, boardKey, rankChange, rosterRows, visibleBoard, openProfile,
+  trends, render, eventBar, boardKey, rosterRows, badgesFor, visibleBoard, openProfile,
   closeProfile, sync, theme, statusStage, date, t, n, loadWeek,
   setLang:value=>lang=value, getLang:()=>lang, setData:value=>data=value,
   getData:()=>data, getRenderToken:()=>renderToken};`;
@@ -137,14 +137,6 @@ for (const [board, rows] of Object.entries(original.boards)) for (const row of r
   if (row.player !== player.player) variants++;
 }
 assert.ok(variants > 0, 'Real data fixture must cover an OCR spelling variant');
-for (const [day, previous] of [['tue', 'mon'], ['wed', 'tue'], ['thu', 'wed'], ['fri', 'thu'], ['sat', 'fri']]) {
-  T.state.tab = day;
-  for (const player of roster.filter(p => p.days?.[day] && p.days?.[previous])) {
-    const row = original.boards[day].find(r => r.rank === player.days[day].rank);
-    const diff = player.days[previous].rank - row.rank, change = T.rankChange(row);
-    assert.ok(diff === 0 ? change === '↔' : change.includes(`${diff > 0 ? '↑' : '↓'} ${T.n(Math.abs(diff))}`), `${player.key} ${day} rank movement`);
-  }
-}
 Object.assign(T.state, { query: '', tier: 'all', quota: 'all', active: false, sort: 'weekly_points', direction: -1 });
 let rows = T.rosterRows(false);
 assert.ok(rows.every((row, index) => !index || rows[index - 1].weekly_points >= row.weekly_points));
@@ -152,6 +144,14 @@ Object.assign(T.state, { tier: 'titan', quota: 'met', active: true });
 assert.ok(T.rosterRows(false).every(player => player.tier === 'titan' && player.quota_met && player.active_days > 0));
 Object.assign(T.state, { tier: 'all', quota: 'all', active: false, query: original.members[0].player });
 assert.ok(T.rosterRows(false).some(player => player.key === original.members[0].key));
+// Achievements follow their definitions on the real fixture.
+const earned = T.badgesFor(original), quota = original.summary.quota;
+assert.equal(earned.byBadge.mvp?.length, 1, 'Exactly one week MVP');
+assert.equal(original.members.find(p => p.key === earned.byBadge.mvp[0].key).alliance_rank, 1);
+for (const h of earned.byBadge.six_for_six || []) assert.equal(original.members.find(p => p.key === h.key).active_days, 6);
+for (const h of earned.byBadge.photo_finish || []) { const p = original.members.find(x => x.key === h.key); assert.ok(p.weekly_points >= quota && p.weekly_points < quota * 1.05); }
+for (const h of earned.byBadge.server_top10 || []) assert.ok(original.members.find(p => p.key === h.key).weekly_rank <= 10);
+assert.ok(!earned.byBadge.comeback && !earned.byBadge.personal_best, 'First tracked week has no week-over-week badges');
 Object.assign(T.state, { tab: 'week', side: 'home', query: '' });
 assert.ok(T.visibleBoard().every(row => row.alliance_tag === original.summary.home.tag));
 
@@ -242,4 +242,4 @@ assert.equal(retry.requestedScripts.length, 2, 'Retry must create a fresh script
 retry.completeRealWeek(retry.requestedScripts[1]);
 assert.equal((await retried).summary.id, retry.first.id);
 assert.deepEqual([...h.errors, ...deep.errors, ...stored.errors, ...one.errors, ...lazy.errors, ...retry.errors], []);
-console.log(`Site runtime checks passed: ${combinations} view/language combinations, canonical OCR identities, filters, live scores, records, profiles, deep links, themes and lazy-load recovery.`);
+console.log(`Site runtime checks passed: ${combinations} view/language combinations, canonical OCR identities, filters, achievements, live scores, records, profiles, deep links, themes and lazy-load recovery.`);

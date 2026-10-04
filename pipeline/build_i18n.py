@@ -30,7 +30,6 @@ T = {
     "rank": "Rank",
     "tier": "Tier",
     "active_only": "Active players only",
-    "change": "vs previous",
     "download_csv": "Download CSV",
     "close": "Close",
     "no_results": "No matches",
@@ -56,7 +55,6 @@ T = {
     "rank": "Rang",
     "tier": "Tranche",
     "active_only": "Joueurs actifs uniquement",
-    "change": "vs précédent",
     "download_csv": "Télécharger le CSV",
     "close": "Fermer",
     "no_results": "Aucun résultat",
@@ -82,7 +80,6 @@ T = {
     "rank": "Место",
     "tier": "Группа",
     "active_only": "Только активные игроки",
-    "change": "к прошлому",
     "download_csv": "Скачать CSV",
     "close": "Закрыть",
     "no_results": "Ничего не найдено",
@@ -108,7 +105,6 @@ T = {
     "rank": "Sıra",
     "tier": "Dilim",
     "active_only": "Yalnızca aktif oyuncular",
-    "change": "Öncekine göre",
     "download_csv": "CSV indir",
     "close": "Kapat",
     "no_results": "Sonuç yok",
@@ -134,7 +130,6 @@ T = {
     "rank": "Miejsce",
     "tier": "Przedział",
     "active_only": "Tylko aktywni gracze",
-    "change": "vs poprzednie",
     "download_csv": "Pobierz CSV",
     "close": "Zamknij",
     "no_results": "Brak wyników",
@@ -160,7 +155,6 @@ T = {
     "rank": "Puesto",
     "tier": "Tramo",
     "active_only": "Solo jugadores activos",
-    "change": "vs anterior",
     "download_csv": "Descargar CSV",
     "close": "Cerrar",
     "no_results": "Sin resultados",
@@ -186,7 +180,6 @@ T = {
     "rank": "Posição",
     "tier": "Escalão",
     "active_only": "Apenas jogadores ativos",
-    "change": "vs anterior",
     "download_csv": "Transferir CSV",
     "close": "Fechar",
     "no_results": "Sem resultados",
@@ -212,7 +205,6 @@ T = {
     "rank": "Rang",
     "tier": "Stufe",
     "active_only": "Nur aktive Spieler",
-    "change": "ggü. vorher",
     "download_csv": "CSV herunterladen",
     "close": "Schließen",
     "no_results": "Keine Treffer",
@@ -238,7 +230,6 @@ T = {
     "rank": "순위",
     "tier": "구간",
     "active_only": "활성 플레이어만",
-    "change": "이전 대비",
     "download_csv": "CSV 다운로드",
     "close": "닫기",
     "no_results": "결과 없음",
@@ -264,7 +255,6 @@ T = {
     "rank": "排名",
     "tier": "区间",
     "active_only": "仅显示活跃玩家",
-    "change": "对比上次",
     "download_csv": "下载 CSV",
     "close": "关闭",
     "no_results": "无匹配结果",
@@ -385,7 +375,6 @@ undecided|Undecided|Non décidé|Не решён|Sonuçlanmadı|Nierozstrzygnię
 not_on_weekly|Not on weekly board|Absent du classement hebdomadaire|Нет в недельном рейтинге|Haftalık sıralamada yok|Brak w rankingu tygodniowym|No figura en la tabla semanal|Ausente da tabela semanal|Nicht in der Wochenrangliste|주간 순위표에 없음|未上周榜
 copy_manual|Copy this link|Copier ce lien|Скопируйте эту ссылку|Bu bağlantıyı kopyala|Skopiuj ten link|Copiar este enlace|Copiar esta ligação|Diesen Link kopieren|이 링크 복사|复制此链接
 quota_target|Weekly target: {n}|Objectif hebdomadaire : {n}|Норма за неделю: {n}|Haftalık hedef: {n}|Cel tygodniowy: {n}|Objetivo semanal: {n}|Meta semanal: {n}|Wochenziel: {n}|주간 목표: {n}|周目标：{n}
-rank_change_note|Rank change compares with the previous day's full board.|La variation de rang compare avec le classement complet du jour précédent.|Изменение места сравнивается с полной таблицей предыдущего дня.|Sıra değişimi önceki günün tam sıralamasıyla karşılaştırılır.|Zmiana miejsca jest liczona względem pełnego rankingu poprzedniego dnia.|El cambio de puesto se compara con la tabla completa del día anterior.|A variação de posição compara com a tabela completa do dia anterior.|Rangänderungen beziehen sich auf die vollständige Rangliste des Vortags.|순위 변화는 전날 전체 순위표와 비교합니다.|排名变化与前一天的完整排行榜比较。
 capture_note|Only completed stages count toward the match score; live leads are provisional.|Seules les étapes terminées comptent dans le score ; les avances en cours sont provisoires.|В счёт входят только завершённые этапы; текущее лидерство предварительное.|Maç skoruna yalnızca tamamlanan aşamalar sayılır; canlı liderlik geçicidir.|Do wyniku meczu liczą się tylko zakończone etapy; prowadzenie na żywo jest tymczasowe.|Solo las etapas completadas cuentan en el marcador; las ventajas en curso son provisionales.|Só as etapas concluídas contam para o resultado; as vantagens em curso são provisórias.|Nur abgeschlossene Etappen zählen zum Spielstand; laufende Führungen sind vorläufig.|완료된 단계만 대결 점수에 반영하며 진행 중인 우세는 잠정적입니다.|比分仅计入已结束阶段，实时领先结果尚未确定。
 stage_1|Radar Exploration|Exploration radar|Радарная разведка|Radar keşfi|Eksploracja radarowa|Exploración de radar|Exploração de radar|Radarerkundung|레이더 탐색|雷达探索
 stage_2|Base Construction|Construction de base|Строительство базы|Üs inşası|Budowa bazy|Construcción de base|Construção da base|Basisausbau|기지 건설|基地建设
@@ -520,6 +509,58 @@ won_by|{name} won|Victoire de {name}|{name} победил|{name} kazandı|{name
 snapshot_final_note|Rankings are read shortly before the midnight reset (server time, UTC−2). Once the week ends the lists disappear in game, so this snapshot is the week's final record.|Les classements sont relevés peu avant la réinitialisation de minuit (heure serveur, UTC−2). Une fois la semaine terminée, les listes disparaissent du jeu : cet instantané est donc le résultat final de la semaine.|Рейтинги снимаются незадолго до сброса в полночь (время сервера, UTC−2). После окончания недели списки исчезают из игры, поэтому этот снимок — итог недели.|Sıralamalar gece yarısı sıfırlamasından kısa süre önce okunur (sunucu saati, UTC−2). Hafta bitince listeler oyundan kalkar; bu kayıt haftanın nihai sonucudur.|Rankingi są odczytywane tuż przed resetem o północy (czas serwera, UTC−2). Po zakończeniu tygodnia listy znikają z gry, więc ta migawka jest końcowym wynikiem tygodnia.|Las clasificaciones se leen poco antes del reinicio de medianoche (hora del servidor, UTC−2). Al terminar la semana, las listas desaparecen del juego, así que esta captura es el resultado final de la semana.|As classificações são lidas pouco antes do reinício da meia-noite (hora do servidor, UTC−2). Quando a semana termina, as listas desaparecem do jogo, por isso esta captura é o resultado final da semana.|Die Ranglisten werden kurz vor dem Reset um Mitternacht (Serverzeit, UTC−2) erfasst. Nach Wochenende verschwinden die Listen im Spiel, daher ist diese Momentaufnahme das Endergebnis der Woche.|순위는 자정 초기화(서버 시간, UTC−2) 직전에 수집합니다. 주간이 끝나면 게임에서 순위표가 사라지므로 이 스냅샷이 해당 주의 최종 기록입니다.|排行榜在午夜重置（服务器时间 UTC−2）前不久采集。本周结束后游戏内榜单会消失，因此该快照即为本周最终记录。
 rescanned|Rescanned|Relu|Пересканировано|Yeniden tarandı|Ponownie skanowano|Reescaneado|Reanalisado|Erneut gescannt|재스캔|已重扫
 changed_during_capture|Changed during capture|Modifié pendant la capture|Изменилось при съёмке|Kayıt sırasında değişti|Zmieniło się podczas zapisu|Cambió durante la captura|Mudou durante a captura|Während der Erfassung geändert|수집 중 변경|采集期间变动
+stage_5_short|Full Military Prep|Prépa militaire complète|Полная военная подг.|Tam askerî hazırlık|Pełne przyg. wojskowe|Prep. militar completa|Prep. militar completa|Militärvorbereitung|전면 군사 준비|全面军事准备
+achievements|Achievements|Succès|Достижения|Başarımlar|Osiągnięcia|Logros|Conquistas|Erfolge|업적|成就
+achievements_sub|{n} badges earned by {m} players this week|{n} badges obtenus par {m} joueurs cette semaine|{n} значков у {m} игроков на этой неделе|Bu hafta {m} oyuncu {n} rozet kazandı|{n} odznak zdobytych przez {m} graczy w tym tygodniu|{n} insignias ganadas por {m} jugadores esta semana|{n} insígnias conquistadas por {m} jogadores esta semana|{n} Abzeichen für {m} Spieler diese Woche|이번 주 {m}명이 배지 {n}종 획득|本周 {m} 名玩家获得 {n} 种徽章
+rarity_legendary|Legendary|Légendaire|Легендарное|Efsanevi|Legendarne|Legendario|Lendário|Legendär|전설|传奇
+rarity_rare|Rare|Rare|Редкое|Nadir|Rzadkie|Raro|Raro|Selten|희귀|稀有
+rarity_common|Common|Courant|Обычное|Yaygın|Zwykłe|Común|Comum|Häufig|일반|普通
+within_reach|Within reach|À portée de main|Совсем близко|Ulaşılabilir|W zasięgu|Al alcance|Ao alcance|In Reichweite|달성 임박|即将达成
+no_badges|No badges this week yet.|Aucun badge cette semaine pour l'instant.|На этой неделе значков пока нет.|Bu hafta henüz rozet yok.|W tym tygodniu jeszcze bez odznak.|Aún sin insignias esta semana.|Ainda sem insígnias esta semana.|Diese Woche noch keine Abzeichen.|이번 주에는 아직 배지가 없습니다.|本周暂无徽章。
+more_holders|+{n} more|+{n} autres|ещё {n}|+{n} kişi daha|+{n} więcej|+{n} más|+{n} mais|+{n} weitere|외 {n}명|另有 {n} 人
+hint_six|Score on {days} too.|Marquer aussi le {days}.|Наберите очки и в {days}.|{days} günü de puan alın.|Zdobądź punkty także w {days}.|Puntúa también el {days}.|Pontue também em {days}.|Auch am {days} punkten.|{days}에도 점수를 얻으세요.|在 {days} 也拿到积分。
+hint_all_rounder|Beat the alliance median on {days}.|Dépasser la médiane de l'alliance le {days}.|Превзойдите медиану альянса в {days}.|{days} günü ittifak medyanını geçin.|Pobij medianę sojuszu w {days}.|Supera la mediana de la alianza el {days}.|Supere a mediana da aliança em {days}.|Am {days} den Allianz-Median schlagen.|{days}에 연맹 중앙값을 넘으세요.|在 {days} 超过联盟中位数。
+hint_streak|Meet the quota {n} more week(s) in a row.|Atteindre l'objectif encore {n} semaine(s) d'affilée.|Выполните норму ещё {n} нед. подряд.|Hedefe art arda {n} hafta daha ulaşın.|Osiągnij cel jeszcze {n} tydz. z rzędu.|Cumple el objetivo {n} semana(s) más seguidas.|Cumpra a meta mais {n} semana(s) seguidas.|Das Soll noch {n} Woche(n) in Folge erfüllen.|{n}주 더 연속으로 목표를 달성하세요.|再连续 {n} 周达标。
+hint_points|{n} more points.|Encore {n} points.|Ещё {n} очков.|{n} puan daha.|Jeszcze {n} pkt.|{n} puntos más.|Mais {n} pontos.|Noch {n} Punkte.|{n} 포인트 더.|还差 {n} 积分。
+hint_comeback|Meet the quota next week.|Atteindre l'objectif la semaine prochaine.|Выполните норму на следующей неделе.|Gelecek hafta hedefe ulaşın.|Osiągnij cel w przyszłym tygodniu.|Cumple el objetivo la próxima semana.|Cumpra a meta na próxima semana.|Nächste Woche das Soll erfüllen.|다음 주에 목표를 달성하세요.|下周达到配额。
+badge_mvp|Week MVP|MVP de la semaine|MVP недели|Haftanın MVP'si|MVP tygodnia|MVP de la semana|MVP da semana|MVP der Woche|주간 MVP|周 MVP
+badge_mvp_d|#1 in the alliance for the week.|N°1 de l'alliance sur la semaine.|№1 в альянсе за неделю.|Haftanın ittifak birincisi.|Nr 1 w sojuszu w tym tygodniu.|N.º 1 de la alianza en la semana.|N.º 1 da aliança na semana.|Platz 1 der Allianz in dieser Woche.|이번 주 연맹 1위.|本周联盟第一。
+badge_server_first|Server #1|N°1 du serveur|№1 сервера|Sunucu birincisi|Nr 1 serwera|N.º 1 del servidor|N.º 1 do servidor|Server-Platz 1|서버 1위|全服第一
+badge_server_first_d|Topped the whole server board on a day.|En tête de tout le classement serveur sur une journée.|Возглавил общий рейтинг сервера за день.|Bir gün tüm sunucu sıralamasında zirvede.|Prowadził w całym rankingu serwera danego dnia.|Lideró la clasificación del servidor un día.|Liderou a classificação do servidor num dia.|An einem Tag Spitze der gesamten Server-Rangliste.|하루 동안 서버 전체 순위표 1위.|某天登顶全服排行榜。
+badge_stage_mvp|Stage MVP|MVP d'étape|MVP этапа|Aşama MVP'si|MVP etapu|MVP de etapa|MVP de etapa|Etappen-MVP|단계 MVP|阶段 MVP
+badge_stage_mvp_d|Top scorer in the alliance on a day.|Meilleur score de l'alliance sur une journée.|Лучший в альянсе за день.|Bir gün ittifakın en çok puan alanı.|Najlepszy wynik w sojuszu danego dnia.|Máximo anotador de la alianza en un día.|Melhor pontuação da aliança num dia.|Bester der Allianz an einem Tag.|하루 연맹 최고 득점.|某天联盟得分最高。
+badge_giant_slayer|Giant Slayer|Tueur de géants|Убийца гигантов|Dev avcısı|Pogromca gigantów|Matagigantes|Mata-gigantes|Riesentöter|거인 사냥꾼|屠巨者
+badge_giant_slayer_d|Outscored the opponent's best player for the week.|A dépassé le meilleur joueur adverse sur la semaine.|Набрал больше лучшего игрока соперника за неделю.|Haftalık puanda rakibin en iyi oyuncusunu geçti.|Pokonał najlepszego gracza rywala w tygodniu.|Superó al mejor jugador rival en la semana.|Superou o melhor jogador adversário na semana.|Mehr Wochenpunkte als der beste Gegner.|상대 최고 플레이어보다 주간 점수가 높음.|周积分超过对手最佳玩家。
+badge_server_top10|Server Top 10|Top 10 serveur|Топ-10 сервера|Sunucu ilk 10|Top 10 serwera|Top 10 del servidor|Top 10 do servidor|Server-Top-10|서버 상위 10|全服前十
+badge_server_top10_d|Top 10 on the weekly server board.|Dans le top 10 du classement hebdomadaire du serveur.|В топ-10 недельного рейтинга сервера.|Haftalık sunucu sıralamasında ilk 10.|W top 10 tygodniowego rankingu serwera.|Top 10 de la clasificación semanal del servidor.|Top 10 da classificação semanal do servidor.|Top 10 der Wochen-Rangliste des Servers.|서버 주간 순위 상위 10위.|全服周榜前十。
+badge_ten_times|Ten Times Over|Dix fois l'objectif|Десять норм|On kat|Dziesięć razy więcej|Diez veces más|Dez vezes mais|Zehnfach|10배 달성|十倍达标
+badge_ten_times_d|10× the weekly quota or more.|10× l'objectif hebdomadaire ou plus.|10× недельной нормы и больше.|Haftalık hedefin 10 katı veya fazlası.|10× tygodniowego celu lub więcej.|10× el objetivo semanal o más.|10× a meta semanal ou mais.|Mindestens das 10-fache des Wochensolls.|주간 목표의 10배 이상.|周配额的 10 倍或以上。
+badge_unstoppable|Unstoppable|Inarrêtable|Неудержимый|Durdurulamaz|Nie do zatrzymania|Imparable|Imparável|Unaufhaltsam|멈출 수 없는|势不可挡
+badge_unstoppable_d|Met the quota 5+ weeks in a row.|Objectif atteint 5 semaines d'affilée ou plus.|Норма 5+ недель подряд.|Art arda 5+ hafta hedefe ulaştı.|Cel osiągnięty 5+ tygodni z rzędu.|Objetivo cumplido 5+ semanas seguidas.|Meta cumprida 5+ semanas seguidas.|Soll 5+ Wochen in Folge erfüllt.|5주 이상 연속 목표 달성.|连续 5 周以上达标。
+badge_hat_trick|Hat Trick|Coup du chapeau|Хет-трик|Hat-trick|Hat-trick|Triplete|Hat-trick|Hattrick|해트트릭|帽子戏法
+badge_hat_trick_d|Met the quota 3+ weeks in a row.|Objectif atteint 3 semaines d'affilée ou plus.|Норма 3+ недели подряд.|Art arda 3+ hafta hedefe ulaştı.|Cel osiągnięty 3+ tygodnie z rzędu.|Objetivo cumplido 3+ semanas seguidas.|Meta cumprida 3+ semanas seguidas.|Soll 3+ Wochen in Folge erfüllt.|3주 이상 연속 목표 달성.|连续 3 周以上达标。
+badge_saturday_hero|Saturday Hero|Héros du samedi|Герой субботы|Cumartesi kahramanı|Bohater soboty|Héroe del sábado|Herói de sábado|Samstagsheld|토요일의 영웅|周六英雄
+badge_saturday_hero_d|3× the alliance median on Saturday, the 4-win day.|3× la médiane de l'alliance le samedi, le jour à 4 victoires.|3× медианы альянса в субботу — день на 4 победы.|4 galibiyetlik cumartesi günü ittifak medyanının 3 katı.|3× mediany sojuszu w sobotę, dzień za 4 wygrane.|3× la mediana de la alianza el sábado, el día de 4 victorias.|3× a mediana da aliança no sábado, o dia de 4 vitórias.|3× Allianz-Median am Samstag, dem 4-Siege-Tag.|4승이 걸린 토요일에 연맹 중앙값의 3배.|在价值 4 胜的周六达到联盟中位数的 3 倍。
+badge_all_rounder|All-Rounder|Polyvalent|Универсал|Çok yönlü|Wszechstronny|Todoterreno|Polivalente|Allrounder|올라운더|全能选手
+badge_all_rounder_d|Above the alliance median on all six days.|Au-dessus de la médiane de l'alliance les six jours.|Выше медианы альянса все шесть дней.|Altı günün hepsinde ittifak medyanının üstünde.|Powyżej mediany sojuszu przez wszystkie sześć dni.|Por encima de la mediana de la alianza los seis días.|Acima da mediana da aliança nos seis dias.|An allen sechs Tagen über dem Allianz-Median.|6일 모두 연맹 중앙값 이상.|六天全部高于联盟中位数。
+badge_metronome|Metronome|Métronome|Метроном|Metronom|Metronom|Metrónomo|Metrónomo|Metronom|메트로놈|节拍器
+badge_metronome_d|Scored every day, evenly across all six.|A marqué chaque jour, de façon régulière sur les six.|Набирал очки каждый день и ровно.|Her gün ve altı güne dengeli puan aldı.|Punktował codziennie, równo przez sześć dni.|Puntuó cada día, de forma pareja los seis.|Pontuou todos os dias, de forma equilibrada.|Jeden Tag gepunktet, gleichmäßig über alle sechs.|매일 고르게 득점.|每天得分且六天均衡。
+badge_glow_up|Glow Up|Métamorphose|Рывок|Parlama|Metamorfoza|Gran salto|Grande salto|Durchstarter|급성장|华丽蜕变
+badge_glow_up_d|Up 50%+ on last week and met the quota.|+50 % ou plus par rapport à la semaine dernière, objectif atteint.|+50% и больше к прошлой неделе, норма выполнена.|Geçen haftaya göre %50+ artış ve hedefe ulaştı.|+50% lub więcej względem zeszłego tygodnia i cel osiągnięty.|+50 % o más que la semana pasada y objetivo cumplido.|+50% ou mais face à semana passada e meta cumprida.|+50 % oder mehr ggü. Vorwoche und Soll erfüllt.|전주 대비 50% 이상 상승하고 목표 달성.|较上周提升 50% 以上并达标。
+badge_climber|Climber|Grimpeur|Скалолаз|Tırmanıcı|Wspinacz|Escalador|Escalador|Aufsteiger|등반가|攀登者
+badge_climber_d|Rose 10+ places in the alliance since last week.|A gagné 10 places ou plus dans l'alliance depuis la semaine dernière.|Поднялся на 10+ мест в альянсе с прошлой недели.|Geçen haftadan beri ittifakta 10+ sıra yükseldi.|Awans o 10+ miejsc w sojuszu od zeszłego tygodnia.|Subió 10+ puestos en la alianza desde la semana pasada.|Subiu 10+ posições na aliança desde a semana passada.|Seit letzter Woche 10+ Plätze in der Allianz gestiegen.|지난주보다 연맹 순위 10계단 이상 상승.|较上周在联盟内上升 10 名以上。
+badge_comeback|Comeback|Retour en force|Камбэк|Geri dönüş|Powrót|Remontada|Reviravolta|Comeback|컴백|逆袭
+badge_comeback_d|Below quota last week, met it this week.|Sous l'objectif la semaine dernière, atteint cette semaine.|На прошлой неделе ниже нормы, на этой — выполнена.|Geçen hafta hedefin altında, bu hafta ulaştı.|W zeszłym tygodniu poniżej celu, w tym osiągnięty.|Por debajo la semana pasada, cumplido esta semana.|Abaixo na semana passada, cumprida esta semana.|Letzte Woche unter dem Soll, diese Woche erfüllt.|지난주 미달, 이번 주 달성.|上周未达标，本周达标。
+badge_strong_debut|Strong Debut|Débuts réussis|Яркий дебют|Güçlü başlangıç|Mocny debiut|Gran debut|Grande estreia|Starkes Debüt|화려한 데뷔|首秀出色
+badge_strong_debut_d|New this week and met the quota.|Nouveau cette semaine et objectif atteint.|Новичок недели, норма выполнена.|Bu hafta yeni ve hedefe ulaştı.|Nowy w tym tygodniu i cel osiągnięty.|Nuevo esta semana y objetivo cumplido.|Novo esta semana e meta cumprida.|Neu diese Woche und Soll erfüllt.|이번 주 신규, 목표 달성.|本周新成员且达标。
+badge_buzzer_beater|Buzzer Beater|Au buzzer|На последней секунде|Son saniye|Na ostatnią chwilę|Sobre la bocina|No último segundo|Last-Second-Treffer|버저비터|绝杀
+badge_buzzer_beater_d|Reached the quota on Saturday, the last day.|A atteint l'objectif le samedi, dernier jour.|Выполнил норму в субботу, в последний день.|Hedefe son gün olan cumartesi ulaştı.|Osiągnął cel w sobotę, ostatniego dnia.|Alcanzó el objetivo el sábado, el último día.|Atingiu a meta no sábado, o último dia.|Das Soll am Samstag, dem letzten Tag, erreicht.|마지막 날인 토요일에 목표 달성.|在最后一天周六达标。
+badge_photo_finish|Photo Finish|Photo-finish|Фотофиниш|Foto finiş|Fotofinisz|Foto finish|Fotofinish|Fotofinish|포토 피니시|险胜
+badge_photo_finish_d|Met the quota with less than 5% to spare.|Objectif atteint avec moins de 5 % de marge.|Норма выполнена с запасом меньше 5%.|Hedefe %5'ten az farkla ulaştı.|Cel osiągnięty z zapasem poniżej 5%.|Objetivo cumplido con menos del 5 % de margen.|Meta cumprida com menos de 5% de folga.|Soll mit weniger als 5 % Puffer erfüllt.|5% 미만의 여유로 목표 달성.|以不到 5% 的余量达标。
+badge_personal_best|Personal Best|Record personnel|Личный рекорд|Kişisel rekor|Rekord życiowy|Mejor marca personal|Recorde pessoal|Persönliche Bestleistung|개인 최고 기록|个人最佳
+badge_personal_best_d|Highest weekly total of all tracked weeks.|Meilleur total hebdomadaire de toutes les semaines suivies.|Лучший недельный результат за все записанные недели.|Takip edilen haftaların en yüksek haftalık toplamı.|Najwyższy wynik tygodniowy ze wszystkich zapisanych tygodni.|Mejor total semanal de todas las semanas registradas.|Melhor total semanal de todas as semanas registadas.|Höchste Wochensumme aller erfassten Wochen.|기록된 모든 주 중 최고 주간 합계.|所有记录周中的最高周积分。
+badge_six_for_six|Six for Six|Six sur six|Шесть из шести|Altıda altı|Sześć na sześć|Seis de seis|Seis em seis|Sechs von sechs|6일 개근|六天全勤
+badge_six_for_six_d|Scored on all six days.|A marqué les six jours.|Набирал очки все шесть дней.|Altı günün hepsinde puan aldı.|Punktował wszystkie sześć dni.|Puntuó los seis días.|Pontuou nos seis dias.|An allen sechs Tagen gepunktet.|6일 모두 득점.|六天全部得分。
 pi_grow|Most room to grow: {stage} ({day}) at {x}× the median. Points come from: {how}|Plus grande marge de progression : {stage} ({day}) à {x}× la médiane. Points obtenus via : {how}|Больше всего резерва: {stage} ({day}), {x}× медианы. Очки дают: {how}|En çok gelişme alanı: {stage} ({day}), medyanın {x} katı. Puan kaynakları: {how}|Największe pole do poprawy: {stage} ({day}), {x}× mediany. Punkty za: {how}|Mayor margen de mejora: {stage} ({day}) con {x}× la mediana. Los puntos vienen de: {how}|Maior margem de melhoria: {stage} ({day}) com {x}× a mediana. Os pontos vêm de: {how}|Größtes Potenzial: {stage} ({day}) mit {x}× Median. Punkte gibt es für: {how}|가장 성장 여지가 큰 단계: {stage}({day}), 중앙값의 {x}배. 포인트 획득: {how}|最大提升空间：{stage}（{day}），为中位数的 {x} 倍。积分来源：{how}
 pi_sat|Saturday is worth 4 of the 13 wins, so it matters most.|Le samedi vaut 4 des 13 victoires : c'est le jour le plus important.|Суббота даёт 4 из 13 побед — это самый важный день.|Cumartesi 13 galibiyetin 4'ünü verir; en önemli gündür.|Sobota daje 4 z 13 wygranych, więc liczy się najbardziej.|El sábado vale 4 de las 13 victorias: es el día clave.|O sábado vale 4 das 13 vitórias: é o dia mais importante.|Der Samstag bringt 4 von 13 Siegen und zählt am meisten.|토요일은 13승 중 4승이 걸린 가장 중요한 날입니다.|周六占 13 胜中的 4 胜，最为关键。
 pi_one_day|{share} of the week's points came on {day}. Spreading effort over more days protects the quota if one day goes badly.|{share} des points de la semaine ont été marqués le {day}. Répartir l'effort protège l'objectif si un jour se passe mal.|{share} недельных очков набрано в {day}. Распределение усилий по дням страхует норму, если один день не удастся.|Haftalık puanların {share} kadarı {day} günü geldi. Çabayı günlere yaymak, kötü geçen bir günde hedefi korur.|{share} punktów tygodnia zdobyto w {day}. Rozłożenie wysiłku chroni cel, gdy jeden dzień pójdzie źle.|El {share} de los puntos llegó el {day}. Repartir el esfuerzo protege el objetivo si un día sale mal.|{share} dos pontos veio em {day}. Distribuir o esforço protege a meta se um dia correr mal.|{share} der Wochenpunkte kamen am {day}. Verteilter Einsatz schützt das Soll, falls ein Tag schlecht läuft.|주간 포인트의 {share}가 {day}에 나왔습니다. 여러 날에 나눠 기여하면 하루를 망쳐도 목표를 지킬 수 있습니다.|本周 {share} 的积分来自 {day}。把努力分散到多天，即使某天不顺也能保住配额。

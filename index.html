@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script src="data/site.js?v=a963d6ae96"></script><script src="data/i18n.js?v=f85b67130c"></script>
+<script src="data/site.js?v=a963d6ae96"></script><script src="data/i18n.js?v=3941c9fa5b"></script>
 <script src="data/manifest.js?v=1daa90884d"></script>
 <script src="data/stages.js?v=a300e519b5"></script>
 <style>
@@ -22,7 +22,7 @@
   --line:#1f1f1f;--line-2:#2e2e2e;--line-3:#444;
   --text:#f2f2f2;--text-2:#a8a8a8;--text-3:#8c8c8c;
   --home:#1aa3c2;--opp:#e5484d;--home-ink:#5fd0e8;--opp-ink:#ff8a8e;
-  --gold:#f5b942;--silver:#cfd6de;--bronze:#d9935b;
+  --gold:#f5b942;--silver:#cfd6de;--bronze:#d9935b;--rare:#9b7bea;--rare-ink:#c3b1f6;
   --up:#3fb950;--down:#f0605a;
   /* status (quota) - reserved, always paired with an icon and a label */
   --st-met:#0ca30c;--st-near:#fab219;--st-below:#d03b3b;
@@ -38,7 +38,7 @@
   --line:#e2e2de;--line-2:#cfcfca;--line-3:#a9a9a4;
   --text:#111;--text-2:#4f4e4a;--text-3:#64635e;
   --home:#0f87a3;--opp:#d93b40;--home-ink:#0b6f87;--opp-ink:#b8262c;
-  --gold:#9a6400;--silver:#6b7682;--bronze:#a8602a;
+  --gold:#9a6400;--silver:#6b7682;--bronze:#a8602a;--rare:#7b5fd6;--rare-ink:#5d43b8;
   --up:#1a7f37;--down:#c4202a;
   --met-ink:#1a7f37;--near-ink:#8a5a00;--below-ink:#c4202a;
   --header-bg:rgba(244,244,242,.94);--tooltip-bg:#fff;--scrim:rgba(20,20,20,.45);
@@ -77,7 +77,7 @@ h1,h2,h3,p{margin:0}
 .icon-btn{width:38px;flex:none;display:inline-grid;place-items:center;cursor:pointer;padding:0}
 .btn{display:inline-flex;align-items:center;gap:6px;padding:0 14px;font-weight:600;font-size:13.5px;cursor:pointer;text-decoration:none}
 .btn:hover{background:var(--surface-2)}
-#weekSelect{width:clamp(220px,26vw,340px)}
+#weekSelect{width:auto;min-width:170px}
 .search{position:relative}
 .search .input{width:clamp(190px,18vw,260px);padding-left:34px}
 .search svg{position:absolute;left:11px;top:11px;color:var(--text-3);pointer-events:none}
@@ -289,6 +289,26 @@ th.sel,td.sel{box-shadow:inset 2px 0 0 var(--home-ink),inset -2px 0 0 var(--home
 .depth .d-h{display:flex;justify-content:space-between;gap:6px;font-size:13px;font-weight:600;margin-bottom:6px}
 .depth .d-sub{font-size:12px;color:var(--text-3);margin-top:5px}
 
+/* Achievements */
+.badges{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,270px),1fr))}
+.badge{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:start;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);min-width:0}
+.badge .b-ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-size:23px;background:var(--surface-3);line-height:1}
+.badge.legendary{border-color:color-mix(in srgb,var(--gold) 55%,var(--line));background:color-mix(in srgb,var(--gold) 7%,var(--surface-2))}
+.badge.legendary .b-ic{background:color-mix(in srgb,var(--gold) 22%,var(--surface-3))}
+.badge.rare{border-color:color-mix(in srgb,var(--rare) 50%,var(--line))}
+.badge.rare .b-ic{background:color-mix(in srgb,var(--rare) 20%,var(--surface-3))}
+.b-name{font-weight:650;font-size:14px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.b-rar{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-3)}
+.legendary .b-rar{color:var(--gold)}.rare .b-rar{color:var(--rare-ink)}
+.b-desc{font-size:12.5px;color:var(--text-2);margin-top:2px}
+.b-holders{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:7px;font-size:12.5px}
+.b-holders .player-button{font-size:12.5px;max-width:160px}
+.b-holders .v{color:var(--text-3);font-variant-numeric:tabular-nums;margin-left:3px}
+.b-val{font-size:12.5px;color:var(--text-3);font-variant-numeric:tabular-nums}
+.badge.locked{background:none;border-style:dashed}
+.badge.locked .b-ic{filter:grayscale(1);opacity:.55}
+.mini-badges{margin-left:6px;font-size:13px;letter-spacing:1px;vertical-align:middle;cursor:default}
+
 /* Stages view */
 .stage-card ul{margin:10px 0 0;padding-left:18px;color:var(--text-2);font-size:13px}
 .stage-card li+li{margin-top:3px}
@@ -355,7 +375,8 @@ function persist(k,v){try{localStorage.setItem(k,v)}catch(e){}}
 let lang=initial.get('lang')||stored('p1mp.lang')||'en';if(!window.I18N?.[lang])lang='en';
 let state={week:manifest.some(w=>w.id===initial.get('week'))?initial.get('week'):manifest.at(-1)?.id,view:VIEWS.includes(initial.get('view'))?initial.get('view'):'overview',tab:BOARDS.includes(initial.get('tab'))?initial.get('tab'):'week',player:initial.get('player')||'',query:'',tier:'all',quota:'all',active:false,includeLeft:false,side:'all',sort:'alliance_rank',direction:1,recFilter:'all',recSort:'selected',former:false};
 let data=null,renderToken=0,profileToken=0,lastProfileFocus=null,historyCache=null,recordLedger=null;
-const NEAR=11e6;
+// Near-quota floor: profile near_quota when the build records it, else the pipeline default (quota − 400K).
+const nearOf=sm=>sm?.near_quota??((sm?.quota||11.4e6)-4e5);
 
 // ---------- formatting ----------
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -389,7 +410,7 @@ function theme(){const light=document.documentElement.dataset.theme==='light';$(
 function measureHeader(){try{const h=$('#siteHeader')?.offsetHeight;if(h)document.documentElement.style.setProperty('--header-h',h+'px')}catch(e){}}
 function chrome(){
   document.documentElement.lang=lang;i18n();theme();$('#langSelect').value=lang;
-  $('#weekSelect').innerHTML=manifest.slice().reverse().map(w=>`<option value="${esc(w.id)}">${esc(date(w.id))} · vs ${esc(team(w.opponent))}</option>`).join('');
+  $('#weekSelect').innerHTML=manifest.slice().reverse().map(w=>`<option value="${esc(w.id)}" title="${esc(date(w.id))} · vs ${esc(team(w.opponent))}">${esc(w.id)} [${esc(w.opponent?.tag||'')}]</option>`).join('');
   $('#weekSelect').value=state.week||'';
   $('#viewTabs').innerHTML=VIEWS.map(v=>`<button type="button" class="tab" id="tab-${v}" role="tab" aria-controls="view" aria-selected="${v===state.view}" tabindex="${v===state.view?0:-1}" data-view="${v}">${esc(viewLabel(v))}</button>`).join('');
   $('#view').setAttribute('aria-labelledby','tab-'+state.view);
@@ -458,7 +479,7 @@ function spark(values,title){const v=values.filter(x=>x!=null);if(v.length<2)ret
 // ---------- header / event bar ----------
 function overviewSnapshot(){const s=data?.summary;if(!s)return '';const win=s.capture_window_server||(s.captured_at_server?[s.captured_at_server,s.captured_at_server]:null);if(!win)return '';const first=timeServer(win[0]),last=timeServer(win[1]||win[0]);const approx=!!s.captured_at_approximate;const label=(approx?'≈ ':'')+t('snapshot_window',{first,last})+(approx?` (${t('approximate')})`:'');const tip=`${t('local_time')}: ${timeLocalShort(win[0])} – ${timeLocalShort(win[1]||win[0])}\n${t('snapshot_final_note')}`;return `<span class="pill" title="${esc(tip)}">${esc(label)}</span>`}
 function eventBar(){const s=data.summary,decided=s.decided||(s.score.home>=7?'home':s.score.opp>=7?'opp':null),live=s.status==='in_progress';
-  $('#eventBar').innerHTML=`<div class="eyebrow">${esc(t('vs_week'))} · ${esc(date(s.id))}</div><h1 class="event-title"><span class="home">[${esc(s.home.tag)}]</span> ${esc(s.home.name)}<span class="vs">vs</span><span class="opp">[${esc(s.opponent.tag)}]</span> ${esc(s.opponent.name)}</h1><div class="pills">${pill(t(live?'in_progress':'final'),live?'pill-live':'')}${decided?pill(t(live?'clinched':'won_by',{name:team(decided==='home'?s.home:s.opponent)}),decided==='home'?'pill-good':'pill-opp'):pill(t('wins_remaining',{n:n(s.wins_remaining)}))}${overviewSnapshot()}${pill(t('quota_target',{n:n(s.quota,true)}))}</div>`}
+  $('#eventBar').innerHTML=`<div class="eyebrow">${esc(t('vs_week'))} · ${esc(date(s.id))}</div><h1 class="event-title"><span class="home">[${esc(s.home.tag)}]</span> ${esc(s.home.name)}<span class="vs">vs</span><span class="opp">[${esc(s.opponent.tag)}]</span> ${esc(s.opponent.name)}</h1><div class="pills">${live?pill(t('in_progress'),'pill-live'):''}${decided?pill(t(live?'clinched':'won_by',{name:team(decided==='home'?s.home:s.opponent)}),decided==='home'?'pill-good':'pill-opp'):pill(t('wins_remaining',{n:n(s.wins_remaining)}))}${overviewSnapshot()}${pill(t('quota_target',{n:n(s.quota,true)}))}</div>`}
 const viewLabel=v=>t(v==='record'?'week_by_week':v);
 function heading(v,sub=''){return `<div class="view-h"><h1>${esc(viewLabel(v))}</h1>${sub?`<p>${sub}</p>`:''}</div>`}
 
@@ -466,7 +487,7 @@ function heading(v,sub=''){return `<div class="view-h"><h1>${esc(viewLabel(v))}<
 function statusStage(s){if(s.status==='pending')return t('pending');if(s.status==='live')return t('live')+' · '+t((data.summary.leading_live?.[s.day]||(s.home_points>s.opp_points?'home':s.home_points<s.opp_points?'opp':null))==='home'?'leading':(data.summary.leading_live?.[s.day]==='opp'||s.home_points<s.opp_points)?'trailing':'undecided');return t('final')+' · '+(s.winner==='home'?team(data.summary.home):s.winner==='opp'?team(data.summary.opponent):t('undecided'))}
 function stageResult(s){if(s.status==='pending')return ['pending','○',t('pending')];if(s.status==='live'){const lead=data.summary.leading_live?.[s.day]||(s.home_points>s.opp_points?'home':s.home_points<s.opp_points?'opp':'tie');return ['live','●',lead==='home'?t('leading'):lead==='opp'?t('trailing'):t('undecided')]}return s.winner==='home'?['win','✓',t('win')]:s.winner==='opp'?['loss','✕',t('loss')]:['pending','=',t('undecided')]}
 function dayStrip(){return `<div class="days">${(data.summary.stages||[]).map(x=>{const [cls,icon,label]=stageResult(x),tip=[`${day(x.day)} · ${t('stage_'+x.stage)}`,statusStage(x),`${team(data.summary.home)}: ${n(x.home_points)} · ${t('players')}: ${n(x.home_players)}`,`${team(data.summary.opponent)}: ${n(x.opp_points)} · ${t('players')}: ${n(x.opp_players)}`,`${t('difference')}: ${n((x.home_points||0)-(x.opp_points||0))}`,x.mvp_opp?`MVP ${team(data.summary.opponent)}: ${x.mvp_opp.player} · ${n(x.mvp_opp.points,true)}`:''].filter(Boolean).join('\n');
-  return `<div class="day-cell ${cls==='win'?'won':cls==='loss'?'lost':''}" tabindex="0" data-tip="${esc(tip)}"><div class="dc-top"><span>${esc(day(x.day))}</span><span>${esc(winsLabel(x.wins))}</span></div><div class="dc-stage">${esc(t('stage_'+x.stage))}</div><span class="res ${cls}"><span aria-hidden="true">${icon}</span>${esc(label)}</span><div class="dc-vals"><span class="home num">${n(x.home_points,true)}</span><span class="opp num">${n(x.opp_points,true)}</span></div>${split(x.home_points,x.opp_points,true)}<div class="dc-mvp ellipsis">★ ${esc(x.mvp_home?.player||'—')} · ${n(x.mvp_home?.points,true)}</div></div>`}).join('')}</div>`}
+  return `<div class="day-cell ${cls==='win'?'won':cls==='loss'?'lost':''}" tabindex="0" data-tip="${esc(tip)}"><div class="dc-top"><span>${esc(day(x.day))}</span><span>${esc(winsLabel(x.wins))}</span></div><div class="dc-stage">${esc(t(x.stage===5?'stage_5_short':'stage_'+x.stage))}</div><span class="res ${cls}"><span aria-hidden="true">${icon}</span>${esc(label)}</span><div class="dc-vals"><span class="home num">${n(x.home_points,true)}</span><span class="opp num">${n(x.opp_points,true)}</span></div>${split(x.home_points,x.opp_points,true)}<div class="dc-mvp ellipsis">★ ${esc(x.mvp_home?.player||'—')} · ${n(x.mvp_home?.points,true)}</div></div>`}).join('')}</div>`}
 const current=(w=data)=>(w.members||[]).filter(p=>!leftPlayer(p));
 function quotaCounts(w){const c={met:0,near:0,below:0},list=current(w);list.forEach(p=>c[quotaStatus(p)]++);return {...c,members:list.length}}
 function allianceInsights(){const s=data.summary,prev=prevWeek(),q=quotaCounts(data),out=[],live=isLive(data);
@@ -515,6 +536,7 @@ function overview(){const s=data.summary,h=s.weekly_points.home,o=s.weekly_point
   ${dayStrip()}${s.status==='in_progress'?`<p class="small dim" style="margin-top:12px">${esc(t('capture_note'))}</p>`:''}</section>
   ${tiles}
   <div class="grid two">${quotaCard()}<section class="card"><div class="card-h"><h2>${esc(t('takeaways'))}</h2></div>${insightList(allianceInsights())}</section></div>
+  ${achievementsCard()}
   <div class="grid two">${topCard()}${movers||stageChartCard()}</div>
   ${movers?`<div class="grid two">${stageChartCard()}${depth()}</div>`:depth()}</div>`}
 function stageChartCard(){const s=data.summary;return `<section class="card"><div class="card-h"><h2>${esc(t('stage_points'))}</h2></div>${legend()}${barChart({title:t('stage_points'),span:'half',series:[{key:'home',label:team(s.home),color:'var(--home)'},{key:'opp',label:team(s.opponent),color:'var(--opp)'}],groups:(s.stages||[]).map(x=>({label:day(x.day),values:{home:x.home_points,opp:x.opp_points}}))})}<details><summary>${esc(t('show_table'))}</summary>${wrapTable([t('days'),team(s.home),team(s.opponent),t('difference'),'MVP'].map(esc),(s.stages||[]).map(x=>`<tr><td>${esc(day(x.day))}</td><td class="num">${n(x.home_points)}</td><td class="num">${n(x.opp_points)}</td><td class="num">${n((x.home_points||0)-(x.opp_points||0))}</td><td>${esc(x.mvp_home?.player||'—')} · ${n(x.mvp_home?.points,true)}</td></tr>`).join(''))}</details></section>`}
@@ -556,8 +578,61 @@ async function record(token){try{const weeks=await allWeeks();if(token!==renderT
   <section class="card"><div class="toolbar"><input id="recordSearch" class="input" type="search" value="${esc(state.query)}" placeholder="${esc(t('search'))}" aria-label="${esc(t('search'))}"><div class="segmented" role="group" aria-label="${esc(t('filter'))}">${['all','below_selected','missed_any','perfect','streak'].map(seg).join('')}</div>
   <label class="sr-only" for="recordSort">${esc(t('sort'))}</label><select id="recordSort" class="select">${['selected','record','average','change','name'].map(k=>`<option value="${k}" ${state.recSort===k?'selected':''}>${esc(t('rs_'+k,{date:dateShort(sel)}))}</option>`).join('')}</select>
   <label class="toggle"><input id="formerToggle" type="checkbox" ${state.former?'checked':''}>${esc(t('show_former'))}</label></div>
-  <div class="legend">${statusBadge('met',t('lg_met',{n:n(data.summary.quota,true)}))}${statusBadge('near',t('lg_near',{n:n(NEAR,true)}))}${statusBadge('below',t('lg_below',{n:n(NEAR,true)}))}${statusBadge('absent',t('q_absent'))}${missing?statusBadge('missing',t('not_captured')):''}${led.cols.some(c=>c.live)?`<span class="dim">${esc(t('record_note'))}</span>`:''}</div>
+  <div class="legend">${statusBadge('met',t('lg_met',{n:n(data.summary.quota,true)}))}${statusBadge('near',t('lg_near',{n:n(nearOf(data.summary),true)}))}${statusBadge('below',t('lg_below',{n:n(nearOf(data.summary),true)}))}${statusBadge('absent',t('q_absent'))}${missing?statusBadge('missing',t('not_captured')):''}${led.cols.some(c=>c.live)?`<span class="dim">${esc(t('record_note'))}</span>`:''}</div>
   <div id="recordTable">${recordTable(led)}</div></section></div>`;recordLedger=led}catch(e){if(token===renderToken){$('#view').innerHTML=heading('record')+errorBox();console.error(e)}}}
+
+// ---------- achievements ----------
+// Display order; rarity comes from how many members earned a badge this week.
+const BADGES=[['mvp','🏆'],['server_first','🥇'],['stage_mvp','👑'],['giant_slayer','🗡️'],['server_top10','⚔️'],['ten_times','💎'],['unstoppable','🔥'],['hat_trick','🎩'],['saturday_hero','🌅'],['all_rounder','🧩'],['metronome','🎼'],['glow_up','🚀'],['climber','🧗'],['comeback','🔄'],['strong_debut','🌱'],['buzzer_beater','⏱️'],['photo_finish','📸'],['personal_best','🌟'],['six_for_six','📅']];
+const BADGE_ICON=Object.fromEntries(BADGES);
+const RECENT=8;
+// The selected week plus up to RECENT-1 captured weeks before it (enough for streaks and personal bests).
+const recentIds=id=>{const i=manifest.findIndex(w=>w.id===id);return i<0?[]:manifest.slice(Math.max(0,i-RECENT+1),i+1).map(w=>w.id)};
+const loadRecent=id=>Promise.all(recentIds(id).map(x=>loadWeek(x).catch(()=>null)));
+const badgeCache=new Map();
+function badgesFor(w){const ids=recentIds(w.summary.id),hist=[];for(let i=ids.length-1;i>=0;i--){const x=window.VS_WEEKS?.[ids[i]];if(!x)break;hist.unshift(x)}
+  const ck=w.summary.id+':'+hist.length;if(badgeCache.has(ck)&&badgeCache.get(ck).w===w)return badgeCache.get(ck);
+  const s=w.summary,list=current(w),med=dayMedians(w),started=startedDays(w),full=started.length===6,prev=hist.length>1?hist.at(-2):null,byBadge={},byPlayer=new Map();
+  const recOf=new Map();if(hist.length>1)ledger(hist).rows.forEach(r=>{const p=r.cells[s.id];if(p)recOf.set(p,r)});
+  const add=(id,p,value='')=>{(byBadge[id]=byBadge[id]||[]).push({key:p.key,player:p.player,value});if(!byPlayer.has(p.key))byPlayer.set(p.key,[]);byPlayer.get(p.key).push({id,value})};
+  const oppBest=Math.max(0,...current({members:w.opponents}).map(p=>p.weekly_points||0)),leader={};
+  DAYS.forEach(d=>list.forEach(p=>{const v=p.days?.[d]?.points||0;if(v&&(!leader[d]||v>leader[d].v))leader[d]={p,v}}));
+  list.forEach(p=>{const pts=p.weekly_points||0,days=p.days||{},sat=days.sat?.points||0,bal=balance(p,w);
+    if(p.alliance_rank===1)add('mvp',p,n(pts,true));
+    const firsts=DAYS.filter(d=>days[d]?.rank===1);if(firsts.length)add('server_first',p,firsts.map(day).join(', '));
+    const led=DAYS.filter(d=>leader[d]?.p===p&&days[d]?.rank!==1);if(led.length)add('stage_mvp',p,led.map(day).join(', '));
+    if(oppBest&&pts>oppBest)add('giant_slayer',p,n(pts,true));
+    if(p.weekly_rank&&p.weekly_rank<=10)add('server_top10',p,'#'+n(p.weekly_rank));
+    if(pts>=10*s.quota)add('ten_times',p,n(pts,true));
+    if(started.includes('sat')&&med.sat&&sat>=3*med.sat)add('saturday_hero',p,n(sat,true));
+    if(full&&started.every(d=>(days[d]?.points||0)>med[d]))add('all_rounder',p);
+    if(full&&p.active_days===6&&bal!=null&&bal<.15)add('metronome',p);
+    if(full&&started.every(d=>days[d]?.points))add('six_for_six',p);
+    if(p.quota_met&&pts<s.quota*1.05)add('photo_finish',p,'+'+n(pts-s.quota,true));
+    if(p.quota_met&&sat>0&&pts-sat<s.quota&&started.includes('sat'))add('buzzer_beater',p,n(sat,true));
+    if(prev){const o=findIn(prev.members,p.key);if(!o||leftPlayer(o)){if(p.quota_met)add('strong_debut',p,n(pts,true))}else{
+      if(o.weekly_points>=1e6&&pts>=1.5*o.weekly_points&&p.quota_met)add('glow_up',p,'+'+pctAbs(deltaPct(pts,o.weekly_points)));
+      if(o.alliance_rank-p.alliance_rank>=10)add('climber',p,`#${n(o.alliance_rank)} → #${n(p.alliance_rank)}`);
+      if(!o.quota_met&&p.quota_met)add('comeback',p)}}
+    const r=recOf.get(p);if(r){if(r.streak>=5)add('unstoppable',p,'×'+n(r.streak));else if(r.streak>=3)add('hat_trick',p,'×'+n(r.streak));if(r.weeks>=2&&pts>=r.best)add('personal_best',p,n(pts,true))}});
+  const order=BADGES.map(b=>b[0]),rank=id=>order.indexOf(id);byPlayer.forEach(v=>v.sort((a,b)=>(byBadge[a.id].length-byBadge[b.id].length)||rank(a.id)-rank(b.id)));
+  const res={w,byBadge,byPlayer,members:list.length,rec:recOf};badgeCache.set(ck,res);return res}
+const rarity=(count,members)=>count/Math.max(1,members)<=.03?'legendary':count/Math.max(1,members)<=.15?'rare':'common';
+function badgeTile(id,{holders=null,value='',count=0,members=1,locked=false,hint=''}={}){const r=locked?'common':rarity(count,members),shown=holders&&holders.length<=20?holders.slice(0,6):[];
+  return `<div class="badge ${locked?'locked':r}"><div class="b-ic" aria-hidden="true">${BADGE_ICON[id]}</div><div style="min-width:0"><div class="b-name">${esc(t('badge_'+id))}${locked?'':`<span class="b-rar">${esc(t('rarity_'+r))}</span>`}${value?`<span class="b-val">${esc(value)}</span>`:''}</div><div class="b-desc">${esc(locked&&hint?hint:t('badge_'+id+'_d'))}</div>${holders?`<div class="b-holders">${shown.map(h=>`<span>${memberButton(h)}${h.value?`<span class="v">${esc(h.value)}</span>`:''}</span>`).join('')}${!shown.length?`<span class="dim">${esc(t('n_players',{n:n(holders.length)}))}</span>`:holders.length>shown.length?`<span class="dim">${esc(t('more_holders',{n:n(holders.length-shown.length)}))}</span>`:''}</div>`:''}</div></div>`}
+function achievementsCard(){const b=badgesFor(data),ids=BADGES.map(x=>x[0]).filter(id=>b.byBadge[id]?.length).sort((a,c)=>b.byBadge[a].length-b.byBadge[c].length);if(!ids.length)return '';
+  return `<section class="card"><div class="card-h"><h2>${esc(t('achievements'))}</h2><span class="small dim">${esc(t('achievements_sub',{n:n(ids.length),m:n(b.byPlayer.size)}))}</span></div><div class="badges">${ids.map(id=>badgeTile(id,{holders:b.byBadge[id],count:b.byBadge[id].length,members:b.members})).join('')}</div></section>`}
+function miniBadges(p){const b=badgesFor(data),mine=b.byPlayer.get(p.key);if(!mine)return '';const top=mine.slice(0,3);return `<span class="mini-badges" title="${esc(mine.map(x=>t('badge_'+x.id)).join(' · '))}" aria-label="${esc(t('achievements'))}: ${esc(mine.map(x=>t('badge_'+x.id)).join(', '))}">${top.map(x=>BADGE_ICON[x.id]).join('')}${mine.length>3?'<span class="dim small">+'+n(mine.length-3)+'</span>':''}</span>`}
+function withinReach(p,w,earned,rec){const s=w.summary,started=startedDays(w),med=dayMedians(w),out=[],full=started.length===6;
+  const missed=started.filter(d=>!p.days?.[d]?.points);if(full&&!earned.has('six_for_six')&&missed.length&&missed.length<=2)out.push(['six_for_six',t('hint_six',{days:missed.map(day).join(', ')})]);
+  const under=started.filter(d=>(p.days?.[d]?.points||0)<=med[d]);if(full&&!earned.has('all_rounder')&&under.length&&under.length<=2)out.push(['all_rounder',t('hint_all_rounder',{days:under.map(day).join(', ')})]);
+  if(p.quota_met&&rec&&rec.streak<3&&!earned.has('hat_trick')&&!earned.has('unstoppable'))out.push(['hat_trick',t('hint_streak',{n:n(3-rec.streak)})]);
+  if(!earned.has('ten_times')&&p.weekly_points>=5*s.quota)out.push(['ten_times',t('hint_points',{n:n(10*s.quota-p.weekly_points,true)})]);
+  const tenth=(w.boards.week||[])[9];if(!earned.has('server_top10')&&p.weekly_rank>10&&p.weekly_rank<=25&&tenth)out.push(['server_top10',t('hint_points',{n:n(tenth.points-p.weekly_points+1,true)})]);
+  if(!p.quota_met&&!leftPlayer(p))out.push(['comeback',t('hint_comeback')]);
+  return out.slice(0,3)}
+function profileAchievements(p,w){if(p.tag!==w.summary.home.tag||leftPlayer(p)||p.weekly_points==null)return '';const b=badgesFor(w),mine=b.byPlayer.get(p.key)||[],earned=new Set(mine.map(x=>x.id)),reach=withinReach(p,w,earned,b.rec.get(p));
+  return `<section class="card"><div class="card-h"><h2>${esc(t('achievements'))}</h2><span class="small dim">${esc(n(mine.length))}</span></div>${mine.length?`<div class="badges">${mine.map(x=>badgeTile(x.id,{value:x.value,count:b.byBadge[x.id].length,members:b.members})).join('')}</div>`:`<p class="muted small">${esc(t('no_badges'))}</p>`}${reach.length?`<h3 class="card-title" style="margin:16px 0 10px">${esc(t('within_reach'))}</h3><div class="badges">${reach.map(([id,hint])=>badgeTile(id,{locked:true,hint})).join('')}</div>`:''}</section>`}
 
 // ---------- roster (this week) ----------
 function opts(keys,value){return keys.map(k=>`<option value="${k}" ${k===value?'selected':''}>${esc(t(k))}</option>`).join('')}
@@ -570,7 +645,7 @@ function heatLevel(v,med){if(!v)return 0;const r=med?v/med:1;return r<.5?1:r<1?2
 function heatLegend(){return `<span class="heat-legend">${esc(t('heat_low'))} ${[1,2,3,4,5].map(i=>`<span class="heat h${i}"></span>`).join('')} ${esc(t('heat_high'))}</span>`}
 function rosterTable(opponent){const rows=rosterRows(opponent),all=(opponent?data.opponents:data.members)||[],med=dayMedians(data,opponent?'opponents':'members'),maxPts=Math.max(1,...all.map(p=>p.weekly_points||0)),hasPrev=!opponent&&!!prevWeek(),started=startedDays(data).length;
   const heads=[sortHead('alliance_rank',t('rank')),{...sortHead('player',t('player')),cls:'sticky-col'},sortHead('weekly_points',t('weekly_points'),'r'),...(hasPrev?[sortHead('delta',t('vs_last'),'r')]:[]),...(opponent?[sortHead('tier',t('tier'))]:[sortHead('deficit',t('quota'))]),...DAYS.map(d=>sortHead('day_'+d,day(d),'r')),sortHead('active_days',t('active_days')),sortHead('balance',t('balance')),esc(t('checksum'))];
-  const body=rows.map(p=>{const bal=balance(p),ch=hasPrev?lastWeekChange(p):null;return `<tr><td class="num dim">${n(weeklyRank(p))}</td><td class="sticky-col">${memberButton(p)}${p.not_on_weekly?` ${pill(t('not_on_weekly'),'pill-xs')}`:''}<span class="wbar" style="width:${Math.max(2,100*(p.weekly_points||0)/maxPts)}%"></span></td><td class="r num"><b>${n(p.weekly_points,true)}</b> <span class="dim small">${pct(p.share)}</span></td>${hasPrev?`<td class="r">${ch==null?'<span class="dim">'+esc(t('new_short'))+'</span>':delta(ch)}</td>`:''}${opponent?`<td>${pill(t(p.tier||'passenger'),'pill-xs')}</td>`:`<td>${statusBadge(quotaStatus(p))}${p.deficit?` <span class="small dim">−${n(p.deficit,true)}</span>`:''}</td>`}${DAYS.map(d=>{const v=p.days?.[d]?.points,lv=heatLevel(v,med[d]);return `<td class="r"><span class="heat h${lv}${p.best_day===d&&v?' best':''}" title="${esc(`${day(d)}: ${n(v??0)}${v&&med[d]?` · ${n(v/med[d])}× ${t('median')}`:''}${p.days?.[d]?.rank?` · #${n(p.days[d].rank)}`:''}`)}">${v?n(v,true):'—'}</span></td>`}).join('')}<td><span class="dots" title="${esc(n(p.active_days))}/${n(started)}">${DAYS.map(d=>`<i class="${p.days?.[d]?.points?'on':''}"></i>`).join('')}</span></td><td title="${esc(t('balance_hint'))}${bal!=null?' · '+n(bal):''}">${esc(balanceLabel(bal))}</td><td><span tabindex="0" class="pill pill-xs" title="${esc(t('check_'+(p.check?.status||'exact')))} · ${esc(t('difference'))}: ${n(p.check?.diff)}">${esc(t(p.check?.status==='live'?'changed_during_capture':p.check?.status||'exact'))}</span></td></tr>`}).join('');
+  const body=rows.map(p=>{const bal=balance(p),ch=hasPrev?lastWeekChange(p):null;return `<tr><td class="num dim">${n(weeklyRank(p))}</td><td class="sticky-col">${memberButton(p)}${opponent?'':miniBadges(p)}${p.not_on_weekly?` ${pill(t('not_on_weekly'),'pill-xs')}`:''}<span class="wbar" style="width:${Math.max(2,100*(p.weekly_points||0)/maxPts)}%"></span></td><td class="r num"><b>${n(p.weekly_points,true)}</b> <span class="dim small">${pct(p.share)}</span></td>${hasPrev?`<td class="r">${ch==null?'<span class="dim">'+esc(t('new_short'))+'</span>':delta(ch)}</td>`:''}${opponent?`<td>${pill(t(p.tier||'passenger'),'pill-xs')}</td>`:`<td>${statusBadge(quotaStatus(p))}${p.deficit?` <span class="small dim">−${n(p.deficit,true)}</span>`:''}</td>`}${DAYS.map(d=>{const v=p.days?.[d]?.points,lv=heatLevel(v,med[d]);return `<td class="r"><span class="heat h${lv}${p.best_day===d&&v?' best':''}" title="${esc(`${day(d)}: ${n(v??0)}${v&&med[d]?` · ${n(v/med[d])}× ${t('median')}`:''}${p.days?.[d]?.rank?` · #${n(p.days[d].rank)}`:''}`)}">${v?n(v,true):'—'}</span></td>`}).join('')}<td><span class="dots" title="${esc(n(p.active_days))}/${n(started)}">${DAYS.map(d=>`<i class="${p.days?.[d]?.points?'on':''}"></i>`).join('')}</span></td><td title="${esc(t('balance_hint'))}${bal!=null?' · '+n(bal):''}">${esc(balanceLabel(bal))}</td><td><span tabindex="0" class="pill pill-xs" title="${esc(t('check_'+(p.check?.status||'exact')))} · ${esc(t('difference'))}: ${n(p.check?.diff)}">${esc(t(p.check?.status==='live'?'changed_during_capture':p.check?.status||'exact'))}</span></td></tr>`}).join('');
   return `<div class="legend" style="align-items:center"><span>${n(rows.length)} / ${n(all.length)}</span>${opponent?'':`<span>${esc(t('quota_target',{n:n(data.summary.quota)}))}</span>`}${heatLegend()}<span class="dim">${esc(t('heat_hint'))}</span></div>${wrapTable(heads,body,{style:'max-height:75vh'})}`}
 function members(opponent=false){return `${heading(opponent?'opponent':'members',esc(t(opponent?'opponent_intro':'members_intro')))}<div class="stack">${opponent?opponentTop():''}<section class="card">${rosterFilters(opponent)}<div id="rosterTable">${rosterTable(opponent)}</div></section>${opponent?headToHead():''}</div>`}
 function opponentTop(){const list=current({members:data.opponents}).slice().sort((a,b)=>b.weekly_points-a.weekly_points);const s=data.summary,mine=current(data);
@@ -581,11 +656,10 @@ function headToHead(){const h=current(data).slice().sort((a,b)=>a.alliance_rank-
 
 // ---------- leaderboards ----------
 function visibleBoard(){return (data.boards[state.tab]||[]).filter(r=>{const side=r.alliance_tag===data.summary.home.tag?'home':r.alliance_tag===data.summary.opponent.tag?'opponent':'others';return (state.side==='all'||state.side===side)&&(!state.query||(r.player+' '+r.alliance).toLocaleLowerCase().includes(state.query.toLocaleLowerCase()))})}
-function rankChange(r){const ix=DAYS.indexOf(state.tab);if(ix<=0)return '—';const k=boardKey(r),prev=(data.boards[DAYS[ix-1]]||[]).find(p=>boardKey(p,DAYS[ix-1])===k);if(!prev)return '—';const diff=prev.rank-r.rank;return diff>0?`<span class="up">↑ ${n(diff)}</span>`:diff<0?`<span class="down">↓ ${n(-diff)}</span>`:'↔'}
-function boardTable(){const rows=visibleBoard(),home=data.summary.home.tag,opp=data.summary.opponent.tag;return `<p class="count" style="margin:0 0 8px">${n(rows.length)} / ${n((data.boards[state.tab]||[]).length)}</p>${wrapTable([esc(t('rank')),{html:esc(t('player')),cls:'sticky-col'},esc(t('alliance')),{html:esc(t('points')),cls:'r'},esc(t('change'))],rows.map(r=>`<tr class="${r.alliance_tag===home?'home-row':''}"><td><span class="rk ${r.rank<=3?'m'+r.rank:''}">${n(r.rank)}</span></td><td class="sticky-col">${memberButton({key:boardKey(r),player:r.player})}</td><td><span class="${r.alliance_tag===home?'home':r.alliance_tag===opp?'opp':'dim'}">${esc(r.alliance)}</span></td><td class="r num">${n(r.points)}</td><td>${rankChange(r)}</td></tr>`).join(''),{style:'max-height:75vh'})}`}
+function boardTable(){const rows=visibleBoard(),home=data.summary.home.tag,opp=data.summary.opponent.tag;return `<p class="count" style="margin:0 0 8px">${n(rows.length)} / ${n((data.boards[state.tab]||[]).length)}</p>${wrapTable([esc(t('rank')),{html:esc(t('player')),cls:'sticky-col'},esc(t('alliance')),{html:esc(t('points')),cls:'r'}],rows.map(r=>`<tr class="${r.alliance_tag===home?'home-row':''}"><td><span class="rk ${r.rank<=3?'m'+r.rank:''}">${n(r.rank)}</span></td><td class="sticky-col">${memberButton({key:boardKey(r),player:r.player})}</td><td><span class="${r.alliance_tag===home?'home':r.alliance_tag===opp?'opp':'dim'}">${esc(r.alliance)}</span></td><td class="r num">${n(r.points)}</td></tr>`).join(''),{style:'max-height:75vh'})}`}
 function leaderboards(){const snap=data.summary.snapshots?.[state.tab];const snapText=snap?.at?`${snap.approximate?'≈ ':''}${t('snapshot_server_time',{time:timeServer(snap.at)})}`:'';const snapTip=snap?.at?`${t('local_time')}: ${timeLocalShort(snap.at)}`:'';
   return `${heading('leaderboards',esc(t('leaderboards_intro')))}<section class="card" id="boardPanel" role="tabpanel" aria-labelledby="board-${state.tab}"><div class="segmented" role="tablist" aria-label="${esc(t('leaderboards'))}" style="margin-bottom:14px">${BOARDS.map(d=>`<button id="board-${d}" role="tab" aria-selected="${state.tab===d}" tabindex="${state.tab===d?0:-1}" aria-controls="boardPanel" data-board="${d}">${esc(day(d))}</button>`).join('')}</div>
-  <div class="pills" style="margin-bottom:12px">${snapText?`<span class="pill" title="${esc(snapTip)}">${esc(snapText)}</span>`:''}${isLive(data)&&(data.summary.live_tabs||[]).includes(state.tab)?pill(t('live'),'pill-live'):''}</div>${isLive(data)&&(data.summary.live_tabs||[]).includes(state.tab)?`<p class="note">${esc(t('live_note'))}</p>`:''}<p class="card-note">${esc(t('rank_change_note'))}</p>
+  <div class="pills" style="margin-bottom:12px">${snapText?`<span class="pill" title="${esc(snapTip)}">${esc(snapText)}</span>`:''}${isLive(data)&&(data.summary.live_tabs||[]).includes(state.tab)?pill(t('live'),'pill-live'):''}</div>${isLive(data)&&(data.summary.live_tabs||[]).includes(state.tab)?`<p class="note">${esc(t('live_note'))}</p>`:''}
   <div class="toolbar"><input id="boardSearch" class="input" type="search" value="${esc(state.query)}" placeholder="${esc(t('search'))}" aria-label="${esc(t('search'))}"><label class="sr-only" for="sideFilter">${esc(t('filter'))}</label><select id="sideFilter" class="select"><option value="all">${esc(t('all'))}</option><option value="home" ${state.side==='home'?'selected':''}>${esc(team(data.summary.home))}</option><option value="opponent" ${state.side==='opponent'?'selected':''}>${esc(team(data.summary.opponent))}</option><option value="others" ${state.side==='others'?'selected':''}>${esc(t('rest'))}</option></select><button class="btn" data-download="visible" data-format="csv">${esc(t('download_csv'))}</button></div><div id="boardTable">${boardTable()}</div></section>`}
 
 // ---------- trends (alliance level) ----------
@@ -611,7 +685,7 @@ function errorBox(){return `<div class="card empty">${esc(t('error'))}<p></p><bu
 // ---------- render ----------
 async function render(){const token=++renderToken;chrome();sync();$('#view').setAttribute('aria-busy','true');$('#view').innerHTML=`<p class="empty">${esc(t('loading'))}</p>`;
   try{if(!state.week)throw Error('No manifest');const w=await loadWeek(state.week);if(token!==renderToken)return;data=w;
-    const p=prevId(state.week);if(p&&['overview','members','opponent'].includes(state.view))await loadWeek(p).catch(()=>null);if(token!==renderToken)return;
+    if(['overview','members','opponent'].includes(state.view))await loadRecent(state.week);if(token!==renderToken)return;
     eventBar();
     $('#view').innerHTML=state.view==='overview'?overview():state.view==='members'?members():state.view==='opponent'?members(true):state.view==='leaderboards'?leaderboards():state.view==='stages'?stages():state.view==='data'?dataView():`<p class="empty">${esc(t('loading'))}</p>`;
     if(state.view==='trends')await trends(token);if(state.view==='record')await record(token);if(state.player)await openProfile(state.player,false)}
@@ -645,12 +719,14 @@ async function openProfile(k,setLink=true){const token=++profileToken,selectedWe
   <div class="dlg-body stack">${profileWeek!==selectedWeek?`<p class="note">${esc(t('profile_absent',{date:date(profileWeek)}))}</p>`:''}
   <div class="tiles">${tile(t('weekly_points'),n(p.weekly_points,true),ptsDelta!=null?`${delta(ptsDelta,pctAbs(ptsDelta))} ${esc(t('vs_date',{date:dateShort(prev.summary.id)}))}`:'')}${tile(t('alliance_rank'),weeklyRank(p)?'#'+n(weeklyRank(p)):'—',rankDelta!=null?`${delta(rankDelta,n(Math.abs(rankDelta)))} ${esc(t('vs_date',{date:dateShort(prev.summary.id)}))}`:'')}${tile(t('active_days'),`${n(p.active_days)}<small> / ${n(startedDays(src).length)}</small>`,`<span class="dots">${DAYS.map(d=>`<i class="${p.days?.[d]?.points?'on':''}"></i>`).join('')}</span>`)}${tile(t('share'),pct(p.share),`${esc(t('balance'))}: ${esc(balanceLabel(p.weekly_points!=null?balance(p,src):null))}`)}</div>
   <section class="card"><div class="card-h"><h2>${esc(t('insights'))}</h2></div><div id="profileInsights">${insightList(p.weekly_points!=null?playerInsights(p,src,prev,null):[])}</div></section>
+  <div id="profileBadges">${src.summary&&p.tag===src.summary.home.tag?`<section class="card"><div class="card-h"><h2>${esc(t('achievements'))}</h2></div><p class="muted">${esc(t('loading'))}</p></section>`:''}</div>
   <section class="card"><div class="card-h"><h2>${esc(t('daily_performance'))}</h2></div><div class="legend">${key('var(--home)',p.player)}<span class="key"><i style="background:var(--text);height:2px;width:14px"></i>${esc(t('alliance_median'))}</span></div>${barChart({title:t('daily_performance'),height:210,span:'dialog',series:[{key:'p',label:p.player,color:home?'var(--home)':'var(--opp)'}],refs:{label:t('alliance_median')},groups:DAYS.map(d=>({label:day(d),values:{p:p.days?.[d]?.points||0},ref:med[d]||0,tip:`${day(d)} · ${t('stage_'+(DAYS.indexOf(d)+1))}\n${t('points')}: ${n(p.days?.[d]?.points||0)}\n${t('alliance_median')}: ${n(med[d]||0)}${p.days?.[d]?.rank?`\n${t('overall_rank')}: #${n(p.days[d].rank)} · ${t('alliance_rank')}: #${n(p.days[d].alliance_rank)}`:''}`}))})}
   <details><summary>${esc(t('daily_ranks'))}</summary>${wrapTable([t('days'),t('points'),t('alliance_median'),t('overall_rank'),t('alliance_rank')].map(esc),DAYS.map(d=>`<tr><td>${esc(day(d))}</td><td class="num">${n(p.days?.[d]?.points)}</td><td class="num dim">${n(med[d]||null)}</td><td>${n(p.days?.[d]?.rank)}</td><td>${n(p.days?.[d]?.alliance_rank)}</td></tr>`).join(''),{label:t('daily_ranks')})}</details></section>
   <section class="card" id="profileHistory"><div class="card-h"><h2>${esc(t('history'))}</h2></div><p class="muted">${esc(t('loading'))}</p></section></div>`;
   $('#closeProfile').focus();
   try{const weeks=historyCache||await allWeeks();historyCache=weeks;if(token!==profileToken||!dialog.open)return;
     const led=ledger(weeks),row=led.rows.find(r=>Object.values(r.cells).some(c=>c===p))||led.rows.find(r=>r.id===fold(k)),hist=weeks.map(w=>({id:w.summary.id,w,p:findIn(home?w.members:w.opponents,k)})).filter(x=>x.p&&!leftPlayer(x.p));
+    if(home){await loadRecent(src.summary.id);if(token!==profileToken||!dialog.open)return;$('#profileBadges').innerHTML=profileAchievements(p,src)}
     if(home&&row){if(row.streak>=2)$('#profileStreak').innerHTML=`<span class="pill pill-xs pill-good">✓ ${esc(t('streak_weeks',{n:n(row.streak)}))}</span>`;if(p.weekly_points!=null)$('#profileInsights').innerHTML=insightList(playerInsights(p,src,prev,row))}
     const quota=src.summary.quota;
     $('#profileHistory').innerHTML=`<div class="card-h"><h2>${esc(t('history'))}</h2></div>${hist.length>1?barChart({title:t('history'),height:200,span:'dialog',series:[{key:'p',label:p.player,color:home?'var(--home)':'var(--opp)'}],threshold:home?{value:quota,label:t('quota')+' '+n(quota,true)}:null,groups:hist.map(x=>({label:dateShort(x.id),values:{p:x.p.weekly_points},tip:`${date(x.id)} · vs ${team(x.w.summary.opponent)}\n${t('weekly_points')}: ${n(x.p.weekly_points)}\n${t('alliance_rank')}: #${n(x.p.alliance_rank)}`}))}):''}
