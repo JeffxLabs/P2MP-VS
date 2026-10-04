@@ -1,0 +1,17 @@
+{
+  "id": "p1mp",
+  "home_tag": "P1MP",
+  "home_name": "JU1CE",
+  "home_server": "S117",
+  "account": "Jeff",
+  "device": "127.0.0.1:5555",
+  "apparatchik": false,
+  "tag_variants": [
+    "P1MP",
+    "PIMP",
+    "P1MPJ",
+    "PlMP",
+    "P1IMP"
+  ],
+  "repo": "JeffxLabs/P1MP-VS"
+}

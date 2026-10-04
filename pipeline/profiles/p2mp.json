@@ -1,0 +1,16 @@
+{
+  "id": "p2mp",
+  "home_tag": "P2MP",
+  "home_name": "NowaPolandia",
+  "home_server": "S117",
+  "account": "Apparatchik",
+  "device": "127.0.0.1:5565",
+  "apparatchik": true,
+  "tag_variants": [
+    "P2MP",
+    "PZMP",
+    "P2MPN"
+  ],
+  "return_to_city": true,
+  "repo": "JeffxLabs/P2MP-VS"
+}

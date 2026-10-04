@@ -1,0 +1,33 @@
+[
+ {
+  "tag": "P2MP",
+  "display": "JSP💪",
+  "key": "^jsp\\w?$"
+ },
+ {
+  "tag": "JKRS",
+  "display": "ALLSTAR (stylized)",
+  "raw": "T卂尺$|卂尺$|ㄒ卂尺|T卂R$|T刊尺|T讯尺"
+ },
+ {
+  "tag": "JKRS",
+  "display": "°♡✧Jey✧♡°",
+  "key": "^.?[o0]?[jl]?ey(\\d{0,2}|t[vty]?|y|o)$",
+  "raw": "(→|\\+|&)J?ey\\+|leyt[VY]|^HJey\\+"
+ },
+ {
+  "tag": "JKRS",
+  "display": "GRIN♤♡◇♧",
+  "key": "^grin[gqo]{0,3}$"
+ },
+ {
+  "tag": "JKRS",
+  "display": "Babygirl100z",
+  "key": "^babygirl?100zr?$"
+ },
+ {
+  "tag": "P2MP",
+  "display": "robOn8er",
+  "key": "^robon8?er$"
+ }
+]

@@ -1,0 +1,132 @@
+{
+  "total_wins": 13,
+  "stages": [
+    {
+      "day_index": 1,
+      "day_code": "mon",
+      "name": "Stage 1: Radar Exploration",
+      "short_name": "Radar Exploration",
+      "day_of_week": "Monday",
+      "wins_awarded": 1,
+      "description": "Exploration, radar tasks, fighter development, stamina expenditure, and resource gathering.",
+      "activities": [
+        "Purchase packs containing Diamonds [1 Diamond]",
+        "Complete 1 Radar Mission",
+        "Use 1 Fighter Part",
+        "Use 1 Fighter Combat Chip",
+        "Use 1 Stamina",
+        "Consume 650 Hero EXP",
+        "Gather 10 Food (Radar gathering quests do not count towards Points)",
+        "Gather 10 Metal (Radar gathering quests do not count towards Points)",
+        "Gather 6 Oil (Radar gathering quests do not count towards Points)"
+      ]
+    },
+    {
+      "day_index": 2,
+      "day_code": "tue",
+      "name": "Stage 2: Base Construction",
+      "short_name": "Base Construction",
+      "day_of_week": "Tuesday",
+      "wins_awarded": 2,
+      "description": "Base expansion, construction power gains, building speedups, survivor recruitment, and UR logistics.",
+      "activities": [
+        "Purchase packs containing Diamonds [1 Diamond]",
+        "Gain 10 Power for every construction",
+        "1-min Build Speedup",
+        "Recruit Survivors 1x",
+        "Complete 1 UR Special Ops mission",
+        "Dispatch UR Transport Truck 1x"
+      ]
+    },
+    {
+      "day_index": 3,
+      "day_code": "wed",
+      "name": "Stage 3: Tech Research",
+      "short_name": "Tech Research",
+      "day_of_week": "Wednesday",
+      "wins_awarded": 2,
+      "description": "Technological advancement, research speedups, research power gains, and opening fighter component chests.",
+      "activities": [
+        "Purchase packs containing Diamonds [1 Diamond]",
+        "Complete 1 Radar Mission",
+        "Use 1 Research Data",
+        "Gain 10 Power for every research",
+        "1-min Research Speedup",
+        "For each Lv.1 Fighter Component Chest opened",
+        "For each Lv.2 Fighter Component Chest opened",
+        "For each Lv.3 Fighter Component Chest opened",
+        "For each Lv.4 Fighter Component Chest opened",
+        "For each Lv.5 Fighter Component Chest opened",
+        "For each Lv.6 Fighter Component Chest opened",
+        "For each Lv.7 Fighter Component Chest opened"
+      ]
+    },
+    {
+      "day_index": 4,
+      "day_code": "thu",
+      "name": "Stage 4: Hero Training",
+      "short_name": "Hero Training",
+      "day_of_week": "Thursday",
+      "wins_awarded": 2,
+      "description": "Hero development, hero recruitment, consuming skill EXP books, hero EXP, and using UR/SSR/SR hero shards.",
+      "activities": [
+        "Purchase packs containing Diamonds [1 Diamond]",
+        "Use 1 UR Hero Shard",
+        "Recruit Hero 1x",
+        "Use 1 Skill EXP Book",
+        "Consume 650 Hero EXP",
+        "Use 1 SSR Hero Shard",
+        "Use 1 SR Hero Shard"
+      ]
+    },
+    {
+      "day_index": 5,
+      "day_code": "fri",
+      "name": "Stage 5: Full Military Preparation",
+      "short_name": "Full Military Preparation",
+      "day_of_week": "Friday",
+      "wins_awarded": 2,
+      "description": "Troop training across all tiers (T1-T10), training/building/research speedups, construction and research power gains.",
+      "activities": [
+        "Purchase packs containing Diamonds [1 Diamond]",
+        "Complete 1 Radar Mission",
+        "Gain 10 Power for every construction",
+        "Gain 10 Power for every research",
+        "1-min Training Speedup",
+        "1-min Build Speedup",
+        "1-min Research Speedup",
+        "Train a T1 Soldier",
+        "Train a T2 Soldier",
+        "Train a T3 Soldier",
+        "Train a T4 Soldier",
+        "Train a T5 Soldier",
+        "Train a T6 Soldier",
+        "Train a T7 Soldier",
+        "Train a T8 Soldier",
+        "Train a T9 Soldier",
+        "Train a T10 Soldier"
+      ]
+    },
+    {
+      "day_index": 6,
+      "day_code": "sat",
+      "name": "Stage 6: Enemy Assault",
+      "short_name": "Enemy Assault",
+      "day_of_week": "Saturday",
+      "wins_awarded": 4,
+      "description": "Cross-server invasion raid battle, enemy soldier eliminations (T1-T10), soldier losses, healing speedups, UR missions, and logistics.",
+      "activities": [
+        "Purchase packs containing Diamonds [1 Diamond]",
+        "Dispatch UR Transport Truck 1x",
+        "Complete 1 UR Special Ops mission",
+        "Speed up Healing by 1 min",
+        "1-min Training Speedup",
+        "1-min Research Speedup",
+        "1-min Build Speedup",
+        "Eliminate a Lv.T1 to T10 Soldier (specific match) [Tiers T1 through T10]",
+        "For every T1 to T10 soldier eliminated [Tiers T1 through T10]",
+        "For every T1 to T10 soldier lost [Tiers T1 through T10]"
+      ]
+    }
+  ]
+}

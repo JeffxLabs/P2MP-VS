@@ -1,0 +1,329 @@
+{
+  "id": "2026-10-03",
+  "home": {
+    "tag": "P2MP",
+    "name": "NowaPolandia",
+    "server": "S117"
+  },
+  "opponent": {
+    "tag": "JKRS",
+    "name": "JOKERS",
+    "server": ""
+  },
+  "status": "final",
+  "live_tabs": [
+    "sat",
+    "week"
+  ],
+  "captured_at_server": "2026-10-03T23:28:45-02:00",
+  "capture_window_server": [
+    "2026-10-03T22:53:32-02:00",
+    "2026-10-03T23:28:45-02:00"
+  ],
+  "captured_at_approximate": false,
+  "snapshots": {
+    "mon": {
+      "at": "2026-10-03T22:53:32-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "tue": {
+      "at": "2026-10-03T23:00:24-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "wed": {
+      "at": "2026-10-03T23:03:12-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "thu": {
+      "at": "2026-10-03T23:07:33-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "fri": {
+      "at": "2026-10-03T23:11:21-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "sat": {
+      "at": "2026-10-03T23:24:52-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "week": {
+      "at": "2026-10-03T23:28:45-02:00",
+      "source": "screenshots",
+      "approximate": false
+    }
+  },
+  "score": {
+    "home": 0,
+    "opp": 13
+  },
+  "wins_remaining": 0,
+  "decided": "opp",
+  "leading_live": {},
+  "total_wins": 13,
+  "wins_to_clinch": 7,
+  "weekly_points": {
+    "home": 2238799329,
+    "opp": 3900144141
+  },
+  "official_points": null,
+  "quota": 11400000,
+  "home_quota": {
+    "met": 66,
+    "near": 1,
+    "below": 28,
+    "members": 95,
+    "left": 0
+  },
+  "stages": [
+    {
+      "day": "mon",
+      "stage": 1,
+      "wins": 1,
+      "status": "final",
+      "home_points": 368125611,
+      "opp_points": 632453547,
+      "home_players": 89,
+      "opp_players": 96,
+      "winner": "opp",
+      "margin": 264327936,
+      "home_share": 36.79,
+      "home_top10_share": 27.0,
+      "home_median": 3181028,
+      "mvp_home": {
+        "player": "Chungi",
+        "points": 12964148,
+        "rank": 10
+      },
+      "mvp_opp": {
+        "player": "Shalix",
+        "points": 50473388,
+        "rank": 1
+      }
+    },
+    {
+      "day": "tue",
+      "stage": 2,
+      "wins": 2,
+      "status": "final",
+      "home_points": 279299118,
+      "opp_points": 510120263,
+      "home_players": 86,
+      "opp_players": 99,
+      "winner": "opp",
+      "margin": 230821145,
+      "home_share": 35.38,
+      "home_top10_share": 28.0,
+      "home_median": 2832208,
+      "mvp_home": {
+        "player": "evrenhalo",
+        "points": 9296060,
+        "rank": 8
+      },
+      "mvp_opp": {
+        "player": "Mydnyte",
+        "points": 18780742,
+        "rank": 1
+      }
+    },
+    {
+      "day": "wed",
+      "stage": 3,
+      "wins": 2,
+      "status": "final",
+      "home_points": 316621916,
+      "opp_points": 535506755,
+      "home_players": 90,
+      "opp_players": 99,
+      "winner": "opp",
+      "margin": 218884839,
+      "home_share": 37.16,
+      "home_top10_share": 32.1,
+      "home_median": 2688447,
+      "mvp_home": {
+        "player": "Chungi",
+        "points": 28823659,
+        "rank": 2
+      },
+      "mvp_opp": {
+        "player": "Shalix",
+        "points": 32926870,
+        "rank": 1
+      }
+    },
+    {
+      "day": "thu",
+      "stage": 4,
+      "wins": 2,
+      "status": "final",
+      "home_points": 601936214,
+      "opp_points": 1258598422,
+      "home_players": 91,
+      "opp_players": 96,
+      "winner": "opp",
+      "margin": 656662208,
+      "home_share": 32.35,
+      "home_top10_share": 33.1,
+      "home_median": 4970856,
+      "mvp_home": {
+        "player": "Austen",
+        "points": 23757300,
+        "rank": 14
+      },
+      "mvp_opp": {
+        "player": "Bxom",
+        "points": 56709722,
+        "rank": 1
+      }
+    },
+    {
+      "day": "fri",
+      "stage": 5,
+      "wins": 2,
+      "status": "final",
+      "home_points": 409809575,
+      "opp_points": 543525971,
+      "home_players": 93,
+      "opp_players": 97,
+      "winner": "opp",
+      "margin": 133716396,
+      "home_share": 42.99,
+      "home_top10_share": 34.7,
+      "home_median": 3448994,
+      "mvp_home": {
+        "player": "Chungi",
+        "points": 51306164,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "Shalix",
+        "points": 33796333,
+        "rank": 2
+      }
+    },
+    {
+      "day": "sat",
+      "stage": 6,
+      "wins": 4,
+      "status": "final",
+      "home_points": 262167614,
+      "opp_points": 422944864,
+      "home_players": 95,
+      "opp_players": 98,
+      "winner": "opp",
+      "margin": 160777250,
+      "home_share": 38.27,
+      "home_top10_share": 38.7,
+      "home_median": 2039972,
+      "mvp_home": {
+        "player": "Chungi",
+        "points": 32379294,
+        "rank": 2
+      },
+      "mvp_opp": {
+        "player": "Shalix",
+        "points": 43827777,
+        "rank": 1
+      }
+    }
+  ],
+  "integrity": {
+    "tabs": {
+      "mon": {
+        "rows": 185,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "tue": {
+        "rows": 185,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "wed": {
+        "rows": 189,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "thu": {
+        "rows": 188,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "fri": {
+        "rows": 190,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "sat": {
+        "rows": 193,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": true
+      },
+      "week": {
+        "rows": 193,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {
+          "61": "read once"
+        },
+        "live": true
+      }
+    },
+    "checksum": {
+      "exact": 181,
+      "joined": 10,
+      "mismatch": 2,
+      "left": 6
+    },
+    "checksum_issues": [
+      {
+        "player": "ddingdongbel",
+        "tag": "P2MP",
+        "weekly": 3931845,
+        "sum_days": 5270367,
+        "diff": -1338522,
+        "status": "mismatch"
+      },
+      {
+        "player": "DiRtY21B117",
+        "tag": "JKRS",
+        "weekly": 17778454,
+        "sum_days": 17778580,
+        "diff": -126,
+        "status": "mismatch"
+      }
+    ]
+  },
+  "notes": []
+}

@@ -1,0 +1,47 @@
+{
+  "runs": [
+    {
+      "started_server": "2026-10-03T22:56:31-02:00",
+      "ended_server": "2026-10-03T23:20:22-02:00",
+      "started_utc": "2026-10-04T00:56:31+00:00",
+      "tabs": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "week"
+      ],
+      "live_tabs": [
+        "sat",
+        "week"
+      ],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 1479,
+      "frames_dir": "/Users/jeff/Library/Caches/s117-vs-captures/p2mp/2026-10-03/20261003-225631"
+    },
+    {
+      "started_server": "2026-10-03T23:22:15-02:00",
+      "ended_server": "2026-10-03T23:28:52-02:00",
+      "started_utc": "2026-10-04T01:22:15+00:00",
+      "tabs": [
+        "sat",
+        "week"
+      ],
+      "live_tabs": [
+        "sat",
+        "week"
+      ],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 463,
+      "frames_dir": "/Users/jeff/Library/Caches/s117-vs-captures/p2mp/2026-10-03/20261003-232214"
+    }
+  ],
+  "live_tabs": [
+    "sat",
+    "week"
+  ],
+  "last_capture_server": "2026-10-03T23:28:52-02:00"
+}
