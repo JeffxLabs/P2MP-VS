@@ -20,9 +20,10 @@ Hands-off flow:
      the analytics and the site bundle. Exits non-zero if anything is unresolved.
 
 Usage:
-  python3 pipeline/capture_all.py                         # P1MP profile, week ending this Saturday
+  python3 pipeline/capture_all.py                         # P1MP profile; switches to Jeff's BlueStacks instance
   python3 pipeline/capture_all.py --profile p2mp          # other account (pauses Apparatchik)
   python3 pipeline/capture_all.py --tabs sat,week --no-navigate
+  python3 pipeline/capture_all.py --no-switch             # skip automatic instance switching
 """
 import argparse
 import difflib
@@ -37,7 +38,7 @@ import threading
 import time
 import unicodedata
 from collections import Counter
-from contextlib import nullcontext
+from contextlib import ExitStack, nullcontext
 from datetime import datetime, timedelta, timezone
 
 from aliases import apply as alias_name
@@ -790,6 +791,7 @@ def main():
     ap.add_argument("--week", help="week id (its Saturday, YYYY-MM-DD); default: this week")
     ap.add_argument("--tabs", default="mon,tue,wed,thu,fri,sat,week")
     ap.add_argument("--no-navigate", action="store_true")
+    ap.add_argument("--no-switch", action="store_true", help="skip automatic BlueStacks instance switching")
     ap.add_argument("--no-build", action="store_true", help="do not rebuild analytics/site bundle")
     ap.add_argument("--allow-incomplete", action="store_true")
     ap.add_argument("--no-screenshots", action="store_true", help="do not archive compressed frames into the repo")
@@ -828,7 +830,12 @@ def main():
     log(f"Live tabs (still changing): {', '.join(TAB_LABEL[t] for t in DAY_TABS + ['week'] if t in live) or 'none'}")
     log(f"Frames: {shots}")
 
-    if profile.get("apparatchik"):
+    switching = bool(profile.get("switch")) and not args.no_switch
+    if switching:
+        from apparatchik_control import monitoring_paused
+        from bluestacks_switch import switched_instance, wait_for_city
+        guard = ExitStack()
+    elif profile.get("apparatchik"):
         from apparatchik_control import monitoring_paused
         guard = monitoring_paused(minutes=60, log=log)
     else:
@@ -841,6 +848,11 @@ def main():
     failed = False
     with guard:
         try:
+            if switching:
+                guard.enter_context(monitoring_paused(minutes=60, log=log))
+                switch_cfg = dict(profile["switch"], serial=serial)
+                guard.enter_context(switched_instance(switch_cfg, adb, log))
+                wait_for_city(dev, log)
             if not args.no_navigate:
                 go_to_rankings(dev)
             for tab in tabs:
