@@ -29,5 +29,36 @@ window.VS_MANIFEST = [
     ],
     "captured_at_approximate": false,
     "data_version": "b5ab5feb2a"
+  },
+  {
+    "id": "2026-10-17",
+    "home": {
+      "tag": "P2MP",
+      "name": "NowaPolandia",
+      "server": "S117"
+    },
+    "opponent": {
+      "tag": "RRL",
+      "name": "RadiantRealm",
+      "server": ""
+    },
+    "status": "final",
+    "score": {
+      "home": 2,
+      "opp": 11
+    },
+    "decided": "opp",
+    "weekly_points": {
+      "home": 2241806649,
+      "opp": 2216700152
+    },
+    "members": 91,
+    "captured_at_server": "2026-10-17T21:43:37-02:00",
+    "capture_window_server": [
+      "2026-10-17T21:36:46-02:00",
+      "2026-10-17T21:43:37-02:00"
+    ],
+    "captured_at_approximate": false,
+    "data_version": "a46c4e62f8"
   }
 ];
