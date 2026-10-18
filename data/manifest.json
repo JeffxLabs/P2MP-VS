@@ -13,10 +13,10 @@
     },
     "status": "final",
     "score": {
-      "home": 0,
-      "opp": 13
+      "home": null,
+      "opp": null
     },
-    "decided": "opp",
+    "decided": null,
     "weekly_points": {
       "home": 2238799329,
       "opp": 3900144141
@@ -28,7 +28,7 @@
       "2026-10-03T23:28:45-02:00"
     ],
     "captured_at_approximate": false,
-    "data_version": "b5ab5feb2a"
+    "data_version": "5ee3587f21"
   },
   {
     "id": "2026-10-17",
@@ -44,10 +44,10 @@
     },
     "status": "final",
     "score": {
-      "home": 2,
-      "opp": 11
+      "home": null,
+      "opp": null
     },
-    "decided": "opp",
+    "decided": "home",
     "weekly_points": {
       "home": 2245151548,
       "opp": 2222998780
@@ -59,6 +59,6 @@
       "2026-10-17T23:20:12-02:00"
     ],
     "captured_at_approximate": false,
-    "data_version": "98fb2cdf30"
+    "data_version": "773905a417"
   }
 ]
