@@ -29,7 +29,7 @@
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 9070198
+    "points": 9220546
   },
   {
     "rank": 5,
@@ -53,7 +53,7 @@
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 7635924
+    "points": 7636611
   },
   {
     "rank": 8,
@@ -61,7 +61,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 7344342
+    "points": 7379402
   },
   {
     "rank": 9,
@@ -85,7 +85,7 @@
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 6497752
+    "points": 6532950
   },
   {
     "rank": 12,
@@ -93,7 +93,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 6386484
+    "points": 6389630
   },
   {
     "rank": 13,
@@ -133,7 +133,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 5536496
+    "points": 5820275
   },
   {
     "rank": 18,
@@ -145,6 +145,14 @@
   },
   {
     "rank": 19,
+    "player": "~NyxInfernal~",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 5280262
+  },
+  {
+    "rank": 20,
     "player": "~ViperLace~",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -152,23 +160,23 @@
     "points": 5268966
   },
   {
-    "rank": 20,
-    "player": "~NyxInfernal~",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 5159416
-  },
-  {
     "rank": 21,
     "player": "Thuggy",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 5062832
+    "points": 5254782
   },
   {
     "rank": 22,
+    "player": "-Mael-",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 4789105
+  },
+  {
+    "rank": 23,
     "player": "RobboUK",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -176,31 +184,63 @@
     "points": 4716131
   },
   {
-    "rank": 23,
-    "player": "-Mael-",
+    "rank": 24,
+    "player": "AngelSex",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 4682543
+    "points": 4519227
   },
   {
-    "rank": 24,
+    "rank": 25,
     "player": "xNarc",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 4207684
+    "points": 4482458
   },
   {
-    "rank": 25,
+    "rank": 26,
+    "player": "T92",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 4397855
+  },
+  {
+    "rank": 27,
+    "player": "BretaoDoArco",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 4224300
+  },
+  {
+    "rank": 28,
     "player": "Yzjeyabella",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 4141847
+    "points": 4214720
   },
   {
-    "rank": 26,
+    "rank": 29,
+    "player": "Beagley",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 4130440
+  },
+  {
+    "rank": 30,
+    "player": "Luke0727",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 4053282
+  },
+  {
+    "rank": 31,
     "player": "Bahamut1",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -208,15 +248,7 @@
     "points": 3998072
   },
   {
-    "rank": 27,
-    "player": "T92",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 3996731
-  },
-  {
-    "rank": 28,
+    "rank": 32,
     "player": "Spectet",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -224,7 +256,7 @@
     "points": 3930330
   },
   {
-    "rank": 29,
+    "rank": 33,
     "player": "Spenx",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -232,7 +264,15 @@
     "points": 3918504
   },
   {
-    "rank": 30,
+    "rank": 34,
+    "player": "Migge2000",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 3896162
+  },
+  {
+    "rank": 35,
     "player": "Barosanu",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -240,7 +280,7 @@
     "points": 3870931
   },
   {
-    "rank": 31,
+    "rank": 36,
     "player": "LeChU",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -248,39 +288,23 @@
     "points": 3787757
   },
   {
-    "rank": 32,
-    "player": "Migge2000",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 3741755
-  },
-  {
-    "rank": 33,
-    "player": "BretaoDoArco",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 3714450
-  },
-  {
-    "rank": 34,
-    "player": "AngelSex",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 3713297
-  },
-  {
-    "rank": 35,
-    "player": "Luke0727",
+    "rank": 37,
+    "player": "Rango46",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 3664657
+    "points": 3728688
   },
   {
-    "rank": 36,
+    "rank": 38,
+    "player": "ElkaD",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 3684858
+  },
+  {
+    "rank": 39,
     "player": "Valdera",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -288,7 +312,7 @@
     "points": 3661006
   },
   {
-    "rank": 37,
+    "rank": 40,
     "player": "bboppo",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -296,7 +320,7 @@
     "points": 3642104
   },
   {
-    "rank": 38,
+    "rank": 41,
     "player": "robOn8er",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -304,7 +328,7 @@
     "points": 3605882
   },
   {
-    "rank": 39,
+    "rank": 42,
     "player": "ThePunisher000",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -312,7 +336,7 @@
     "points": 3465312
   },
   {
-    "rank": 40,
+    "rank": 43,
     "player": "Jalae",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -320,36 +344,12 @@
     "points": 3388816
   },
   {
-    "rank": 41,
-    "player": "orangebud",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 3289249
-  },
-  {
-    "rank": 42,
-    "player": "Macee",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 3268562
-  },
-  {
-    "rank": 43,
-    "player": "KosovoKing",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 3261107
-  },
-  {
     "rank": 44,
-    "player": "Rango46",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 3248539
+    "player": "GETSNOOKED",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 3365378
   },
   {
     "rank": 45,
@@ -357,18 +357,42 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 3190043
+    "points": 3329880
   },
   {
     "rank": 46,
-    "player": "Beagley",
+    "player": "orangebud",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 3165328
+    "points": 3289249
   },
   {
     "rank": 47,
+    "player": "Macee",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 3268562
+  },
+  {
+    "rank": 48,
+    "player": "KosovoKing",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 3261107
+  },
+  {
+    "rank": 49,
+    "player": "Benjy111",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 3177987
+  },
+  {
+    "rank": 50,
     "player": "nikax",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -376,7 +400,7 @@
     "points": 3110307
   },
   {
-    "rank": 48,
+    "rank": 51,
     "player": "DrZombie",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -384,31 +408,15 @@
     "points": 3085411
   },
   {
-    "rank": 49,
-    "player": "Snook26",
+    "rank": 52,
+    "player": "ShadyReaper",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 3045618
+    "points": 3031608
   },
   {
-    "rank": 50,
-    "player": "ElkaD",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 3033796
-  },
-  {
-    "rank": 51,
-    "player": "Benjy111",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 3025820
-  },
-  {
-    "rank": 52,
+    "rank": 53,
     "player": "PiggysPops",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -416,7 +424,7 @@
     "points": 2954939
   },
   {
-    "rank": 53,
+    "rank": 54,
     "player": "BurnEr",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -424,7 +432,7 @@
     "points": 2902051
   },
   {
-    "rank": 54,
+    "rank": 55,
     "player": "Brotherman",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -432,20 +440,12 @@
     "points": 2902050
   },
   {
-    "rank": 55,
+    "rank": 56,
     "player": "기때기오만상",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
     "points": 2900677
-  },
-  {
-    "rank": 56,
-    "player": "ShadyReaper",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 2895346
   },
   {
     "rank": 57,
@@ -493,7 +493,7 @@
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 2688695
+    "points": 2699007
   },
   {
     "rank": 63,
@@ -525,7 +525,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 2638592
+    "points": 2644779
   },
   {
     "rank": 67,
@@ -541,18 +541,26 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 2468353
+    "points": 2504790
   },
   {
     "rank": 69,
-    "player": "NoMercyQueen•",
+    "player": "Adam9696",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 2500978
+  },
+  {
+    "rank": 70,
+    "player": "NoMercyQueena",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 2407771
   },
   {
-    "rank": 70,
+    "rank": 71,
     "player": "warcoolcation",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -560,7 +568,7 @@
     "points": 2399872
   },
   {
-    "rank": 71,
+    "rank": 72,
     "player": "2steppa",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -568,7 +576,7 @@
     "points": 2398094
   },
   {
-    "rank": 72,
+    "rank": 73,
     "player": "GenX68",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -576,7 +584,7 @@
     "points": 2390548
   },
   {
-    "rank": 73,
+    "rank": 74,
     "player": "NCEE",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -584,15 +592,15 @@
     "points": 2388096
   },
   {
-    "rank": 74,
-    "player": "Flying 168",
+    "rank": 75,
+    "player": "Flying168",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 2380057
   },
   {
-    "rank": 75,
+    "rank": 76,
     "player": "Marzvane",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -600,7 +608,7 @@
     "points": 2366421
   },
   {
-    "rank": 76,
+    "rank": 77,
     "player": "Krokman",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -608,7 +616,15 @@
     "points": 2356819
   },
   {
-    "rank": 77,
+    "rank": 78,
+    "player": "Gulfofamerica",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 2329343
+  },
+  {
+    "rank": 79,
     "player": "ColinNZ",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -616,7 +632,7 @@
     "points": 2328093
   },
   {
-    "rank": 78,
+    "rank": 80,
     "player": "35Titatan",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -624,7 +640,7 @@
     "points": 2321029
   },
   {
-    "rank": 79,
+    "rank": 81,
     "player": "Apparatchik",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -632,7 +648,7 @@
     "points": 2307023
   },
   {
-    "rank": 80,
+    "rank": 82,
     "player": "Jcj1310",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -640,15 +656,15 @@
     "points": 2291110
   },
   {
-    "rank": 81,
+    "rank": 83,
     "player": "Trickzor",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 2287387
+    "points": 2290518
   },
   {
-    "rank": 82,
+    "rank": 84,
     "player": "Brunacarvalho",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -656,7 +672,7 @@
     "points": 2271013
   },
   {
-    "rank": 83,
+    "rank": 85,
     "player": "ZiGGLar-Khan-28",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -664,7 +680,7 @@
     "points": 2229112
   },
   {
-    "rank": 84,
+    "rank": 86,
     "player": "DrinkCoors",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -672,7 +688,7 @@
     "points": 2214955
   },
   {
-    "rank": 85,
+    "rank": 87,
     "player": "PNAY",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -680,7 +696,7 @@
     "points": 2214953
   },
   {
-    "rank": 86,
+    "rank": 88,
     "player": "turkito",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -688,7 +704,7 @@
     "points": 2202650
   },
   {
-    "rank": 87,
+    "rank": 89,
     "player": "Fury73",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -696,15 +712,15 @@
     "points": 2181194
   },
   {
-    "rank": 88,
-    "player": "ZiliiBilii",
+    "rank": 90,
+    "player": "ZilliBilii",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
-    "points": 2144159
+    "points": 2177681
   },
   {
-    "rank": 89,
+    "rank": 91,
     "player": "jerbear64",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -712,7 +728,7 @@
     "points": 2019236
   },
   {
-    "rank": 90,
+    "rank": 92,
     "player": "Peiro",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -720,7 +736,7 @@
     "points": 1895302
   },
   {
-    "rank": 91,
+    "rank": 93,
     "player": "34savages",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -728,7 +744,7 @@
     "points": 1891424
   },
   {
-    "rank": 92,
+    "rank": 94,
     "player": "LINK",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -736,15 +752,7 @@
     "points": 1888000
   },
   {
-    "rank": 93,
-    "player": "Adam9696",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 1867657
-  },
-  {
-    "rank": 94,
+    "rank": 95,
     "player": "zoombie",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -752,7 +760,7 @@
     "points": 1849498
   },
   {
-    "rank": 95,
+    "rank": 96,
     "player": "KirbAR34",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -760,7 +768,7 @@
     "points": 1812474
   },
   {
-    "rank": 96,
+    "rank": 97,
     "player": "LokoFeN",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -768,15 +776,15 @@
     "points": 1756847
   },
   {
-    "rank": 97,
-    "player": "nуc130",
+    "rank": 98,
+    "player": "nyc130",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 1748031
   },
   {
-    "rank": 98,
+    "rank": 99,
     "player": "patryk8619",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -784,7 +792,7 @@
     "points": 1744000
   },
   {
-    "rank": 99,
+    "rank": 100,
     "player": "MTC66",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -792,7 +800,7 @@
     "points": 1728330
   },
   {
-    "rank": 100,
+    "rank": 101,
     "player": "OliKielce",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -800,7 +808,7 @@
     "points": 1721204
   },
   {
-    "rank": 101,
+    "rank": 102,
     "player": "VictorY",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -808,20 +816,12 @@
     "points": 1654826
   },
   {
-    "rank": 102,
+    "rank": 103,
     "player": "JoboL",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 1653454
-  },
-  {
-    "rank": 103,
-    "player": "Gulfofamerica",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 1601343
   },
   {
     "rank": 104,
@@ -897,6 +897,14 @@
   },
   {
     "rank": 113,
+    "player": "Seanclen",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 1326532
+  },
+  {
+    "rank": 114,
     "player": "PanTofelek",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -904,7 +912,7 @@
     "points": 1315096
   },
   {
-    "rank": 114,
+    "rank": 115,
     "player": "DoackMX",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -912,7 +920,7 @@
     "points": 1278918
   },
   {
-    "rank": 115,
+    "rank": 116,
     "player": "CRUtheCAR",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -920,7 +928,15 @@
     "points": 1266560
   },
   {
-    "rank": 116,
+    "rank": 117,
+    "player": "HUNTER5278",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 1258397
+  },
+  {
+    "rank": 118,
     "player": "Jer2026",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -928,7 +944,7 @@
     "points": 1248748
   },
   {
-    "rank": 117,
+    "rank": 119,
     "player": "Hyperdermic",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -936,7 +952,7 @@
     "points": 1246642
   },
   {
-    "rank": 118,
+    "rank": 120,
     "player": "LouD70",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -944,7 +960,7 @@
     "points": 1225058
   },
   {
-    "rank": 119,
+    "rank": 121,
     "player": "Komodowaran",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -952,15 +968,7 @@
     "points": 1208028
   },
   {
-    "rank": 120,
-    "player": "Seanclen",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 1188196
-  },
-  {
-    "rank": 121,
+    "rank": 122,
     "player": "Woods3309",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -968,20 +976,12 @@
     "points": 1174197
   },
   {
-    "rank": 122,
-    "player": "AfricaJustified",
+    "rank": 123,
+    "player": "Africajustified",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
     "points": 1111890
-  },
-  {
-    "rank": 123,
-    "player": "HUNTER5278",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 1102863
   },
   {
     "rank": 124,
@@ -1041,7 +1041,7 @@
   },
   {
     "rank": 131,
-    "player": "StArWaRsR",
+    "player": "StArWaRs",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
     "alliance_name": "RadiantRealm",
@@ -1089,6 +1089,22 @@
   },
   {
     "rank": 137,
+    "player": "Guardian1138",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 789237
+  },
+  {
+    "rank": 138,
+    "player": "Taipan44",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 737094
+  },
+  {
+    "rank": 139,
     "player": "MrElite",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1096,7 +1112,15 @@
     "points": 731051
   },
   {
-    "rank": 138,
+    "rank": 140,
+    "player": "BADBOYMG",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 691291
+  },
+  {
+    "rank": 141,
     "player": "KiCkz",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1104,7 +1128,15 @@
     "points": 661021
   },
   {
-    "rank": 139,
+    "rank": 142,
+    "player": "Fishyy",
+    "alliance": "[RRL] RadiantRealm",
+    "alliance_tag": "RRL",
+    "alliance_name": "RadiantRealm",
+    "points": 634662
+  },
+  {
+    "rank": 143,
     "player": "Mona267",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1112,23 +1144,7 @@
     "points": 631995
   },
   {
-    "rank": 140,
-    "player": "Fishyy",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 555755
-  },
-  {
-    "rank": 141,
-    "player": "BADBOYMG",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 547291
-  },
-  {
-    "rank": 142,
+    "rank": 144,
     "player": "Zaggy007",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1136,7 +1152,7 @@
     "points": 512465
   },
   {
-    "rank": 143,
+    "rank": 145,
     "player": "Maihealu",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1144,7 +1160,7 @@
     "points": 508806
   },
   {
-    "rank": 144,
+    "rank": 146,
     "player": "Adriandima",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1152,7 +1168,7 @@
     "points": 502987
   },
   {
-    "rank": 145,
+    "rank": 147,
     "player": "s7r3s",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1160,7 +1176,7 @@
     "points": 471657
   },
   {
-    "rank": 146,
+    "rank": 148,
     "player": "Gettin~Lucky",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1168,7 +1184,7 @@
     "points": 462536
   },
   {
-    "rank": 147,
+    "rank": 149,
     "player": "Andy827",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1176,7 +1192,15 @@
     "points": 402582
   },
   {
-    "rank": 148,
+    "rank": 150,
+    "player": "furqi",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 395464
+  },
+  {
+    "rank": 151,
     "player": "NCC-1701",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1184,7 +1208,7 @@
     "points": 386456
   },
   {
-    "rank": 149,
+    "rank": 152,
     "player": "Matovich77",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1192,7 +1216,7 @@
     "points": 351744
   },
   {
-    "rank": 150,
+    "rank": 153,
     "player": "DonPaw",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1200,15 +1224,7 @@
     "points": 349435
   },
   {
-    "rank": 151,
-    "player": "furqi",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 337463
-  },
-  {
-    "rank": 152,
+    "rank": 154,
     "player": "marcjos",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1216,7 +1232,7 @@
     "points": 335956
   },
   {
-    "rank": 153,
+    "rank": 155,
     "player": "EZNow",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1224,7 +1240,7 @@
     "points": 324035
   },
   {
-    "rank": 154,
+    "rank": 156,
     "player": "Violet1975",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1232,7 +1248,7 @@
     "points": 323797
   },
   {
-    "rank": 155,
+    "rank": 157,
     "player": "Armyani",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1240,7 +1256,7 @@
     "points": 319654
   },
   {
-    "rank": 156,
+    "rank": 158,
     "player": "jjbeast",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1248,15 +1264,7 @@
     "points": 304479
   },
   {
-    "rank": 157,
-    "player": "Guardian1138",
-    "alliance": "[RRL] RadiantRealm",
-    "alliance_tag": "RRL",
-    "alliance_name": "RadiantRealm",
-    "points": 288000
-  },
-  {
-    "rank": 158,
+    "rank": 159,
     "player": "dante121",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1264,7 +1272,7 @@
     "points": 269053
   },
   {
-    "rank": 159,
+    "rank": 160,
     "player": "JES",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1272,7 +1280,7 @@
     "points": 239250
   },
   {
-    "rank": 160,
+    "rank": 161,
     "player": "Bezerkers",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1280,7 +1288,7 @@
     "points": 237434
   },
   {
-    "rank": 161,
+    "rank": 162,
     "player": "Nolan2077",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1288,7 +1296,7 @@
     "points": 208088
   },
   {
-    "rank": 162,
+    "rank": 163,
     "player": "Russell78",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1296,7 +1304,7 @@
     "points": 190846
   },
   {
-    "rank": 163,
+    "rank": 164,
     "player": "ROBsss3V666",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1304,7 +1312,7 @@
     "points": 189638
   },
   {
-    "rank": 164,
+    "rank": 165,
     "player": "Byteme",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1312,7 +1320,7 @@
     "points": 163883
   },
   {
-    "rank": 165,
+    "rank": 166,
     "player": "EquinsuOcha666",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1320,7 +1328,7 @@
     "points": 148798
   },
   {
-    "rank": 166,
+    "rank": 167,
     "player": "AHumam",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1328,7 +1336,7 @@
     "points": 144105
   },
   {
-    "rank": 167,
+    "rank": 168,
     "player": "Médusa",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1336,7 +1344,7 @@
     "points": 70515
   },
   {
-    "rank": 168,
+    "rank": 169,
     "player": "Spoilz",
     "alliance": "[RRL] RadiantRealm",
     "alliance_tag": "RRL",
@@ -1344,7 +1352,7 @@
     "points": 59375
   },
   {
-    "rank": 169,
+    "rank": 170,
     "player": "Kenzo2001",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",

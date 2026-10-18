@@ -15,45 +15,45 @@
     "sat",
     "week"
   ],
-  "captured_at_server": "2026-10-17T21:43:37-02:00",
+  "captured_at_server": "2026-10-17T23:20:12-02:00",
   "capture_window_server": [
-    "2026-10-17T21:36:46-02:00",
-    "2026-10-17T21:43:37-02:00"
+    "2026-10-17T23:12:13-02:00",
+    "2026-10-17T23:20:12-02:00"
   ],
   "captured_at_approximate": false,
   "snapshots": {
     "mon": {
-      "at": "2026-10-17T21:36:46-02:00",
+      "at": "2026-10-17T23:12:13-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "tue": {
-      "at": "2026-10-17T21:37:40-02:00",
+      "at": "2026-10-17T23:13:35-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "wed": {
-      "at": "2026-10-17T21:38:34-02:00",
+      "at": "2026-10-17T23:14:29-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "thu": {
-      "at": "2026-10-17T21:39:28-02:00",
+      "at": "2026-10-17T23:15:21-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "fri": {
-      "at": "2026-10-17T21:40:21-02:00",
+      "at": "2026-10-17T23:17:21-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "sat": {
-      "at": "2026-10-17T21:42:05-02:00",
+      "at": "2026-10-17T23:19:18-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "week": {
-      "at": "2026-10-17T21:43:37-02:00",
+      "at": "2026-10-17T23:20:12-02:00",
       "source": "screenshots",
       "approximate": false
     }
@@ -68,8 +68,8 @@
   "total_wins": 13,
   "wins_to_clinch": 7,
   "weekly_points": {
-    "home": 2241806649,
-    "opp": 2216700152
+    "home": 2245151548,
+    "opp": 2222998780
   },
   "official_points": null,
   "quota": 11400000,
@@ -211,15 +211,15 @@
       "stage": 6,
       "wins": 4,
       "status": "final",
-      "home_points": 208765211,
-      "opp_points": 217526554,
+      "home_points": 212110110,
+      "opp_points": 223825182,
       "home_players": 90,
-      "opp_players": 79,
+      "opp_players": 80,
       "winner": "opp",
-      "margin": 8761343,
-      "home_share": 48.97,
-      "home_top10_share": 29.7,
-      "home_median": 1888000,
+      "margin": 11715072,
+      "home_share": 48.66,
+      "home_top10_share": 29.6,
+      "home_median": 1891424,
       "mvp_home": {
         "player": "TonyLoco",
         "points": 10425681,
@@ -280,7 +280,7 @@
         "live": false
       },
       "sat": {
-        "rows": 169,
+        "rows": 170,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,

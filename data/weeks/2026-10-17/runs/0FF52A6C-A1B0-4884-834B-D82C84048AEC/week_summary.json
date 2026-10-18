@@ -1,0 +1,309 @@
+{
+  "id": "2026-10-17",
+  "home": {
+    "tag": "P2MP",
+    "name": "NowaPolandia",
+    "server": "S117"
+  },
+  "opponent": {
+    "tag": "RRL",
+    "name": "RadiantRealm",
+    "server": ""
+  },
+  "status": "final",
+  "live_tabs": [
+    "sat",
+    "week"
+  ],
+  "captured_at_server": "2026-10-17T23:20:12-02:00",
+  "capture_window_server": [
+    "2026-10-17T23:12:13-02:00",
+    "2026-10-17T23:20:12-02:00"
+  ],
+  "captured_at_approximate": false,
+  "snapshots": {
+    "mon": {
+      "at": "2026-10-17T23:12:13-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "tue": {
+      "at": "2026-10-17T23:13:35-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "wed": {
+      "at": "2026-10-17T23:14:29-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "thu": {
+      "at": "2026-10-17T23:15:21-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "fri": {
+      "at": "2026-10-17T23:17:21-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "sat": {
+      "at": "2026-10-17T23:19:18-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "week": {
+      "at": "2026-10-17T23:20:12-02:00",
+      "source": "screenshots",
+      "approximate": false
+    }
+  },
+  "score": {
+    "home": 2,
+    "opp": 11
+  },
+  "wins_remaining": 0,
+  "decided": "opp",
+  "leading_live": {},
+  "total_wins": 13,
+  "wins_to_clinch": 7,
+  "weekly_points": {
+    "home": 2245151548,
+    "opp": 2222998780
+  },
+  "official_points": null,
+  "quota": 11400000,
+  "home_quota": {
+    "met": 67,
+    "near": 1,
+    "below": 23,
+    "members": 91,
+    "left": 0
+  },
+  "stages": [
+    {
+      "day": "mon",
+      "stage": 1,
+      "wins": 1,
+      "status": "final",
+      "home_points": 406368690,
+      "opp_points": 442704593,
+      "home_players": 86,
+      "opp_players": 81,
+      "winner": "opp",
+      "margin": 36335903,
+      "home_share": 47.86,
+      "home_top10_share": 30.2,
+      "home_median": 2977958,
+      "mvp_home": {
+        "player": "Rzurzu",
+        "points": 22854698,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "00-CHAOS-00",
+        "points": 19560984,
+        "rank": 2
+      }
+    },
+    {
+      "day": "tue",
+      "stage": 2,
+      "wins": 2,
+      "status": "final",
+      "home_points": 287109813,
+      "opp_points": 322998840,
+      "home_players": 88,
+      "opp_players": 82,
+      "winner": "opp",
+      "margin": 35889027,
+      "home_share": 47.06,
+      "home_top10_share": 30.5,
+      "home_median": 2646031,
+      "mvp_home": {
+        "player": "LeChU",
+        "points": 12162751,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "AngelSex",
+        "points": 11577764,
+        "rank": 2
+      }
+    },
+    {
+      "day": "wed",
+      "stage": 3,
+      "wins": 2,
+      "status": "final",
+      "home_points": 351807967,
+      "opp_points": 365613889,
+      "home_players": 87,
+      "opp_players": 82,
+      "winner": "opp",
+      "margin": 13805922,
+      "home_share": 49.04,
+      "home_top10_share": 32.0,
+      "home_median": 2943752,
+      "mvp_home": {
+        "player": "Tyronekiller",
+        "points": 18720183,
+        "rank": 2
+      },
+      "mvp_opp": {
+        "player": "00-CHAOS-00",
+        "points": 23565132,
+        "rank": 1
+      }
+    },
+    {
+      "day": "thu",
+      "stage": 4,
+      "wins": 2,
+      "status": "final",
+      "home_points": 575800532,
+      "opp_points": 620875109,
+      "home_players": 84,
+      "opp_players": 80,
+      "winner": "opp",
+      "margin": 45074577,
+      "home_share": 48.12,
+      "home_top10_share": 33.1,
+      "home_median": 4922348,
+      "mvp_home": {
+        "player": "Austen",
+        "points": 31272050,
+        "rank": 2
+      },
+      "mvp_opp": {
+        "player": "00-CHAOS-00",
+        "points": 40222766,
+        "rank": 1
+      }
+    },
+    {
+      "day": "fri",
+      "stage": 5,
+      "wins": 2,
+      "status": "final",
+      "home_points": 406086801,
+      "opp_points": 361671199,
+      "home_players": 89,
+      "opp_players": 77,
+      "winner": "home",
+      "margin": 44415602,
+      "home_share": 52.89,
+      "home_top10_share": 28.2,
+      "home_median": 3856582,
+      "mvp_home": {
+        "player": "Rango46",
+        "points": 15933405,
+        "rank": 2
+      },
+      "mvp_opp": {
+        "player": "AngelSex",
+        "points": 16579556,
+        "rank": 1
+      }
+    },
+    {
+      "day": "sat",
+      "stage": 6,
+      "wins": 4,
+      "status": "final",
+      "home_points": 212110110,
+      "opp_points": 223825182,
+      "home_players": 90,
+      "opp_players": 80,
+      "winner": "opp",
+      "margin": 11715072,
+      "home_share": 48.66,
+      "home_top10_share": 29.6,
+      "home_median": 1891424,
+      "mvp_home": {
+        "player": "TonyLoco",
+        "points": 10425681,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "MysticAfterDark",
+        "points": 9276094,
+        "rank": 2
+      }
+    }
+  ],
+  "integrity": {
+    "tabs": {
+      "mon": {
+        "rows": 167,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "tue": {
+        "rows": 170,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "wed": {
+        "rows": 169,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "thu": {
+        "rows": 164,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "fri": {
+        "rows": 166,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "sat": {
+        "rows": 170,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": true
+      },
+      "week": {
+        "rows": 174,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": true
+      }
+    },
+    "checksum": {
+      "exact": 170,
+      "joined": 4,
+      "left": 9
+    },
+    "checksum_issues": []
+  },
+  "notes": []
+}
