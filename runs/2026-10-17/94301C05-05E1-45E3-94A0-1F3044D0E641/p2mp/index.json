@@ -1,0 +1,48 @@
+{
+  "accepted": false,
+  "account": "p2mp",
+  "capture": {
+    "accepted": false,
+    "account": "p2mp",
+    "identity_proof": {
+      "account": "p2mp",
+      "identity": "apparatchik",
+      "player_id": "157173571701",
+      "serial": "127.0.0.1:5565",
+      "verified_at": "2026-10-18T00:29:53.402714+00:00"
+    },
+    "week": "2026-10-17"
+  },
+  "capture_events": 13,
+  "chunks": [
+    {
+      "bytes": 1695418,
+      "captures": 13,
+      "file": "frames-0000.zip",
+      "frame_ids": [
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00001_boot.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00002_boot.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00003_boot.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00004_boot.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00005_navigation_control_verify.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00006_boot.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00007_navigation_control_verify.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00008_boot.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00009_navigation_control_verify.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00010_boot.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00011_navigation_control_verify.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00012_boot.png",
+        "identity/afda184e-9f88-4dfe-997e-683d07c13c27/00013_account_identity.png"
+      ],
+      "sha256": "7918eee95a82f53f7218afcc0d6c7166b4807a1096d75c16299ce77db22a151c",
+      "unique_images": 13
+    }
+  ],
+  "job_id": "94301C05-05E1-45E3-94A0-1F3044D0E641",
+  "purpose": "restoration",
+  "requested_accounts": [
+    "p1mp"
+  ],
+  "schema_version": 1,
+  "week": "2026-10-17"
+}
