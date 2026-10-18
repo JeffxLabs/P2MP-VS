@@ -1,0 +1,20 @@
+{
+  "home_alliance": {
+    "tag": "P2MP",
+    "name": "NowaPolandia",
+    "server": "S117"
+  },
+  "opponent_alliance": {
+    "tag": "RRL",
+    "name": "RadiantRealm",
+    "server": ""
+  },
+  "daily_stages": [
+    { "day": "mon", "stage_num": 1, "wins_awarded": 1, "winner": "home" },
+    { "day": "tue", "stage_num": 2, "wins_awarded": 2, "winner": "home" },
+    { "day": "wed", "stage_num": 3, "wins_awarded": 2, "winner": "home" },
+    { "day": "thu", "stage_num": 4, "wins_awarded": 2, "winner": "home" },
+    { "day": "fri", "stage_num": 5, "wins_awarded": 2, "winner": "home" },
+    { "day": "sat", "stage_num": 6, "wins_awarded": 4, "winner": "opp" }
+  ]
+}

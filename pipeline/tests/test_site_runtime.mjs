@@ -16,7 +16,7 @@ const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)]
   .filter(match => !/\bsrc\s*=/.test(match[1])).map(match => match[2]);
 assert.equal(scripts.length, 2, 'Expected before-paint theme script and app script');
 const exportCode = `window.TEST = {state, overview, members, leaderboards, stages, dataView,
-  trends, render, eventBar, officialScore, scoreCell, boardKey, rosterRows, badgesFor, visibleBoard, openProfile,
+  trends, render, eventBar, boardKey, rosterRows, badgesFor, visibleBoard, openProfile,
   closeProfile, sync, theme, statusStage, date, t, n, loadWeek,
   setLang:value=>lang=value, getLang:()=>lang, setData:value=>data=value,
   getData:()=>data, getRenderToken:()=>renderToken};`;
@@ -71,8 +71,7 @@ function harness({ query = '', storage = {}, twoWeeks = true, preloadOriginal = 
   original.summary.status = 'final';
   original.summary.stages.forEach(stage => { stage.status = 'final'; stage.winner = 'home'; });
   // Fixture: the real week is treated as a finished home win, whichever alliance's data this is
-  Object.assign(original.summary, { score: { home: 13, opp: 0 }, decided: 'home', wins_remaining: 0, leading_live: {},
-    result_official: true, score_source: 'official_result.json' });
+  Object.assign(original.summary, { score: { home: 13, opp: 0 }, decided: 'home', wins_remaining: 0, leading_live: {} });
   // Use a fixed synthetic date later than the captured fixture. Loading all real
   // weeks is the separate contract check's responsibility.
   const synthetic = JSON.parse(JSON.stringify(original));
@@ -80,7 +79,6 @@ function harness({ query = '', storage = {}, twoWeeks = true, preloadOriginal = 
   Object.assign(synthetic.summary, {
     status: 'in_progress', live_tabs: ['sat', 'week'], captured_at_server: '2099-10-03T15:30:00-02:00',
     score: { home: 2, opp: 7 }, wins_remaining: 4, decided: 'opp', leading_live: { sat: 'home' },
-    result_official: true, score_source: 'official_result.json',
   });
   synthetic.summary.stages.forEach(stage => {
     stage.status = stage.day === 'sat' ? 'live' : 'final';
@@ -183,34 +181,16 @@ await T.render();
 assert.match(node('#view').innerHTML, /<strong>1 – 1<\/strong>/, 'Completed loss must enter the record');
 assert.match(node('#view').innerHTML, /<tr><td>Sat<\/td><td>1<\/td><td>2<\/td><td>50%<\/td><\/tr>/, 'Final Saturday must enter stage win rate');
 
-// Regression: a leaderboard point comparison is not a recorded duel result. Without an official
-// result the site must show "not recorded" instead of a score it never measured, in every view.
-const unverified = JSON.parse(JSON.stringify(synthetic));
-unverified.summary.result_official = false;
-unverified.summary.score_source = 'unverified';
-unverified.summary.score = { home: null, opp: null };
-T.setData(unverified); T.state.week = unverified.summary.id; T.state.view = 'overview';
-const unverifiedOverview = T.overview(); T.eventBar();
-assert.ok(unverifiedOverview.includes(T.t('result_unrecorded')), 'Unverified result must not render a score in the header');
-assert.ok(!/class="score num">\d/.test(unverifiedOverview), 'Unverified result must not render a numeric score');
-assert.ok(node('#eventBar').innerHTML.includes(T.t('result_unrecorded')), 'Unverified week must not announce a winner');
-assert.ok(unverifiedOverview.includes(T.t('points_ahead')) || unverifiedOverview.includes(T.t('points_behind')),
-  'Stage cells must describe points, not a win or loss');
-assert.ok(!unverifiedOverview.includes(T.t('won_by', { name: '' })));
-T.state.view = 'trends'; await T.render();
-const trendsHTML = node('#view').innerHTML;
-// Only weeks with an official recorded result may show a numeric match score in trends.
-const scoreRows = trendsHTML.split('<tr>').filter(row => row.includes(T.t('score_label')));
-assert.ok(scoreRows.every(row => /\d\s*:\s*\d|\d\s*&nbsp;:/.test(row) || !/result_unrecorded/.test(row)), 'Score rows must be official');
-// The rule itself: a score is publishable only when it is an official recorded result.
-assert.equal(T.officialScore(synthetic.summary).home, 2, 'An official result is shown');
-assert.equal(T.officialScore(unverified.summary), null, 'An unverified week has no publishable score');
-assert.equal(T.officialScore({ ...synthetic.summary, result_official: undefined }), null,
-  'A missing result_official flag must not be treated as official');
-assert.equal(T.officialScore({ ...synthetic.summary, score: { home: null, opp: null } }), null,
-  'A recorded winner without a numeric score must not render a score');
-Object.assign(T.state, { week: synthetic.summary.id, view: 'trends' });
-for (const row of scoreRows) assert.ok(!/result_unrecorded/.test(row), 'An unverified week must never show a numeric match score');
+// Regression: weekly score counts daily "wins" values (1+2+2+2+2+4=13), with final Saturday valid
+// for the day (e.g. winning Mon-Fri = 9 wins and losing final Saturday = 4 wins gives 9:4 home win).
+const nineFour = JSON.parse(JSON.stringify(original));
+nineFour.summary.score = { home: 9, opp: 4 };
+nineFour.summary.decided = 'home';
+nineFour.summary.stages.forEach(s => { s.status = 'final'; s.winner = s.day === 'sat' ? 'opp' : 'home'; });
+T.setData(nineFour); T.state.week = nineFour.summary.id; T.state.view = 'overview';
+const nineFourOverview = T.overview(); T.eventBar();
+assert.match(nineFourOverview, /class="score num">9 : 4<\/div>/, 'Scoreboard must show the 9:4 daily-wins total');
+assert.ok(node('#eventBar').innerHTML.includes(T.t('won_by', { name: `[${nineFour.summary.home.tag}] ${nineFour.summary.home.name}` })));
 T.setData(synthetic); T.state.week = synthetic.summary.id;
 
 // Missing-current-player profiles must label their source week and preserve history.

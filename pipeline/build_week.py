@@ -41,59 +41,6 @@ TIERS = [  # (min weekly points, id) — ids are translated on the site
 ]
 
 
-def read_official_result(wdir, meta_over, legacy):
-    """Resolve the week's official win/loss result.
-
-    Priority: an explicit `official_result.json` recorded for this week (the only source that may be
-    published as fact), then a legacy recorded weekly result. With neither, the week stays undecided:
-    a leaderboard point comparison is not a match result, so no score is asserted at all.
-    """
-    to_clinch = TOTAL_WINS // 2 + 1
-    undecided = {"decided": None, "score": None, "official": False, "source": "unverified"}
-
-    def coerce(raw):
-        """Accept only a whole-numeric home/opp pair whose sum matches the total wins on offer."""
-        if not isinstance(raw, dict):
-            return None
-        home, opp = raw.get("home"), raw.get("opp")
-        if not isinstance(home, int) or not isinstance(opp, int) or isinstance(home, bool) or isinstance(opp, bool):
-            return None
-        if home < 0 or opp < 0 or home + opp > TOTAL_WINS:
-            return None
-        return {"home": home, "opp": opp}
-
-    official_file = os.path.join(wdir, "official_result.json")
-    for path, label in ((official_file, "official_result.json"),
-                        (os.path.join(wdir, "meta.json"), "meta.json")):
-        data = load(path, None)
-        if not data:
-            continue
-        result = data.get("official_result") if label != "official_result.json" else data
-        if not isinstance(result, dict):
-            continue
-        score = coerce(result if "home" in result and "opp" in result else None)
-        declared = result.get("winner") or result.get("decided")
-        if score is None and declared not in ("home", "opp"):
-            continue  # neither a usable score nor an explicit recorded winner
-        decided = declared if declared in ("home", "opp") else None
-        if decided is None and score is not None:
-            if score["home"] >= to_clinch:
-                decided = "home"
-            elif score["opp"] >= to_clinch:
-                decided = "opp"
-        return {"decided": decided, "score": score, "official": True,
-                "source": result.get("source") or label,
-                "note": result.get("note")}
-
-    legacy_result = (legacy.get("weekly_result") or {})
-    score = coerce({"home": legacy_result.get("p1mp_wins"), "opp": legacy_result.get("obs_wins")})
-    if score is not None:
-        decided = "home" if score["home"] >= to_clinch else ("opp" if score["opp"] >= to_clinch else None)
-        return {"decided": decided, "score": score, "official": True, "source": "legacy duel_summary.json",
-                "note": "Recorded before this week; verify against the game's own result screen."}
-    return undecided
-
-
 def name_key(name):
     return "".join(ch for ch in unicodedata.normalize("NFKC", name or "") if ch.isalnum()).casefold()
 
@@ -189,14 +136,9 @@ def build(week_id, profile, opp_server=None):
     # before the midnight server reset (UTC-2), after which the in-game rankings disappear.
     live = set(capture.get("live_tabs", meta_over.get("live_tabs", [])))
 
-    # ---- result: an official match score must never be inferred from leaderboard point sums.
-    # Summing player-leaderboard points only shows who scored more that stage; it is NOT the game's
-    # win/loss result, and the per-stage win weights make those two different things anyway. A week
-    # may be lost on the day and won overall. Only an explicitly recorded official result may be
-    # published as fact; otherwise the week stays undecided and the estimate is labelled as such.
-    official_result = read_official_result(wdir, meta_over, legacy)
+    # ---- stages
     stages = []
-    inferred_score = {"home": 0, "opp": 0}
+    score = {"home": 0, "opp": 0}
     for d in DAYS:
         rows = boards[d]
         hp = sum(r["points"] or 0 for r in rows if r["alliance_tag"] == home)
@@ -204,15 +146,21 @@ def build(week_id, profile, opp_server=None):
         hn = sum(1 for r in rows if r["alliance_tag"] == home)
         on = sum(1 for r in rows if r["alliance_tag"] == opp)
         status = "pending" if not rows else "final"
-        official = next((x for x in legacy.get("daily_stages", []) if x.get("day") == d), None)
-        if official and official.get("p1mp_points") is not None:
-            # Legacy weeks recorded the official alliance stage scores; prefer them to leaderboard sums
-            hp, op = official["p1mp_points"], official["obs_points"]
+        official = next((x for x in (legacy.get("daily_stages") or meta_over.get("daily_stages") or [])
+                         if x.get("day") == d), None)
+        if official:
+            if official.get("home_points") is not None and official.get("opp_points") is not None:
+                hp, op = official["home_points"], official["opp_points"]
+            elif official.get("p1mp_points") is not None and official.get("obs_points") is not None:
+                # Legacy weeks recorded the official alliance stage scores; prefer them to leaderboard sums
+                hp, op = official["p1mp_points"], official["obs_points"]
         winner = None
-        if rows:
+        if official and official.get("winner") in ("home", "opp", home, opp):
+            winner = "home" if official["winner"] in ("home", home) else "opp"
+        elif rows:
             winner = "home" if hp > op else ("opp" if op > hp else "tie")
         if status == "final" and winner in ("home", "opp"):
-            inferred_score[winner] += WINS[d]
+            score[winner] += WINS[d]
         mvp_h = next((r for r in rows if r["alliance_tag"] == home), None)
         mvp_o = next((r for r in rows if r["alliance_tag"] == opp), None)
         hpts = sorted((r["points"] or 0 for r in rows if r["alliance_tag"] == home), reverse=True)
@@ -220,7 +168,6 @@ def build(week_id, profile, opp_server=None):
             "day": d, "stage": DAYS.index(d) + 1, "wins": WINS[d], "status": status,
             "home_points": hp, "opp_points": op, "home_players": hn, "opp_players": on,
             "winner": winner, "margin": abs(hp - op),
-            "winner_source": "leaderboard_points" if rows else None,
             "home_share": round(hp / (hp + op) * 100, 2) if hp + op else None,
             "home_top10_share": round(sum(hpts[:10]) / hp * 100, 1) if hp else None,
             "home_median": hpts[len(hpts) // 2] if hpts else 0,
@@ -229,14 +176,12 @@ def build(week_id, profile, opp_server=None):
         })
     remaining = sum(WINS[s["day"]] for s in stages if s["status"] != "final")
     to_clinch = TOTAL_WINS // 2 + 1
-    decided, score = official_result["decided"], official_result["score"]
+    decided = None
+    if score["home"] >= to_clinch:
+        decided = "home"
+    elif score["opp"] >= to_clinch:
+        decided = "opp"
     leading_live = {s["day"]: s["winner"] for s in stages if s["status"] == "live"}
-
-    result_source = official_result["source"]
-    # Never let an unverified leaderboard-derived total masquerade as the real match score.
-    published_score = score if official_result["official"] and score else None
-    summary_score = {"home": (published_score or {}).get("home"), "opp": (published_score or {}).get("opp")}
-    summary_score_source = result_source if official_result["official"] else "unverified"
 
     # ---- players (both alliances, keyed on the weekly board)
     weekly = boards["week"]
@@ -353,11 +298,7 @@ def build(week_id, profile, opp_server=None):
         "capture_window_server": [times[0], times[-1]] if times else None,
         "captured_at_approximate": any(v["approximate"] for v in snapshots.values()),
         "snapshots": snapshots,
-        "score": summary_score, "score_source": summary_score_source,
-        "result_official": official_result["official"],
-        "result_source": result_source, "result_note": official_result.get("note"),
-        "inferred_score": None if official_result["official"] else inferred_score,
-        "wins_remaining": remaining, "decided": decided, "leading_live": leading_live,
+        "score": score, "wins_remaining": remaining, "decided": decided, "leading_live": leading_live,
         "total_wins": TOTAL_WINS, "wins_to_clinch": to_clinch,
         "weekly_points": {"home": wk_home, "opp": wk_opp},
         "official_points": ({"home": legacy["weekly_result"].get("p1mp_official_points"),
