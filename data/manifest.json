@@ -60,5 +60,36 @@
     ],
     "captured_at_approximate": false,
     "data_version": "8f7d60a0b8"
+  },
+  {
+    "id": "2026-10-24",
+    "home": {
+      "tag": "P2MP",
+      "name": "NowaPolandia",
+      "server": "S117"
+    },
+    "opponent": {
+      "tag": "UFAs",
+      "name": "UnityForeverAliance",
+      "server": ""
+    },
+    "status": "final",
+    "score": {
+      "home": 0,
+      "opp": 13
+    },
+    "decided": "opp",
+    "weekly_points": {
+      "home": 1465526472,
+      "opp": 2686136167
+    },
+    "members": 98,
+    "captured_at_server": "2026-10-24T23:48:00-02:00",
+    "capture_window_server": [
+      "2026-10-24T23:36:42-02:00",
+      "2026-10-24T23:48:00-02:00"
+    ],
+    "captured_at_approximate": false,
+    "data_version": "34accbac12"
   }
 ]

@@ -1,0 +1,31 @@
+{
+  "runs": [
+    {
+      "started_server": "2026-10-24T23:34:40-02:00",
+      "ended_server": "2026-10-24T23:48:06-02:00",
+      "started_utc": "2026-10-25T01:34:40+00:00",
+      "tabs": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "week"
+      ],
+      "live_tabs": [
+        "sat",
+        "week"
+      ],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 960,
+      "frames_dir": "/Users/jeff/Library/Caches/s117-vs-captures/p2mp/2026-10-24/20261024-233440"
+    }
+  ],
+  "live_tabs": [
+    "sat",
+    "week"
+  ],
+  "last_capture_server": "2026-10-24T23:48:06-02:00"
+}
