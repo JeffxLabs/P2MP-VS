@@ -1,0 +1,59 @@
+{
+  "accepted": false,
+  "account": "p2mp",
+  "capture": {
+    "accepted": false,
+    "account": "p2mp",
+    "identity_proof": {
+      "account": "p2mp",
+      "identity": "apparatchik",
+      "player_id": "157173571701",
+      "serial": "127.0.0.1:5565",
+      "verified_at": "2026-11-14T21:37:26.400023+00:00"
+    },
+    "week": "2026-11-14"
+  },
+  "capture_events": 24,
+  "chunks": [
+    {
+      "bytes": 5362855,
+      "captures": 24,
+      "file": "frames-0000.zip",
+      "frame_ids": [
+        "frames/p2mp/2026-11-14/20261114-193645/00001_nav.png",
+        "frames/p2mp/2026-11-14/20261114-193645/00002_vs_icon_verify.png",
+        "frames/p2mp/2026-11-14/20261114-193645/00003_nav_after_vs.png",
+        "frames/p2mp/2026-11-14/20261114-193645/00004_nav.png",
+        "frames/p2mp/2026-11-14/20261114-193645/00005_details_tab_verify.png",
+        "frames/p2mp/2026-11-14/20261114-193707/00001_nav.png",
+        "frames/p2mp/2026-11-14/20261114-193707/00002_vs_icon_verify.png",
+        "frames/p2mp/2026-11-14/20261114-193707/00003_nav_after_vs.png",
+        "frames/p2mp/2026-11-14/20261114-193707/00004_nav.png",
+        "frames/p2mp/2026-11-14/20261114-193707/00005_details_tab_verify.png",
+        "identity/57b3cd08-4bd6-4025-9539-7caa06704b3a/00001_boot.png",
+        "identity/57b3cd08-4bd6-4025-9539-7caa06704b3a/00002_navigation_control_verify.png",
+        "identity/57b3cd08-4bd6-4025-9539-7caa06704b3a/00003_boot.png",
+        "identity/57b3cd08-4bd6-4025-9539-7caa06704b3a/00004_account_identity.png",
+        "identity/7b84a893-9f92-4861-bcaf-3ca8414ce403/00001_boot.png",
+        "identity/7b84a893-9f92-4861-bcaf-3ca8414ce403/00002_navigation_control_verify.png",
+        "identity/7b84a893-9f92-4861-bcaf-3ca8414ce403/00003_boot.png",
+        "identity/7b84a893-9f92-4861-bcaf-3ca8414ce403/00004_navigation_control_verify.png",
+        "identity/7b84a893-9f92-4861-bcaf-3ca8414ce403/00005_boot.png",
+        "identity/7b84a893-9f92-4861-bcaf-3ca8414ce403/00006_account_identity.png",
+        "identity/ffe8be96-152a-439f-abc6-ee427d52ee6e/00001_boot.png",
+        "identity/ffe8be96-152a-439f-abc6-ee427d52ee6e/00002_navigation_control_verify.png",
+        "identity/ffe8be96-152a-439f-abc6-ee427d52ee6e/00003_boot.png",
+        "identity/ffe8be96-152a-439f-abc6-ee427d52ee6e/00004_account_identity.png"
+      ],
+      "sha256": "1983e37de0ac115c2f0afe6cadfc9bfe30084cc1be60863ec01f99eb70fbfd5e",
+      "unique_images": 23
+    }
+  ],
+  "job_id": "F0353BA4-3889-41AC-B796-088795CFA534",
+  "purpose": "capture",
+  "requested_accounts": [
+    "p2mp"
+  ],
+  "schema_version": 1,
+  "week": "2026-11-14"
+}
