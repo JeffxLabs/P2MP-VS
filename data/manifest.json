@@ -91,5 +91,36 @@
     ],
     "captured_at_approximate": false,
     "data_version": "34accbac12"
+  },
+  {
+    "id": "2026-11-14",
+    "home": {
+      "tag": "P2MP",
+      "name": "NowaPolandia",
+      "server": "S117"
+    },
+    "opponent": {
+      "tag": "R4GE",
+      "name": "Asylum",
+      "server": ""
+    },
+    "status": "final",
+    "score": {
+      "home": 9,
+      "opp": 4
+    },
+    "decided": "home",
+    "weekly_points": {
+      "home": 2337347248,
+      "opp": 2198645095
+    },
+    "members": 91,
+    "captured_at_server": "2026-11-14T20:07:28-02:00",
+    "capture_window_server": [
+      "2026-11-14T19:56:02-02:00",
+      "2026-11-14T20:07:28-02:00"
+    ],
+    "captured_at_approximate": false,
+    "data_version": "8d7c46cd4c"
   }
 ]

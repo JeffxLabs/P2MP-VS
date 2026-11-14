@@ -1,0 +1,324 @@
+{
+  "id": "2026-11-14",
+  "home": {
+    "tag": "P2MP",
+    "name": "NowaPolandia",
+    "server": "S117"
+  },
+  "opponent": {
+    "tag": "R4GE",
+    "name": "Asylum",
+    "server": ""
+  },
+  "status": "final",
+  "live_tabs": [
+    "sat",
+    "week"
+  ],
+  "captured_at_server": "2026-11-14T20:07:28-02:00",
+  "capture_window_server": [
+    "2026-11-14T19:56:02-02:00",
+    "2026-11-14T20:07:28-02:00"
+  ],
+  "captured_at_approximate": false,
+  "snapshots": {
+    "mon": {
+      "at": "2026-11-14T19:56:02-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "tue": {
+      "at": "2026-11-14T19:58:07-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "wed": {
+      "at": "2026-11-14T20:00:35-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "thu": {
+      "at": "2026-11-14T20:02:33-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "fri": {
+      "at": "2026-11-14T20:04:03-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "sat": {
+      "at": "2026-11-14T20:05:53-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "week": {
+      "at": "2026-11-14T20:07:28-02:00",
+      "source": "screenshots",
+      "approximate": false
+    }
+  },
+  "score": {
+    "home": 9,
+    "opp": 4
+  },
+  "wins_remaining": 0,
+  "decided": "home",
+  "leading_live": {},
+  "total_wins": 13,
+  "wins_to_clinch": 7,
+  "weekly_points": {
+    "home": 2337347248,
+    "opp": 2198645095
+  },
+  "official_points": null,
+  "quota": 11400000,
+  "home_quota": {
+    "met": 71,
+    "near": 0,
+    "below": 20,
+    "members": 91,
+    "left": 1
+  },
+  "stages": [
+    {
+      "day": "mon",
+      "stage": 1,
+      "wins": 1,
+      "status": "final",
+      "home_points": 434349266,
+      "opp_points": 422593270,
+      "home_players": 84,
+      "opp_players": 87,
+      "winner": "home",
+      "margin": 11755996,
+      "home_share": 50.69,
+      "home_top10_share": 26.4,
+      "home_median": 4337888,
+      "mvp_home": {
+        "player": "JSP💪",
+        "points": 17067802,
+        "rank": 3
+      },
+      "mvp_opp": {
+        "player": "LilithsSlaveBoy",
+        "points": 18387496,
+        "rank": 1
+      }
+    },
+    {
+      "day": "tue",
+      "stage": 2,
+      "wins": 2,
+      "status": "final",
+      "home_points": 343163503,
+      "opp_points": 313748237,
+      "home_players": 86,
+      "opp_players": 89,
+      "winner": "home",
+      "margin": 29415266,
+      "home_share": 52.24,
+      "home_top10_share": 28.9,
+      "home_median": 3134271,
+      "mvp_home": {
+        "player": "Rzurzu",
+        "points": 15247870,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "MrGriz",
+        "points": 11822185,
+        "rank": 2
+      }
+    },
+    {
+      "day": "wed",
+      "stage": 3,
+      "wins": 2,
+      "status": "final",
+      "home_points": 361135814,
+      "opp_points": 338123241,
+      "home_players": 85,
+      "opp_players": 90,
+      "winner": "home",
+      "margin": 23012573,
+      "home_share": 51.65,
+      "home_top10_share": 26.7,
+      "home_median": 3647025,
+      "mvp_home": {
+        "player": "Rzurzu",
+        "points": 12206777,
+        "rank": 4
+      },
+      "mvp_opp": {
+        "player": "Zemog",
+        "points": 18526273,
+        "rank": 1
+      }
+    },
+    {
+      "day": "thu",
+      "stage": 4,
+      "wins": 2,
+      "status": "final",
+      "home_points": 614100276,
+      "opp_points": 557454623,
+      "home_players": 81,
+      "opp_players": 86,
+      "winner": "home",
+      "margin": 56645653,
+      "home_share": 52.42,
+      "home_top10_share": 37.9,
+      "home_median": 5214710,
+      "mvp_home": {
+        "player": "turkito",
+        "points": 35816212,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "Zemog",
+        "points": 33467162,
+        "rank": 2
+      }
+    },
+    {
+      "day": "fri",
+      "stage": 5,
+      "wins": 2,
+      "status": "final",
+      "home_points": 387405322,
+      "opp_points": 363069037,
+      "home_players": 86,
+      "opp_players": 90,
+      "winner": "home",
+      "margin": 24336285,
+      "home_share": 51.62,
+      "home_top10_share": 27.1,
+      "home_median": 3935056,
+      "mvp_home": {
+        "player": "Sweatybollocks",
+        "points": 18691018,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "Kozak",
+        "points": 16601905,
+        "rank": 2
+      }
+    },
+    {
+      "day": "sat",
+      "stage": 6,
+      "wins": 4,
+      "status": "final",
+      "home_points": 199498646,
+      "opp_points": 247920194,
+      "home_players": 85,
+      "opp_players": 92,
+      "winner": "opp",
+      "margin": 48421548,
+      "home_share": 44.59,
+      "home_top10_share": 29.4,
+      "home_median": 1963971,
+      "mvp_home": {
+        "player": "Kiki008",
+        "points": 7632667,
+        "rank": 7
+      },
+      "mvp_opp": {
+        "player": "LilithsSlaveBoy",
+        "points": 24804946,
+        "rank": 1
+      }
+    }
+  ],
+  "integrity": {
+    "tabs": {
+      "mon": {
+        "rows": 171,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "tue": {
+        "rows": 175,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {
+          "107": "name disagree"
+        },
+        "live": false
+      },
+      "wed": {
+        "rows": 175,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "thu": {
+        "rows": 167,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "fri": {
+        "rows": 176,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {
+          "138": "name disagree"
+        },
+        "live": false
+      },
+      "sat": {
+        "rows": 177,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": true
+      },
+      "week": {
+        "rows": 185,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": true
+      }
+    },
+    "checksum": {
+      "exact": 179,
+      "live": 1,
+      "mismatch": 1,
+      "joined": 4,
+      "left": 5
+    },
+    "checksum_issues": [
+      {
+        "player": "dante121",
+        "tag": "P2MP",
+        "weekly": 3178178,
+        "sum_days": 6452056,
+        "diff": -3273878,
+        "status": "mismatch"
+      }
+    ]
+  },
+  "notes": []
+}
