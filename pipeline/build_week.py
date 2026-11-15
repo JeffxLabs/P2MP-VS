@@ -111,6 +111,36 @@ def build(week_id, profile, opp_server=None):
                     r["alliance_tag"], r["alliance_name"] = hint_tag, hint_name
                     r["alliance"] = f"[{hint_tag}] {hint_name}"
             r["player"] = alias_name(r["player"], r.get("alliance", ""))
+    has_weekly_board = bool(boards["week"])
+    if not has_weekly_board and any(boards[d] for d in DAYS):
+        agg = {}
+        for d in DAYS:
+            for r in boards[d]:
+                k = name_key(r["player"])
+                if not k:
+                    continue
+                cur = agg.get(k)
+                pts = r.get("points") or 0
+                if cur is None:
+                    agg[k] = {
+                        "player": r["player"],
+                        "points": pts,
+                        "alliance": r.get("alliance", ""),
+                        "alliance_tag": r.get("alliance_tag", ""),
+                        "alliance_name": r.get("alliance_name", ""),
+                        "raw": "synthesized_from_days",
+                    }
+                else:
+                    cur["points"] += pts
+                    if len(r["player"]) >= len(cur["player"]):
+                        cur["player"] = r["player"]
+                    for fld in ("alliance", "alliance_tag", "alliance_name"):
+                        if r.get(fld):
+                            cur[fld] = r[fld]
+        synth = sorted(agg.values(), key=lambda x: (-x["points"], x["player"].casefold()))
+        for idx, row in enumerate(synth, 1):
+            row["rank"] = idx
+        boards["week"] = synth
     capture = load(os.path.join(wdir, "capture.json"), {}) or {}
     qa = load(os.path.join(wdir, "capture_qa.json"), {}) or {}
     legacy = load(os.path.join(wdir, "duel_summary.json"), {}) or {}
@@ -292,7 +322,7 @@ def build(week_id, profile, opp_server=None):
         "id": week_id,
         "home": {"tag": home, "name": profile["home_name"], "server": profile["home_server"]},
         "opponent": {"tag": opp, "name": opp_name, "server": opp_server},
-        "status": "final",
+        "status": "final" if (has_weekly_board and remaining == 0) else "in_progress",
         "live_tabs": sorted(live),
         "captured_at_server": times[-1] if times else capture.get("last_capture_server"),
         "capture_window_server": [times[0], times[-1]] if times else None,
@@ -368,7 +398,11 @@ def main():
     profile = load(os.path.join(PIPELINE_DIR, "profiles", f"{args.profile}.json"))
     weeks = sorted(os.listdir(WEEKS_DIR)) if args.all else [args.week]
     for w in weeks:
-        if not os.path.exists(os.path.join(WEEKS_DIR, w, "week.json")):
+        wdir = os.path.join(WEEKS_DIR, w)
+        if not (
+            os.path.exists(os.path.join(wdir, "week.json"))
+            or any(os.path.exists(os.path.join(wdir, f"{d}.json")) for d in DAYS)
+        ):
             continue
         s = build(w, profile, args.opp_server if not args.all else None)
         integ = s["integrity"]

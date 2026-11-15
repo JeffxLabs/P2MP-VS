@@ -28,7 +28,18 @@ VIEW_TOP_WEEK = 257    # This Week has no day-tab row, so its list starts 88 px 
 VIEW_BOT = 1512        # last pixel of the list viewport (the pinned own-rank row starts below)
 EDGE_TOL = 6           # a row whose box sticks out of the viewport by more than this is cut off
 
-BANNER_RX = re.compile(r"\s*\b(Congrat\w*|Commander|Warzone|reaches|has obtained|obtained)\b.*$", re.I)
+BANNER_RX = re.compile(
+    r"\s*(?:"
+    r"(?:\b|(?<=\S))Congrat(?:ulations|s)\b"
+    r"|(?<=\S)Commander\s*[\[\(#]"
+    r"|\bCommander\s+(?:[\[\(#]\S+|\S+\s+(?:has\s+obtained|obtained|reaches)\b)"
+    r"|\bWarzone\s+#?\d+"
+    r"|\bhas\s+obtained\b"
+    r"|\s+\breaches\s+(?:Lv|level|stage|VIP|#?\d)"
+    r"|(?:Alliance|[i1l|]?ll?iance)\s+Chest\b"
+    r").*$",
+    re.I,
+)
 
 RANK_X_MAX = 200
 NAME_X_MIN = 315
