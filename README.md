@@ -12,36 +12,6 @@ leaves an operator pause of the Apparatchik guard alone, or pauses and resumes i
 
 ---
 
-## Weeks tracked
-
-| Week (Sat) | Opponent | Score | Weekly points (leaderboard) | Data snapshot (server time, UTC−2) |
-| :-- | :-- | :-: | :-- | :-- |
-| 2026-10-03 | [JKRS] JOKERS | 0 : 13 | 2,238,799,329 vs 3,900,144,141 | Sat 2026-10-03 22:53–23:28 (first capture) |
-
-Board snapshots for 2026-10-03: MON 22:53, TUE 23:00, WED 23:03, THU 23:07, FRI 23:11, SAT 23:24, This Week 23:28.
-
-### 2026-10-03 vs [JKRS] JOKERS
-
-| Stage | Wins | [P2MP] | [JKRS] | Players | Top [P2MP] | Top [JKRS] |
-| :-- | :-: | --: | --: | :-: | :-- | :-- |
-| Mon · Radar Exploration | 1 | 368,125,611 | **632,453,547** | 89 / 96 | Chungi 13.0M | Shalix 50.5M |
-| Tue · Base Construction | 2 | 279,299,118 | **510,120,263** | 86 / 99 | evrenhalo 9.3M | Mydnyte 18.8M |
-| Wed · Tech Research | 2 | 316,621,916 | **535,506,755** | 90 / 99 | Chungi 28.8M | Shalix 32.9M |
-| Thu · Hero Training | 2 | 601,936,214 | **1,258,598,422** | 91 / 96 | Austen 23.8M | Bxom 56.7M |
-| Fri · Full Military Preparation | 2 | 409,809,575 | **543,525,971** | 93 / 97 | Chungi 51.3M | Shalix 33.8M |
-| Sat · Enemy Assault | 4 | 262,167,614 | **422,944,864** | 95 / 98 | Chungi 32.4M | Shalix 43.8M |
-
-Quota (11.4M weekly, the P1MP default — set `weekly_quota` in `pipeline/profiles/p2mp.json` if P2MP uses another):
-66 of 95 members met it, 1 near, 28 below.
-
-Data checks: all seven boards contiguous with points in descending order, nothing unresolved. Weekly checksum: 181 exact,
-10 joined mid-week, 6 left; 2 differences come from the game's own totals (every read agreed): ddingdongbel
-(weekly 3,931,845 vs days 5,270,367) and DiRtY21B117 (−126). Decorated names OCR cannot read reliably are pinned in
-`data/aliases.json` (JSP💪, °♡✧Jey✧♡°, GRIN♤♡◇♧, ALLSTAR (stylized), Babygirl100z, robOn8er) and confirmed by the checksum.
-The opponent's server is not known yet (`meta.json` → `opponent_server`).
-
----
-
 ## Competition rules
 
 Monday–Saturday, one stage per day. Daily wins: Mon 1, Tue–Fri 2 each, Sat 4 — 13 in total, 7 clinches the match.
