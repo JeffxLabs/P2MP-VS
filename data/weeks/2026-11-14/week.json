@@ -5,7 +5,7 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 101544042
+    "points": 104635418
   },
   {
     "rank": 2,
@@ -29,7 +29,7 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 84021258
+    "points": 88862854
   },
   {
     "rank": 5,
@@ -213,7 +213,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 42757876
+    "points": 42802425
   },
   {
     "rank": 28,
@@ -221,7 +221,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 41854800
+    "points": 42001716
   },
   {
     "rank": 29,
@@ -237,7 +237,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 40635355
+    "points": 40855355
   },
   {
     "rank": 31,
@@ -245,7 +245,7 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 40159913
+    "points": 40297408
   },
   {
     "rank": 32,
@@ -285,7 +285,7 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 37803609
+    "points": 37806359
   },
   {
     "rank": 37,
@@ -293,7 +293,7 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 37575957
+    "points": 37614869
   },
   {
     "rank": 38,
@@ -317,7 +317,7 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 36189864
+    "points": 36356356
   },
   {
     "rank": 41,
@@ -329,19 +329,19 @@
   },
   {
     "rank": 42,
+    "player": "nathankallil",
+    "alliance": "[R4GE] Asylum",
+    "alliance_tag": "R4GE",
+    "alliance_name": "Asylum",
+    "points": 33761781
+  },
+  {
+    "rank": 43,
     "player": "robOn8er",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 33585584
-  },
-  {
-    "rank": 43,
-    "player": "nathankallil",
-    "alliance": "[R4GE] Asylum",
-    "alliance_tag": "R4GE",
-    "alliance_name": "Asylum",
-    "points": 33579732
   },
   {
     "rank": 44,
@@ -377,11 +377,11 @@
   },
   {
     "rank": 48,
-    "player": "DannyDecente",
+    "player": "Fasderto",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 31722797
+    "points": 32550424
   },
   {
     "rank": 49,
@@ -389,23 +389,23 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 31628025
+    "points": 32017974
   },
   {
     "rank": 50,
+    "player": "DannyDecente",
+    "alliance": "[R4GE] Asylum",
+    "alliance_tag": "R4GE",
+    "alliance_name": "Asylum",
+    "points": 31722797
+  },
+  {
+    "rank": 51,
     "player": "Benjy111",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 31102962
-  },
-  {
-    "rank": 51,
-    "player": "Fasderto",
-    "alliance": "[R4GE] Asylum",
-    "alliance_tag": "R4GE",
-    "alliance_name": "Asylum",
-    "points": 30984476
   },
   {
     "rank": 52,
@@ -425,19 +425,19 @@
   },
   {
     "rank": 54,
+    "player": "Dewellswings",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 29977208
+  },
+  {
+    "rank": 55,
     "player": "OliKielce",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 29787137
-  },
-  {
-    "rank": 55,
-    "player": "Dewellswings",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 29676772
   },
   {
     "rank": 56,
@@ -465,6 +465,14 @@
   },
   {
     "rank": 59,
+    "player": "Brotherman",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 28624522
+  },
+  {
+    "rank": 60,
     "player": "GaladrielMorgoth",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -472,7 +480,7 @@
     "points": 28468517
   },
   {
-    "rank": 60,
+    "rank": 61,
     "player": "Apollo17",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -480,20 +488,12 @@
     "points": 28222704
   },
   {
-    "rank": 61,
+    "rank": 62,
     "player": "MSG-Rev",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 28123426
-  },
-  {
-    "rank": 62,
-    "player": "Brotherman",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 27970715
   },
   {
     "rank": 63,
@@ -553,6 +553,14 @@
   },
   {
     "rank": 70,
+    "player": "Apparatchik",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 25715926
+  },
+  {
+    "rank": 71,
     "player": "Pfj",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -560,7 +568,7 @@
     "points": 25629656
   },
   {
-    "rank": 71,
+    "rank": 72,
     "player": "Tbhenry",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -568,7 +576,7 @@
     "points": 25545604
   },
   {
-    "rank": 72,
+    "rank": 73,
     "player": "ROBsss3V666",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -576,23 +584,23 @@
     "points": 25084794
   },
   {
-    "rank": 73,
-    "player": "Apparatchik",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 24703852
-  },
-  {
     "rank": 74,
     "player": "JAMES1984",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 24690994
+    "points": 24930243
   },
   {
     "rank": 75,
+    "player": "BSGalactica",
+    "alliance": "[R4GE] Asylum",
+    "alliance_tag": "R4GE",
+    "alliance_name": "Asylum",
+    "points": 24284229
+  },
+  {
+    "rank": 76,
     "player": "Pesasutan",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -600,20 +608,12 @@
     "points": 24170110
   },
   {
-    "rank": 76,
+    "rank": 77,
     "player": "LINK",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 23988642
-  },
-  {
-    "rank": 77,
-    "player": "BSGalactica",
-    "alliance": "[R4GE] Asylum",
-    "alliance_tag": "R4GE",
-    "alliance_name": "Asylum",
-    "points": 23944981
   },
   {
     "rank": 78,
@@ -629,23 +629,23 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 23725656
+    "points": 23808155
   },
   {
     "rank": 80,
-    "player": "JoboL",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 22584296
-  },
-  {
-    "rank": 81,
     "player": "DrifterFF66",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 22519530
+    "points": 22810755
+  },
+  {
+    "rank": 81,
+    "player": "JoboL",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 22608716
   },
   {
     "rank": 82,
@@ -653,7 +653,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 21967395
+    "points": 22011037
   },
   {
     "rank": 83,
@@ -665,19 +665,19 @@
   },
   {
     "rank": 84,
+    "player": "PanTofelek",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 21309602
+  },
+  {
+    "rank": 85,
     "player": "KILLMUNGER",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 21251345
-  },
-  {
-    "rank": 85,
-    "player": "PanTofelek",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 21096554
   },
   {
     "rank": 86,
@@ -705,6 +705,14 @@
   },
   {
     "rank": 89,
+    "player": "LouD70",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 19934066
+  },
+  {
+    "rank": 90,
     "player": "DarioG",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -712,15 +720,15 @@
     "points": 19716663
   },
   {
-    "rank": 90,
-    "player": "LouD70",
+    "rank": 91,
+    "player": "Cikita",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 19527932
+    "points": 19692057
   },
   {
-    "rank": 91,
+    "rank": 92,
     "player": "ColinNZ",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -728,7 +736,7 @@
     "points": 19425206
   },
   {
-    "rank": 92,
+    "rank": 93,
     "player": "LlepAmLescrot",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -736,20 +744,12 @@
     "points": 19334399
   },
   {
-    "rank": 93,
+    "rank": 94,
     "player": "Cyryl",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
     "points": 18947816
-  },
-  {
-    "rank": 94,
-    "player": "Cikita",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 18806562
   },
   {
     "rank": 95,
@@ -777,6 +777,14 @@
   },
   {
     "rank": 98,
+    "player": "bendover68",
+    "alliance": "[R4GE] Asylum",
+    "alliance_tag": "R4GE",
+    "alliance_name": "Asylum",
+    "points": 18116542
+  },
+  {
+    "rank": 99,
     "player": "Victory2018",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -784,15 +792,15 @@
     "points": 17960326
   },
   {
-    "rank": 99,
-    "player": "bendover68",
+    "rank": 100,
+    "player": "Mikathron",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 17933267
+    "points": 17260324
   },
   {
-    "rank": 100,
+    "rank": 101,
     "player": "AlexandrU",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -800,7 +808,7 @@
     "points": 16900814
   },
   {
-    "rank": 101,
+    "rank": 102,
     "player": "KiCkz",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -808,7 +816,7 @@
     "points": 16848258
   },
   {
-    "rank": 102,
+    "rank": 103,
     "player": "MonkeyDZombie",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -816,20 +824,12 @@
     "points": 16752678
   },
   {
-    "rank": 103,
+    "rank": 104,
     "player": "striker123",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
     "points": 16689011
-  },
-  {
-    "rank": 104,
-    "player": "Mikathron",
-    "alliance": "[R4GE] Asylum",
-    "alliance_tag": "R4GE",
-    "alliance_name": "Asylum",
-    "points": 16312324
   },
   {
     "rank": 105,
@@ -845,7 +845,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 15648288
+    "points": 15698448
   },
   {
     "rank": 107,
@@ -889,7 +889,7 @@
   },
   {
     "rank": 112,
-    "player": "GRYR",
+    "player": "GRY",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
@@ -897,6 +897,14 @@
   },
   {
     "rank": 113,
+    "player": "Bezerkers",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 14476486
+  },
+  {
+    "rank": 114,
     "player": "Lokkj",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -904,7 +912,7 @@
     "points": 14430268
   },
   {
-    "rank": 114,
+    "rank": 115,
     "player": "Biohazard84",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -912,20 +920,12 @@
     "points": 14057530
   },
   {
-    "rank": 115,
+    "rank": 116,
     "player": "Chillen",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 13755764
-  },
-  {
-    "rank": 116,
-    "player": "Bezerkers",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 13746253
   },
   {
     "rank": 117,
@@ -973,7 +973,7 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 12966826
+    "points": 13051960
   },
   {
     "rank": 123,
@@ -993,6 +993,14 @@
   },
   {
     "rank": 125,
+    "player": "nyc130",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 12539617
+  },
+  {
+    "rank": 126,
     "player": "WeaponX",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1000,7 +1008,7 @@
     "points": 12413566
   },
   {
-    "rank": 126,
+    "rank": 127,
     "player": "nandonhk31",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -1008,20 +1016,12 @@
     "points": 12398128
   },
   {
-    "rank": 127,
+    "rank": 128,
     "player": "MCRNDonager",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
     "points": 12280920
-  },
-  {
-    "rank": 128,
-    "player": "nуc130",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 11938693
   },
   {
     "rank": 129,
@@ -1069,10 +1069,18 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 10666941
+    "points": 10708499
   },
   {
     "rank": 135,
+    "player": "Gürkan",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 10564518
+  },
+  {
+    "rank": 136,
     "player": "jim20j",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
@@ -1080,20 +1088,12 @@
     "points": 10525394
   },
   {
-    "rank": 136,
+    "rank": 137,
     "player": "Jer2026",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 10415694
-  },
-  {
-    "rank": 137,
-    "player": "Gürkan",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 10334145
+    "points": 10505694
   },
   {
     "rank": 138,
@@ -1121,6 +1121,14 @@
   },
   {
     "rank": 141,
+    "player": "slut69",
+    "alliance": "[R4GE] Asylum",
+    "alliance_tag": "R4GE",
+    "alliance_name": "Asylum",
+    "points": 9719929
+  },
+  {
+    "rank": 142,
     "player": "TheSkinWalker",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1128,28 +1136,20 @@
     "points": 9565814
   },
   {
-    "rank": 142,
+    "rank": 143,
     "player": "Blitzen",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 9322849
+    "points": 9323495
   },
   {
-    "rank": 143,
+    "rank": 144,
     "player": "DavidEmma",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
     "points": 9194380
-  },
-  {
-    "rank": 144,
-    "player": "slut69",
-    "alliance": "[R4GE] Asylum",
-    "alliance_tag": "R4GE",
-    "alliance_name": "Asylum",
-    "points": 9123829
   },
   {
     "rank": 145,
@@ -1177,19 +1177,19 @@
   },
   {
     "rank": 148,
+    "player": "Nikolai2312",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 8759781
+  },
+  {
+    "rank": 149,
     "player": "Mansi",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
     "points": 8688930
-  },
-  {
-    "rank": 149,
-    "player": "Nikolai2312",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 8646129
   },
   {
     "rank": 150,
@@ -1213,18 +1213,26 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 7912935
+    "points": 8437023
   },
   {
     "rank": 153,
+    "player": "HazeWhisper",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 7728381
+  },
+  {
+    "rank": 154,
     "player": "GWI",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 7657513
+    "points": 7665844
   },
   {
-    "rank": 154,
+    "rank": 155,
     "player": "NCC-1701",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1232,20 +1240,12 @@
     "points": 7420302
   },
   {
-    "rank": 155,
+    "rank": 156,
     "player": "RelaxAndPlay",
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
     "points": 7199950
-  },
-  {
-    "rank": 156,
-    "player": "HazeWhisper",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 7071063
   },
   {
     "rank": 157,
@@ -1405,7 +1405,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 2775358
+    "points": 2776807
   },
   {
     "rank": 177,
@@ -1421,7 +1421,7 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 2718072
+    "points": 2725662
   },
   {
     "rank": 179,
@@ -1445,7 +1445,7 @@
     "alliance": "[R4GE] Asylum",
     "alliance_tag": "R4GE",
     "alliance_name": "Asylum",
-    "points": 2243792
+    "points": 2246954
   },
   {
     "rank": 182,
@@ -1477,6 +1477,6 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 729866
+    "points": 741992
   }
 ]

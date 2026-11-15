@@ -15,45 +15,45 @@
     "sat",
     "week"
   ],
-  "captured_at_server": "2026-11-14T20:07:28-02:00",
+  "captured_at_server": "2026-11-14T22:43:27-02:00",
   "capture_window_server": [
-    "2026-11-14T19:56:02-02:00",
-    "2026-11-14T20:07:28-02:00"
+    "2026-11-14T22:32:17-02:00",
+    "2026-11-14T22:43:27-02:00"
   ],
   "captured_at_approximate": false,
   "snapshots": {
     "mon": {
-      "at": "2026-11-14T19:56:02-02:00",
+      "at": "2026-11-14T22:32:17-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "tue": {
-      "at": "2026-11-14T19:58:07-02:00",
+      "at": "2026-11-14T22:33:58-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "wed": {
-      "at": "2026-11-14T20:00:35-02:00",
+      "at": "2026-11-14T22:35:20-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "thu": {
-      "at": "2026-11-14T20:02:33-02:00",
+      "at": "2026-11-14T22:38:39-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "fri": {
-      "at": "2026-11-14T20:04:03-02:00",
+      "at": "2026-11-14T22:40:10-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "sat": {
-      "at": "2026-11-14T20:05:53-02:00",
+      "at": "2026-11-14T22:41:43-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "week": {
-      "at": "2026-11-14T20:07:28-02:00",
+      "at": "2026-11-14T22:43:27-02:00",
       "source": "screenshots",
       "approximate": false
     }
@@ -68,8 +68,8 @@
   "total_wins": 13,
   "wins_to_clinch": 7,
   "weekly_points": {
-    "home": 2337347248,
-    "opp": 2198645095
+    "home": 2344506736,
+    "opp": 2211689035
   },
   "official_points": null,
   "quota": 11400000,
@@ -78,7 +78,7 @@
     "near": 0,
     "below": 20,
     "members": 91,
-    "left": 1
+    "left": 0
   },
   "stages": [
     {
@@ -211,18 +211,18 @@
       "stage": 6,
       "wins": 4,
       "status": "final",
-      "home_points": 199498646,
-      "opp_points": 247920194,
+      "home_points": 206658134,
+      "opp_points": 260964134,
       "home_players": 85,
-      "opp_players": 92,
+      "opp_players": 93,
       "winner": "opp",
-      "margin": 48421548,
-      "home_share": 44.59,
-      "home_top10_share": 29.4,
-      "home_median": 1963971,
+      "margin": 54306000,
+      "home_share": 44.19,
+      "home_top10_share": 28.5,
+      "home_median": 2103259,
       "mvp_home": {
         "player": "Kiki008",
-        "points": 7632667,
+        "points": 7852667,
         "rank": 7
       },
       "mvp_opp": {
@@ -240,7 +240,9 @@
         "points_descending": true,
         "missing_points": 0,
         "missing_names": 0,
-        "unresolved": {},
+        "unresolved": {
+          "89": "name disagree"
+        },
         "live": false
       },
       "tue": {
@@ -249,9 +251,7 @@
         "points_descending": true,
         "missing_points": 0,
         "missing_names": 0,
-        "unresolved": {
-          "107": "name disagree"
-        },
+        "unresolved": {},
         "live": false
       },
       "wed": {
@@ -278,13 +278,11 @@
         "points_descending": true,
         "missing_points": 0,
         "missing_names": 0,
-        "unresolved": {
-          "138": "name disagree"
-        },
+        "unresolved": {},
         "live": false
       },
       "sat": {
-        "rows": 177,
+        "rows": 178,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
@@ -303,11 +301,10 @@
       }
     },
     "checksum": {
-      "exact": 179,
-      "live": 1,
+      "exact": 180,
       "mismatch": 1,
       "joined": 4,
-      "left": 5
+      "left": 4
     },
     "checksum_issues": [
       {

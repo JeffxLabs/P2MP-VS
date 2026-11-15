@@ -111,16 +111,16 @@ window.VS_MANIFEST = [
     },
     "decided": "home",
     "weekly_points": {
-      "home": 2337347248,
-      "opp": 2198645095
+      "home": 2344506736,
+      "opp": 2211689035
     },
     "members": 91,
-    "captured_at_server": "2026-11-14T20:07:28-02:00",
+    "captured_at_server": "2026-11-14T22:43:27-02:00",
     "capture_window_server": [
-      "2026-11-14T19:56:02-02:00",
-      "2026-11-14T20:07:28-02:00"
+      "2026-11-14T22:32:17-02:00",
+      "2026-11-14T22:43:27-02:00"
     ],
     "captured_at_approximate": false,
-    "data_version": "8d7c46cd4c"
+    "data_version": "bcfd3f4b40"
   }
 ];
