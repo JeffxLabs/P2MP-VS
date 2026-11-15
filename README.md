@@ -6,7 +6,7 @@ multi-week trends.
 
 **Dashboard:** https://jeffxlabs.github.io/P2MP-VS/ — dark/light themes, 10 languages, deep links for every view.
 
-Same pipeline and dashboard as [[P1MP] JU1CE VS](https://jeffxlabs.github.io/P1MP-VS/); this site is configured by
+Same pipeline and dashboard as [P1MP] JU1CE VS; this site is configured by
 `pipeline/profiles/p2mp.json` (captured from the Apparatchik account's BlueStacks instance, 127.0.0.1:5565; the capture
 leaves an operator pause of the Apparatchik guard alone, or pauses and resumes it, and ends on the city view).
 
