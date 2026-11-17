@@ -1,0 +1,19 @@
+{
+  "runs": [
+    {
+      "started_server": "2026-11-17T14:32:59-02:00",
+      "ended_server": "2026-11-17T14:34:28-02:00",
+      "started_utc": "2026-11-17T16:32:59+00:00",
+      "tabs": [
+        "mon"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 127,
+      "frames_dir": "p2mp/2026-11-21/20261117-143259"
+    }
+  ],
+  "live_tabs": [],
+  "last_capture_server": "2026-11-17T14:34:28-02:00"
+}

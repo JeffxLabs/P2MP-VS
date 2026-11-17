@@ -122,5 +122,36 @@ window.VS_MANIFEST = [
     ],
     "captured_at_approximate": false,
     "data_version": "bcfd3f4b40"
+  },
+  {
+    "id": "2026-11-21",
+    "home": {
+      "tag": "P2MP",
+      "name": "NowaPolandia",
+      "server": "S117"
+    },
+    "opponent": {
+      "tag": "OFF",
+      "name": "OnlyForFans",
+      "server": ""
+    },
+    "status": "in_progress",
+    "score": {
+      "home": 0,
+      "opp": 1
+    },
+    "decided": null,
+    "weekly_points": {
+      "home": 531165740,
+      "opp": 581306227
+    },
+    "members": 92,
+    "captured_at_server": "2026-11-17T14:34:26-02:00",
+    "capture_window_server": [
+      "2026-11-17T14:34:26-02:00",
+      "2026-11-17T14:34:26-02:00"
+    ],
+    "captured_at_approximate": false,
+    "data_version": "259485282a"
   }
 ];
