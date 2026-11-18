@@ -12,10 +12,10 @@
   },
   "status": "in_progress",
   "live_tabs": [],
-  "captured_at_server": "2026-11-17T14:34:26-02:00",
+  "captured_at_server": "2026-11-18T07:01:37-02:00",
   "capture_window_server": [
     "2026-11-17T14:34:26-02:00",
-    "2026-11-17T14:34:26-02:00"
+    "2026-11-18T07:01:37-02:00"
   ],
   "captured_at_approximate": false,
   "snapshots": {
@@ -23,28 +23,33 @@
       "at": "2026-11-17T14:34:26-02:00",
       "source": "screenshots",
       "approximate": false
+    },
+    "tue": {
+      "at": "2026-11-18T07:01:37-02:00",
+      "source": "screenshots",
+      "approximate": false
     }
   },
   "score": {
     "home": 0,
-    "opp": 1
+    "opp": 3
   },
-  "wins_remaining": 12,
+  "wins_remaining": 10,
   "decided": null,
   "leading_live": {},
   "total_wins": 13,
   "wins_to_clinch": 7,
   "weekly_points": {
-    "home": 531165740,
-    "opp": 581306227
+    "home": 843315988,
+    "opp": 946527018
   },
   "official_points": null,
   "quota": 11400000,
   "home_quota": {
-    "met": 10,
-    "near": 0,
-    "below": 82,
-    "members": 92,
+    "met": 27,
+    "near": 1,
+    "below": 68,
+    "members": 96,
     "left": 0
   },
   "stages": [
@@ -77,18 +82,26 @@
       "day": "tue",
       "stage": 2,
       "wins": 2,
-      "status": "pending",
-      "home_points": 0,
-      "opp_points": 0,
-      "home_players": 0,
-      "opp_players": 0,
-      "winner": null,
-      "margin": 0,
-      "home_share": null,
-      "home_top10_share": null,
-      "home_median": 0,
-      "mvp_home": null,
-      "mvp_opp": null
+      "status": "final",
+      "home_points": 312150248,
+      "opp_points": 419766483,
+      "home_players": 94,
+      "opp_players": 78,
+      "winner": "opp",
+      "margin": 107616235,
+      "home_share": 42.65,
+      "home_top10_share": 25.7,
+      "home_median": 2875542,
+      "mvp_home": {
+        "player": "T92",
+        "points": 13657040,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "MartishaT",
+        "points": 11779478,
+        "rank": 2
+      }
     },
     {
       "day": "wed",
@@ -171,7 +184,7 @@
         "live": false
       },
       "tue": {
-        "rows": 0,
+        "rows": 178,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
@@ -216,7 +229,7 @@
         "live": false
       },
       "week": {
-        "rows": 179,
+        "rows": 185,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,

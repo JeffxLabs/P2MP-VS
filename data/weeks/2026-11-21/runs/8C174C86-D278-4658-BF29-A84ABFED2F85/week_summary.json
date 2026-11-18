@@ -1,0 +1,247 @@
+{
+  "id": "2026-11-21",
+  "home": {
+    "tag": "P2MP",
+    "name": "NowaPolandia",
+    "server": "S117"
+  },
+  "opponent": {
+    "tag": "OFF",
+    "name": "OnlyForFans",
+    "server": ""
+  },
+  "status": "in_progress",
+  "live_tabs": [],
+  "captured_at_server": "2026-11-18T07:01:37-02:00",
+  "capture_window_server": [
+    "2026-11-17T14:34:26-02:00",
+    "2026-11-18T07:01:37-02:00"
+  ],
+  "captured_at_approximate": false,
+  "snapshots": {
+    "mon": {
+      "at": "2026-11-17T14:34:26-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "tue": {
+      "at": "2026-11-18T07:01:37-02:00",
+      "source": "screenshots",
+      "approximate": false
+    }
+  },
+  "score": {
+    "home": 0,
+    "opp": 3
+  },
+  "wins_remaining": 10,
+  "decided": null,
+  "leading_live": {},
+  "total_wins": 13,
+  "wins_to_clinch": 7,
+  "weekly_points": {
+    "home": 843315988,
+    "opp": 946527018
+  },
+  "official_points": null,
+  "quota": 11400000,
+  "home_quota": {
+    "met": 27,
+    "near": 1,
+    "below": 68,
+    "members": 96,
+    "left": 0
+  },
+  "stages": [
+    {
+      "day": "mon",
+      "stage": 1,
+      "wins": 1,
+      "status": "final",
+      "home_points": 531165740,
+      "opp_points": 581306227,
+      "home_players": 92,
+      "opp_players": 87,
+      "winner": "opp",
+      "margin": 50140487,
+      "home_share": 47.75,
+      "home_top10_share": 25.9,
+      "home_median": 4684650,
+      "mvp_home": {
+        "player": "Rzurzu",
+        "points": 21305638,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "PANDa",
+        "points": 19654626,
+        "rank": 2
+      }
+    },
+    {
+      "day": "tue",
+      "stage": 2,
+      "wins": 2,
+      "status": "final",
+      "home_points": 312150248,
+      "opp_points": 419766483,
+      "home_players": 94,
+      "opp_players": 78,
+      "winner": "opp",
+      "margin": 107616235,
+      "home_share": 42.65,
+      "home_top10_share": 25.7,
+      "home_median": 2875542,
+      "mvp_home": {
+        "player": "T92",
+        "points": 13657040,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "MartishaT",
+        "points": 11779478,
+        "rank": 2
+      }
+    },
+    {
+      "day": "wed",
+      "stage": 3,
+      "wins": 2,
+      "status": "pending",
+      "home_points": 0,
+      "opp_points": 0,
+      "home_players": 0,
+      "opp_players": 0,
+      "winner": null,
+      "margin": 0,
+      "home_share": null,
+      "home_top10_share": null,
+      "home_median": 0,
+      "mvp_home": null,
+      "mvp_opp": null
+    },
+    {
+      "day": "thu",
+      "stage": 4,
+      "wins": 2,
+      "status": "pending",
+      "home_points": 0,
+      "opp_points": 0,
+      "home_players": 0,
+      "opp_players": 0,
+      "winner": null,
+      "margin": 0,
+      "home_share": null,
+      "home_top10_share": null,
+      "home_median": 0,
+      "mvp_home": null,
+      "mvp_opp": null
+    },
+    {
+      "day": "fri",
+      "stage": 5,
+      "wins": 2,
+      "status": "pending",
+      "home_points": 0,
+      "opp_points": 0,
+      "home_players": 0,
+      "opp_players": 0,
+      "winner": null,
+      "margin": 0,
+      "home_share": null,
+      "home_top10_share": null,
+      "home_median": 0,
+      "mvp_home": null,
+      "mvp_opp": null
+    },
+    {
+      "day": "sat",
+      "stage": 6,
+      "wins": 4,
+      "status": "pending",
+      "home_points": 0,
+      "opp_points": 0,
+      "home_players": 0,
+      "opp_players": 0,
+      "winner": null,
+      "margin": 0,
+      "home_share": null,
+      "home_top10_share": null,
+      "home_median": 0,
+      "mvp_home": null,
+      "mvp_opp": null
+    }
+  ],
+  "integrity": {
+    "tabs": {
+      "mon": {
+        "rows": 179,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "tue": {
+        "rows": 178,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "wed": {
+        "rows": 0,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "thu": {
+        "rows": 0,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "fri": {
+        "rows": 0,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "sat": {
+        "rows": 0,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "week": {
+        "rows": 185,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      }
+    },
+    "checksum": {
+      "exact": 179
+    },
+    "checksum_issues": []
+  },
+  "notes": []
+}
