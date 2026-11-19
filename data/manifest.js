@@ -143,15 +143,15 @@ window.VS_MANIFEST = [
     "decided": null,
     "weekly_points": {
       "home": 1114173739,
-      "opp": 1472472379
+      "opp": 1504204652
     },
-    "members": 99,
-    "captured_at_server": "2026-11-19T07:02:19-02:00",
+    "members": 98,
+    "captured_at_server": "2026-11-19T07:07:50-02:00",
     "capture_window_server": [
       "2026-11-17T14:34:26-02:00",
-      "2026-11-19T07:02:19-02:00"
+      "2026-11-19T07:07:50-02:00"
     ],
     "captured_at_approximate": false,
-    "data_version": "56e225422d"
+    "data_version": "d95fcc476a"
   }
 ];

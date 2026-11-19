@@ -1202,7 +1202,7 @@
     1,
     6
    ],
-   "taken_at_server": "2026-11-19T07:01:03-02:00"
+   "taken_at_server": "2026-11-19T07:06:54-02:00"
   },
   {
    "file": "wed/00016_wed_p1_s00_003.webp",
@@ -1210,7 +1210,7 @@
     6,
     11
    ],
-   "taken_at_server": "2026-11-19T07:01:05-02:00"
+   "taken_at_server": "2026-11-19T07:06:56-02:00"
   },
   {
    "file": "wed/00017_wed_p1_s00_004.webp",
@@ -1218,7 +1218,7 @@
     7,
     12
    ],
-   "taken_at_server": "2026-11-19T07:01:05-02:00"
+   "taken_at_server": "2026-11-19T07:06:57-02:00"
   },
   {
    "file": "wed/00018_wed_p1_s00_005.webp",
@@ -1226,15 +1226,23 @@
     9,
     14
    ],
-   "taken_at_server": "2026-11-19T07:01:06-02:00"
+   "taken_at_server": "2026-11-19T07:06:57-02:00"
   },
   {
    "file": "wed/00020_wed_p1_s00_007.webp",
    "ranks": [
     12,
-    17
+    16
    ],
-   "taken_at_server": "2026-11-19T07:01:07-02:00"
+   "taken_at_server": "2026-11-19T07:06:58-02:00"
+  },
+  {
+   "file": "wed/00021_wed_p1_s00_008.webp",
+   "ranks": [
+    14,
+    18
+   ],
+   "taken_at_server": "2026-11-19T07:06:59-02:00"
   },
   {
    "file": "wed/00022_wed_p1_s00_009.webp",
@@ -1242,39 +1250,39 @@
     15,
     20
    ],
-   "taken_at_server": "2026-11-19T07:01:08-02:00"
+   "taken_at_server": "2026-11-19T07:06:59-02:00"
   },
   {
    "file": "wed/00024_wed_p1_s00_011.webp",
    "ranks": [
-    18,
+    19,
     23
    ],
-   "taken_at_server": "2026-11-19T07:01:08-02:00"
+   "taken_at_server": "2026-11-19T07:07:00-02:00"
   },
   {
-   "file": "wed/00026_wed_p1_s00_013.webp",
+   "file": "wed/00025_wed_p1_s00_012.webp",
    "ranks": [
-    21,
-    26
+    20,
+    25
    ],
-   "taken_at_server": "2026-11-19T07:01:09-02:00"
+   "taken_at_server": "2026-11-19T07:07:00-02:00"
   },
   {
    "file": "wed/00027_wed_p1_s00_014.webp",
    "ranks": [
     23,
-    27
+    28
    ],
-   "taken_at_server": "2026-11-19T07:01:10-02:00"
+   "taken_at_server": "2026-11-19T07:07:01-02:00"
   },
   {
    "file": "wed/00028_wed_p1_s00_015.webp",
    "ranks": [
     25,
-    29
+    30
    ],
-   "taken_at_server": "2026-11-19T07:01:10-02:00"
+   "taken_at_server": "2026-11-19T07:07:02-02:00"
   },
   {
    "file": "wed/00030_wed_p1_s00_017.webp",
@@ -1282,15 +1290,23 @@
     28,
     32
    ],
-   "taken_at_server": "2026-11-19T07:01:11-02:00"
+   "taken_at_server": "2026-11-19T07:07:03-02:00"
   },
   {
    "file": "wed/00031_wed_p1_s00_018.webp",
    "ranks": [
-    29,
+    30,
     34
    ],
-   "taken_at_server": "2026-11-19T07:01:12-02:00"
+   "taken_at_server": "2026-11-19T07:07:03-02:00"
+  },
+  {
+   "file": "wed/00032_wed_p1_s00_019.webp",
+   "ranks": [
+    31,
+    35
+   ],
+   "taken_at_server": "2026-11-19T07:07:04-02:00"
   },
   {
    "file": "wed/00033_wed_p1_s00_020.webp",
@@ -1298,15 +1314,15 @@
     33,
     37
    ],
-   "taken_at_server": "2026-11-19T07:01:12-02:00"
+   "taken_at_server": "2026-11-19T07:07:04-02:00"
   },
   {
-   "file": "wed/00034_wed_p1_s00_021.webp",
+   "file": "wed/00035_wed_p1_s00_022.webp",
    "ranks": [
     35,
-    39
+    40
    ],
-   "taken_at_server": "2026-11-19T07:01:13-02:00"
+   "taken_at_server": "2026-11-19T07:07:05-02:00"
   },
   {
    "file": "wed/00036_wed_p1_s00_023.webp",
@@ -1314,455 +1330,471 @@
     37,
     42
    ],
-   "taken_at_server": "2026-11-19T07:01:14-02:00"
+   "taken_at_server": "2026-11-19T07:07:05-02:00"
   },
   {
-   "file": "wed/00037_wed_p1_s00_024.webp",
+   "file": "wed/00038_wed_p1_s00_025.webp",
    "ranks": [
-    39,
+    40,
     44
    ],
-   "taken_at_server": "2026-11-19T07:01:14-02:00"
+   "taken_at_server": "2026-11-19T07:07:06-02:00"
   },
   {
    "file": "wed/00039_wed_p1_s00_026.webp",
    "ranks": [
-    43,
-    47
+    42,
+    46
    ],
-   "taken_at_server": "2026-11-19T07:01:15-02:00"
+   "taken_at_server": "2026-11-19T07:07:07-02:00"
   },
   {
    "file": "wed/00040_wed_p1_s00_027.webp",
    "ranks": [
     44,
-    49
+    48
    ],
-   "taken_at_server": "2026-11-19T07:01:16-02:00"
+   "taken_at_server": "2026-11-19T07:07:07-02:00"
   },
   {
-   "file": "wed/00041_wed_p1_s00_028.webp",
+   "file": "wed/00042_wed_p1_s00_029.webp",
    "ranks": [
     46,
     51
    ],
-   "taken_at_server": "2026-11-19T07:01:16-02:00"
+   "taken_at_server": "2026-11-19T07:07:08-02:00"
   },
   {
    "file": "wed/00043_wed_p1_s00_030.webp",
    "ranks": [
-    49,
-    54
+    48,
+    53
    ],
-   "taken_at_server": "2026-11-19T07:01:17-02:00"
-  },
-  {
-   "file": "wed/00044_wed_p1_s00_031.webp",
-   "ranks": [
-    51,
-    56
-   ],
-   "taken_at_server": "2026-11-19T07:01:17-02:00"
+   "taken_at_server": "2026-11-19T07:07:09-02:00"
   },
   {
    "file": "wed/00045_wed_p1_s00_032.webp",
    "ranks": [
-    52,
+    51,
+    55
+   ],
+   "taken_at_server": "2026-11-19T07:07:09-02:00"
+  },
+  {
+   "file": "wed/00046_wed_p1_s00_033.webp",
+   "ranks": [
+    53,
     57
    ],
-   "taken_at_server": "2026-11-19T07:01:18-02:00"
+   "taken_at_server": "2026-11-19T07:07:10-02:00"
   },
   {
    "file": "wed/00047_wed_p1_s00_034.webp",
    "ranks": [
-    56,
-    60
+    54,
+    59
    ],
-   "taken_at_server": "2026-11-19T07:01:19-02:00"
-  },
-  {
-   "file": "wed/00048_wed_p1_s00_035.webp",
-   "ranks": [
-    57,
-    62
-   ],
-   "taken_at_server": "2026-11-19T07:01:19-02:00"
+   "taken_at_server": "2026-11-19T07:07:10-02:00"
   },
   {
    "file": "wed/00049_wed_p1_s00_036.webp",
    "ranks": [
-    59,
-    63
+    57,
+    62
    ],
-   "taken_at_server": "2026-11-19T07:01:20-02:00"
+   "taken_at_server": "2026-11-19T07:07:11-02:00"
   },
   {
-   "file": "wed/00051_wed_p1_s00_038.webp",
+   "file": "wed/00050_wed_p1_s00_037.webp",
    "ranks": [
-    62,
-    66
+    59,
+    64
    ],
-   "taken_at_server": "2026-11-19T07:01:21-02:00"
+   "taken_at_server": "2026-11-19T07:07:12-02:00"
   },
   {
    "file": "wed/00052_wed_p1_s00_039.webp",
    "ranks": [
-    64,
-    68
+    62,
+    67
    ],
-   "taken_at_server": "2026-11-19T07:01:21-02:00"
+   "taken_at_server": "2026-11-19T07:07:13-02:00"
   },
   {
-   "file": "wed/00053_wed_p1_s00_040.webp",
+   "file": "wed/00054_wed_p1_s00_041.webp",
    "ranks": [
     65,
     70
    ],
-   "taken_at_server": "2026-11-19T07:01:22-02:00"
+   "taken_at_server": "2026-11-19T07:07:14-02:00"
   },
   {
    "file": "wed/00055_wed_p1_s00_042.webp",
    "ranks": [
-    68,
-    73
+    67,
+    71
    ],
-   "taken_at_server": "2026-11-19T07:01:22-02:00"
+   "taken_at_server": "2026-11-19T07:07:14-02:00"
   },
   {
-   "file": "wed/00057_wed_p1_s00_044.webp",
+   "file": "wed/00056_wed_p1_s00_043.webp",
    "ranks": [
-    71,
-    76
+    69,
+    73
    ],
-   "taken_at_server": "2026-11-19T07:01:23-02:00"
+   "taken_at_server": "2026-11-19T07:07:14-02:00"
   },
   {
    "file": "wed/00058_wed_p1_s00_045.webp",
    "ranks": [
-    73,
-    77
+    71,
+    76
    ],
-   "taken_at_server": "2026-11-19T07:01:24-02:00"
+   "taken_at_server": "2026-11-19T07:07:15-02:00"
+  },
+  {
+   "file": "wed/00059_wed_p1_s00_046.webp",
+   "ranks": [
+    73,
+    78
+   ],
+   "taken_at_server": "2026-11-19T07:07:16-02:00"
   },
   {
    "file": "wed/00060_wed_p1_s00_047.webp",
    "ranks": [
-    76,
-    80
+    74,
+    79
    ],
-   "taken_at_server": "2026-11-19T07:01:25-02:00"
+   "taken_at_server": "2026-11-19T07:07:16-02:00"
   },
   {
    "file": "wed/00061_wed_p1_s00_048.webp",
    "ranks": [
-    77,
-    82
+    76,
+    80
    ],
-   "taken_at_server": "2026-11-19T07:01:25-02:00"
+   "taken_at_server": "2026-11-19T07:07:17-02:00"
   },
   {
    "file": "wed/00063_wed_p1_s00_050.webp",
    "ranks": [
-    81,
-    85
+    79,
+    84
    ],
-   "taken_at_server": "2026-11-19T07:01:26-02:00"
+   "taken_at_server": "2026-11-19T07:07:18-02:00"
   },
   {
    "file": "wed/00064_wed_p1_s00_051.webp",
    "ranks": [
-    82,
-    87
+    81,
+    85
    ],
-   "taken_at_server": "2026-11-19T07:01:26-02:00"
+   "taken_at_server": "2026-11-19T07:07:18-02:00"
   },
   {
-   "file": "wed/00065_wed_p1_s00_052.webp",
+   "file": "wed/00066_wed_p1_s00_053.webp",
    "ranks": [
     84,
     89
    ],
-   "taken_at_server": "2026-11-19T07:01:27-02:00"
+   "taken_at_server": "2026-11-19T07:07:19-02:00"
   },
   {
    "file": "wed/00067_wed_p1_s00_054.webp",
    "ranks": [
-    88,
-    92
+    86,
+    90
    ],
-   "taken_at_server": "2026-11-19T07:01:28-02:00"
+   "taken_at_server": "2026-11-19T07:07:19-02:00"
   },
   {
    "file": "wed/00068_wed_p1_s00_055.webp",
    "ranks": [
-    89,
-    94
+    88,
+    92
    ],
-   "taken_at_server": "2026-11-19T07:01:28-02:00"
+   "taken_at_server": "2026-11-19T07:07:20-02:00"
   },
   {
-   "file": "wed/00069_wed_p1_s00_056.webp",
+   "file": "wed/00070_wed_p1_s00_057.webp",
    "ranks": [
-    91,
-    96
+    90,
+    95
    ],
-   "taken_at_server": "2026-11-19T07:01:29-02:00"
+   "taken_at_server": "2026-11-19T07:07:21-02:00"
   },
   {
    "file": "wed/00071_wed_p1_s00_058.webp",
    "ranks": [
-    95,
-    99
+    92,
+    97
    ],
-   "taken_at_server": "2026-11-19T07:01:30-02:00"
+   "taken_at_server": "2026-11-19T07:07:21-02:00"
   },
   {
-   "file": "wed/00073_wed_p1_s00_060.webp",
+   "file": "wed/00072_wed_p1_s00_059.webp",
    "ranks": [
-    97,
-    102
+    93,
+    98
    ],
-   "taken_at_server": "2026-11-19T07:01:31-02:00"
+   "taken_at_server": "2026-11-19T07:07:22-02:00"
   },
   {
    "file": "wed/00074_wed_p1_s00_061.webp",
    "ranks": [
-    99,
-    104
+    97,
+    102
    ],
-   "taken_at_server": "2026-11-19T07:01:31-02:00"
+   "taken_at_server": "2026-11-19T07:07:23-02:00"
+  },
+  {
+   "file": "wed/00075_wed_p1_s00_062.webp",
+   "ranks": [
+    98,
+    103
+   ],
+   "taken_at_server": "2026-11-19T07:07:23-02:00"
   },
   {
    "file": "wed/00076_wed_p1_s00_063.webp",
    "ranks": [
-    103,
-    107
+    100,
+    105
    ],
-   "taken_at_server": "2026-11-19T07:01:32-02:00"
-  },
-  {
-   "file": "wed/00077_wed_p1_s00_064.webp",
-   "ranks": [
-    104,
-    109
-   ],
-   "taken_at_server": "2026-11-19T07:01:32-02:00"
+   "taken_at_server": "2026-11-19T07:07:23-02:00"
   },
   {
    "file": "wed/00078_wed_p1_s00_065.webp",
    "ranks": [
-    106,
-    110
+    103,
+    108
    ],
-   "taken_at_server": "2026-11-19T07:01:33-02:00"
+   "taken_at_server": "2026-11-19T07:07:24-02:00"
   },
   {
-   "file": "wed/00080_wed_p1_s00_067.webp",
+   "file": "wed/00079_wed_p1_s00_066.webp",
    "ranks": [
-    109,
-    114
+    105,
+    110
    ],
-   "taken_at_server": "2026-11-19T07:01:34-02:00"
+   "taken_at_server": "2026-11-19T07:07:25-02:00"
   },
   {
    "file": "wed/00081_wed_p1_s00_068.webp",
    "ranks": [
-    111,
-    115
+    108,
+    113
    ],
-   "taken_at_server": "2026-11-19T07:01:34-02:00"
+   "taken_at_server": "2026-11-19T07:07:26-02:00"
   },
   {
    "file": "wed/00082_wed_p1_s00_069.webp",
    "ranks": [
-    112,
-    117
+    110,
+    114
    ],
-   "taken_at_server": "2026-11-19T07:01:35-02:00"
+   "taken_at_server": "2026-11-19T07:07:26-02:00"
   },
   {
-   "file": "wed/00083_wed_p1_s00_070.webp",
+   "file": "wed/00084_wed_p1_s00_071.webp",
    "ranks": [
-    114,
-    119
+    113,
+    117
    ],
-   "taken_at_server": "2026-11-19T07:01:35-02:00"
+   "taken_at_server": "2026-11-19T07:07:27-02:00"
   },
   {
    "file": "wed/00085_wed_p1_s00_072.webp",
    "ranks": [
-    117,
-    121
+    114,
+    119
    ],
-   "taken_at_server": "2026-11-19T07:01:36-02:00"
-  },
-  {
-   "file": "wed/00086_wed_p1_s00_073.webp",
-   "ranks": [
-    119,
-    123
-   ],
-   "taken_at_server": "2026-11-19T07:01:37-02:00"
+   "taken_at_server": "2026-11-19T07:07:28-02:00"
   },
   {
    "file": "wed/00087_wed_p1_s00_074.webp",
    "ranks": [
-    120,
-    125
+    117,
+    122
    ],
-   "taken_at_server": "2026-11-19T07:01:37-02:00"
+   "taken_at_server": "2026-11-19T07:07:28-02:00"
   },
   {
-   "file": "wed/00089_wed_p1_s00_076.webp",
+   "file": "wed/00088_wed_p1_s00_075.webp",
+   "ranks": [
+    119,
+    124
+   ],
+   "taken_at_server": "2026-11-19T07:07:29-02:00"
+  },
+  {
+   "file": "wed/00090_wed_p1_s00_077.webp",
+   "ranks": [
+    123,
+    127
+   ],
+   "taken_at_server": "2026-11-19T07:07:30-02:00"
+  },
+  {
+   "file": "wed/00091_wed_p1_s00_078.webp",
    "ranks": [
     124,
-    128
+    129
    ],
-   "taken_at_server": "2026-11-19T07:01:38-02:00"
+   "taken_at_server": "2026-11-19T07:07:30-02:00"
   },
   {
    "file": "wed/00092_wed_p1_s00_079.webp",
    "ranks": [
-    128,
-    133
+    126,
+    130
    ],
-   "taken_at_server": "2026-11-19T07:01:39-02:00"
+   "taken_at_server": "2026-11-19T07:07:31-02:00"
   },
   {
    "file": "wed/00094_wed_p1_s00_081.webp",
    "ranks": [
-    131,
-    136
+    129,
+    133
    ],
-   "taken_at_server": "2026-11-19T07:01:40-02:00"
+   "taken_at_server": "2026-11-19T07:07:32-02:00"
   },
   {
    "file": "wed/00095_wed_p1_s00_082.webp",
    "ranks": [
-    133,
-    138
+    131,
+    135
    ],
-   "taken_at_server": "2026-11-19T07:01:41-02:00"
+   "taken_at_server": "2026-11-19T07:07:32-02:00"
   },
   {
    "file": "wed/00096_wed_p1_s00_083.webp",
    "ranks": [
-    135,
-    139
+    132,
+    137
    ],
-   "taken_at_server": "2026-11-19T07:01:41-02:00"
+   "taken_at_server": "2026-11-19T07:07:33-02:00"
+  },
+  {
+   "file": "wed/00098_wed_p1_s00_085.webp",
+   "ranks": [
+    136,
+    140
+   ],
+   "taken_at_server": "2026-11-19T07:07:33-02:00"
   },
   {
    "file": "wed/00099_wed_p1_s00_086.webp",
    "ranks": [
-    139,
-    144
+    137,
+    142
    ],
-   "taken_at_server": "2026-11-19T07:01:42-02:00"
+   "taken_at_server": "2026-11-19T07:07:34-02:00"
   },
   {
    "file": "wed/00101_wed_p1_s00_088.webp",
    "ranks": [
-    142,
-    147
+    140,
+    145
    ],
-   "taken_at_server": "2026-11-19T07:01:43-02:00"
+   "taken_at_server": "2026-11-19T07:07:35-02:00"
   },
   {
-   "file": "wed/00102_wed_p1_s00_089.webp",
+   "file": "wed/00103_wed_p1_s00_090.webp",
    "ranks": [
-    144,
-    149
+    143,
+    148
    ],
-   "taken_at_server": "2026-11-19T07:01:44-02:00"
+   "taken_at_server": "2026-11-19T07:07:36-02:00"
   },
   {
-   "file": "wed/00104_wed_p1_s00_091.webp",
+   "file": "wed/00105_wed_p1_s00_092.webp",
    "ranks": [
-    147,
-    152
+    146,
+    151
    ],
-   "taken_at_server": "2026-11-19T07:01:45-02:00"
-  },
-  {
-   "file": "wed/00106_wed_p1_s00_093.webp",
-   "ranks": [
-    150,
-    155
-   ],
-   "taken_at_server": "2026-11-19T07:01:46-02:00"
+   "taken_at_server": "2026-11-19T07:07:37-02:00"
   },
   {
    "file": "wed/00107_wed_p1_s00_094.webp",
    "ranks": [
-    152,
-    157
+    149,
+    154
    ],
-   "taken_at_server": "2026-11-19T07:01:46-02:00"
+   "taken_at_server": "2026-11-19T07:07:38-02:00"
   },
   {
    "file": "wed/00109_wed_p1_s00_096.webp",
    "ranks": [
-    155,
+    152,
+    157
+   ],
+   "taken_at_server": "2026-11-19T07:07:38-02:00"
+  },
+  {
+   "file": "wed/00110_wed_p1_s00_097.webp",
+   "ranks": [
+    154,
     159
    ],
-   "taken_at_server": "2026-11-19T07:01:47-02:00"
+   "taken_at_server": "2026-11-19T07:07:39-02:00"
   },
   {
    "file": "wed/00111_wed_p1_s00_098.webp",
    "ranks": [
-    158,
-    163
+    156,
+    161
    ],
-   "taken_at_server": "2026-11-19T07:01:48-02:00"
+   "taken_at_server": "2026-11-19T07:07:39-02:00"
   },
   {
-   "file": "wed/00112_wed_p1_s00_099.webp",
+   "file": "wed/00113_wed_p1_s00_100.webp",
    "ranks": [
-    160,
+    159,
     164
    ],
-   "taken_at_server": "2026-11-19T07:01:48-02:00"
-  },
-  {
-   "file": "wed/00114_wed_p1_s00_101.webp",
-   "ranks": [
-    163,
-    168
-   ],
-   "taken_at_server": "2026-11-19T07:01:49-02:00"
+   "taken_at_server": "2026-11-19T07:07:40-02:00"
   },
   {
    "file": "wed/00115_wed_p1_s00_102.webp",
    "ranks": [
-    164,
-    169
+    162,
+    167
    ],
-   "taken_at_server": "2026-11-19T07:01:50-02:00"
+   "taken_at_server": "2026-11-19T07:07:41-02:00"
   },
   {
    "file": "wed/00116_wed_p1_s00_103.webp",
    "ranks": [
-    166,
+    164,
+    168
+   ],
+   "taken_at_server": "2026-11-19T07:07:42-02:00"
+  },
+  {
+   "file": "wed/00118_wed_p1_s00_105.webp",
+   "ranks": [
+    167,
     171
    ],
-   "taken_at_server": "2026-11-19T07:01:50-02:00"
+   "taken_at_server": "2026-11-19T07:07:43-02:00"
   },
   {
    "file": "wed/00119_wed_p1_s00_106.webp",
    "ranks": [
-    170,
-    175
+    169,
+    173
    ],
-   "taken_at_server": "2026-11-19T07:01:51-02:00"
+   "taken_at_server": "2026-11-19T07:07:43-02:00"
   },
   {
-   "file": "wed/00120_wed_p1_s00_107.webp",
+   "file": "wed/00121_wed_p1_s00_108.webp",
    "ranks": [
     172,
-    177
+    176
    ],
-   "taken_at_server": "2026-11-19T07:01:52-02:00"
+   "taken_at_server": "2026-11-19T07:07:44-02:00"
   },
   {
    "file": "wed/00124_wed_p1_s00_111.webp",
@@ -1770,31 +1802,15 @@
     174,
     179
    ],
-   "taken_at_server": "2026-11-19T07:01:54-02:00"
+   "taken_at_server": "2026-11-19T07:07:45-02:00"
   },
   {
-   "file": "wed/00128_wed_p1_bottom.webp",
+   "file": "wed/00129_wed_p1_bottom.webp",
    "ranks": [
     174,
     179
    ],
-   "taken_at_server": "2026-11-19T07:01:58-02:00"
-  },
-  {
-   "file": "wed/00135_wed_repair1_127_0.webp",
-   "ranks": [
-    125,
-    130
-   ],
-   "taken_at_server": "2026-11-19T07:02:12-02:00"
-  },
-  {
-   "file": "wed/00139_wed_repair1_140_0.webp",
-   "ranks": [
-    138,
-    142
-   ],
-   "taken_at_server": "2026-11-19T07:02:19-02:00"
+   "taken_at_server": "2026-11-19T07:07:50-02:00"
   }
  ]
 }
