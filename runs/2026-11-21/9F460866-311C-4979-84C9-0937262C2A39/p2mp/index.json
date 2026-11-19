@@ -1,0 +1,46 @@
+{
+  "accepted": false,
+  "account": "p2mp",
+  "capture": {
+    "accepted": false,
+    "account": "p2mp",
+    "identity_proof": {
+      "account": "p2mp",
+      "identity": "apparatchik",
+      "player_id": "157173571701",
+      "serial": "127.0.0.1:5565",
+      "verified_at": "2026-11-19T16:19:01.428697+00:00"
+    },
+    "week": "2026-11-21"
+  },
+  "capture_events": 11,
+  "chunks": [
+    {
+      "bytes": 2512949,
+      "captures": 11,
+      "file": "frames-0000.zip",
+      "frame_ids": [
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00001_boot.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00002_navigation_control_verify.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00003_boot.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00004_navigation_control_verify.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00005_boot.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00006_navigation_control_verify.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00007_boot.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00008_boot.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00009_boot.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00010_boot.png",
+        "identity/cd1dd9fe-8838-4754-8ba7-dc68e877419d/00011_account_identity.png"
+      ],
+      "sha256": "e05ae007d8faf7b10125815ea3cd567a0d89e6fa8dd7bd4b4dac501eebf2ae44",
+      "unique_images": 11
+    }
+  ],
+  "job_id": "9F460866-311C-4979-84C9-0937262C2A39",
+  "purpose": "restoration",
+  "requested_accounts": [
+    "p1mp"
+  ],
+  "schema_version": 1,
+  "week": "2026-11-21"
+}
