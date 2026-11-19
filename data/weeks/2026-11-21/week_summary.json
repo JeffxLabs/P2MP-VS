@@ -12,10 +12,10 @@
   },
   "status": "in_progress",
   "live_tabs": [],
-  "captured_at_server": "2026-11-19T07:07:50-02:00",
+  "captured_at_server": "2026-11-19T16:37:43-02:00",
   "capture_window_server": [
     "2026-11-17T14:34:26-02:00",
-    "2026-11-19T07:07:50-02:00"
+    "2026-11-19T16:37:43-02:00"
   ],
   "captured_at_approximate": false,
   "snapshots": {
@@ -30,7 +30,7 @@
       "approximate": false
     },
     "wed": {
-      "at": "2026-11-19T07:07:50-02:00",
+      "at": "2026-11-19T16:37:43-02:00",
       "source": "screenshots",
       "approximate": false
     }
@@ -46,15 +46,15 @@
   "wins_to_clinch": 7,
   "weekly_points": {
     "home": 1114173739,
-    "opp": 1504204652
+    "opp": 1373893283
   },
   "official_points": null,
   "quota": 11400000,
   "home_quota": {
-    "met": 45,
+    "met": 44,
     "near": 2,
-    "below": 51,
-    "members": 98,
+    "below": 53,
+    "members": 99,
     "left": 0
   },
   "stages": [
@@ -114,12 +114,12 @@
       "wins": 2,
       "status": "final",
       "home_points": 270857751,
-      "opp_points": 488549685,
+      "opp_points": 446432050,
       "home_players": 92,
-      "opp_players": 86,
+      "opp_players": 80,
       "winner": "opp",
-      "margin": 217691934,
-      "home_share": 35.67,
+      "margin": 175574299,
+      "home_share": 37.76,
       "home_top10_share": 24.6,
       "home_median": 2611170,
       "mvp_home": {
@@ -242,7 +242,7 @@
         "live": false
       },
       "week": {
-        "rows": 191,
+        "rows": 192,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
@@ -252,7 +252,7 @@
       }
     },
     "checksum": {
-      "exact": 189
+      "exact": 184
     },
     "checksum_issues": []
   },

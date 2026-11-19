@@ -143,15 +143,15 @@
     "decided": null,
     "weekly_points": {
       "home": 1114173739,
-      "opp": 1504204652
+      "opp": 1373893283
     },
-    "members": 98,
-    "captured_at_server": "2026-11-19T07:07:50-02:00",
+    "members": 99,
+    "captured_at_server": "2026-11-19T16:37:43-02:00",
     "capture_window_server": [
       "2026-11-17T14:34:26-02:00",
-      "2026-11-19T07:07:50-02:00"
+      "2026-11-19T16:37:43-02:00"
     ],
     "captured_at_approximate": false,
-    "data_version": "d95fcc476a"
+    "data_version": "cdf6d41806"
   }
 ]
