@@ -12,10 +12,10 @@
   },
   "status": "in_progress",
   "live_tabs": [],
-  "captured_at_server": "2026-11-18T07:01:37-02:00",
+  "captured_at_server": "2026-11-19T07:02:19-02:00",
   "capture_window_server": [
     "2026-11-17T14:34:26-02:00",
-    "2026-11-18T07:01:37-02:00"
+    "2026-11-19T07:02:19-02:00"
   ],
   "captured_at_approximate": false,
   "snapshots": {
@@ -28,28 +28,33 @@
       "at": "2026-11-18T07:01:37-02:00",
       "source": "screenshots",
       "approximate": false
+    },
+    "wed": {
+      "at": "2026-11-19T07:02:19-02:00",
+      "source": "screenshots",
+      "approximate": false
     }
   },
   "score": {
     "home": 0,
-    "opp": 3
+    "opp": 5
   },
-  "wins_remaining": 10,
+  "wins_remaining": 8,
   "decided": null,
   "leading_live": {},
   "total_wins": 13,
   "wins_to_clinch": 7,
   "weekly_points": {
-    "home": 843315988,
-    "opp": 946527018
+    "home": 1114173739,
+    "opp": 1472472379
   },
   "official_points": null,
   "quota": 11400000,
   "home_quota": {
-    "met": 27,
-    "near": 1,
-    "below": 68,
-    "members": 96,
+    "met": 44,
+    "near": 2,
+    "below": 53,
+    "members": 99,
     "left": 0
   },
   "stages": [
@@ -107,18 +112,26 @@
       "day": "wed",
       "stage": 3,
       "wins": 2,
-      "status": "pending",
-      "home_points": 0,
-      "opp_points": 0,
-      "home_players": 0,
-      "opp_players": 0,
-      "winner": null,
-      "margin": 0,
-      "home_share": null,
-      "home_top10_share": null,
-      "home_median": 0,
-      "mvp_home": null,
-      "mvp_opp": null
+      "status": "final",
+      "home_points": 270857751,
+      "opp_points": 476288732,
+      "home_players": 92,
+      "opp_players": 83,
+      "winner": "opp",
+      "margin": 205430981,
+      "home_share": 36.25,
+      "home_top10_share": 24.6,
+      "home_median": 2611170,
+      "mvp_home": {
+        "player": "Austen",
+        "points": 8920354,
+        "rank": 11
+      },
+      "mvp_opp": {
+        "player": "ksenn",
+        "points": 20488889,
+        "rank": 1
+      }
     },
     {
       "day": "thu",
@@ -193,7 +206,7 @@
         "live": false
       },
       "wed": {
-        "rows": 0,
+        "rows": 179,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
@@ -229,7 +242,7 @@
         "live": false
       },
       "week": {
-        "rows": 185,
+        "rows": 192,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
@@ -239,7 +252,7 @@
       }
     },
     "checksum": {
-      "exact": 179
+      "exact": 187
     },
     "checksum_issues": []
   },
