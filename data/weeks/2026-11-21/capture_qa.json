@@ -7599,6 +7599,2501 @@
         }
       ],
       "captured_at": "2026-11-19T16:37:43-02:00"
+    },
+    "thu": {
+      "tab": "thu",
+      "live": false,
+      "passes": [
+        {
+          "pass": 1,
+          "bottom_rank": 176,
+          "ranks": 176,
+          "frames": 117,
+          "rejected_frames": 6,
+          "unresolved": {},
+          "finished_at": "2026-11-20T07:01:43-02:00"
+        }
+      ],
+      "unresolved": {},
+      "diagnostics": [
+        {
+          "rank": 1,
+          "player": "TristanBorm",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "40530621": 3
+          },
+          "name_reads": {
+            "TristanBorm": 3
+          }
+        },
+        {
+          "rank": 2,
+          "player": "Ksuhaha",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "29461406": 3
+          },
+          "name_reads": {
+            "Ksuhaha": 3
+          }
+        },
+        {
+          "rank": 3,
+          "player": "aLVLad",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "28283524": 4
+          },
+          "name_reads": {
+            "aLVLad": 4
+          }
+        },
+        {
+          "rank": 4,
+          "player": "Tatusya",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "24414742": 4
+          },
+          "name_reads": {
+            "Tatusya": 4
+          }
+        },
+        {
+          "rank": 5,
+          "player": "Кэтринан",
+          "n_obs": 5,
+          "n_clean": 5,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "24283662": 5
+          },
+          "name_reads": {
+            "Кэтринан": 5
+          }
+        },
+        {
+          "rank": 6,
+          "player": "Austen",
+          "n_obs": 6,
+          "n_clean": 6,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "20855760": 6
+          },
+          "name_reads": {
+            "Austen": 6
+          }
+        },
+        {
+          "rank": 7,
+          "player": "PANDa",
+          "n_obs": 6,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "20161182": 3
+          },
+          "name_reads": {
+            "PANDa": 3
+          }
+        },
+        {
+          "rank": 8,
+          "player": "КОТЮЛЯ",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "18576560": 2
+          },
+          "name_reads": {
+            "КОТЮЛЯ": 2
+          }
+        },
+        {
+          "rank": 9,
+          "player": "Sweatybollocks",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "17738188": 3
+          },
+          "name_reads": {
+            "Sweatybollocks": 3
+          }
+        },
+        {
+          "rank": 10,
+          "player": "Kiki008",
+          "n_obs": 4,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "16940962": 2
+          },
+          "name_reads": {
+            "Kiki008": 2
+          }
+        },
+        {
+          "rank": 11,
+          "player": "ПОЛЫНЬ",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "16673328": 3
+          },
+          "name_reads": {
+            "ПОЛЫНЬ": 2,
+            "полынь": 1
+          }
+        },
+        {
+          "rank": 12,
+          "player": "Nemesis999",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "16663746": 3
+          },
+          "name_reads": {
+            "Nemesis999": 3
+          }
+        },
+        {
+          "rank": 13,
+          "player": "Alinka",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "16504366": 3
+          },
+          "name_reads": {
+            "Alinka": 3
+          }
+        },
+        {
+          "rank": 14,
+          "player": "Мосинка",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "16400530": 4
+          },
+          "name_reads": {
+            "Мосинка": 4
+          }
+        },
+        {
+          "rank": 15,
+          "player": "БезумныйШляпник",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "16305482": 3
+          },
+          "name_reads": {
+            "БезумныйШляпник": 3
+          }
+        },
+        {
+          "rank": 16,
+          "player": "славный",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "16048074": 3
+          },
+          "name_reads": {
+            "славный": 3
+          }
+        },
+        {
+          "rank": 17,
+          "player": "MartishaT",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "15680149": 3
+          },
+          "name_reads": {
+            "MartishaT": 3
+          }
+        },
+        {
+          "rank": 18,
+          "player": "Bangflag",
+          "n_obs": 4,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "15380724": 2
+          },
+          "name_reads": {
+            "Bangflag": 2
+          }
+        },
+        {
+          "rank": 19,
+          "player": "MMKey",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "15285634": 3
+          },
+          "name_reads": {
+            "MMKey": 3
+          }
+        },
+        {
+          "rank": 20,
+          "player": "Bobr1501",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "15200608": 3
+          },
+          "name_reads": {
+            "Bobr1501": 3
+          }
+        },
+        {
+          "rank": 21,
+          "player": "P3ncil",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "15180164": 3
+          },
+          "name_reads": {
+            "P3ncil": 3
+          }
+        },
+        {
+          "rank": 22,
+          "player": "Letun33",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "15153516": 3
+          },
+          "name_reads": {
+            "Letun33": 3
+          }
+        },
+        {
+          "rank": 23,
+          "player": "RostishkA142",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "14977068": 4
+          },
+          "name_reads": {
+            "RostishkA142": 4
+          }
+        },
+        {
+          "rank": 24,
+          "player": "КСюЛЯ2209",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "14972520": 3
+          },
+          "name_reads": {
+            "КСюЛЯ2209": 3
+          }
+        },
+        {
+          "rank": 25,
+          "player": "Ivayrus",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "14962040": 4
+          },
+          "name_reads": {
+            "Ivayrus": 4
+          }
+        },
+        {
+          "rank": 26,
+          "player": "Antonio1986",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "14337970": 4
+          },
+          "name_reads": {
+            "Antonio1986": 4
+          }
+        },
+        {
+          "rank": 27,
+          "player": "Aleksanrus",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "14302878": 4
+          },
+          "name_reads": {
+            "Aleksanrus": 4
+          }
+        },
+        {
+          "rank": 28,
+          "player": "хакк",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "13994290": 3
+          },
+          "name_reads": {
+            "хакк": 3
+          }
+        },
+        {
+          "rank": 29,
+          "player": "lawyer07",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "13768262": 4
+          },
+          "name_reads": {
+            "lawyer07": 4
+          }
+        },
+        {
+          "rank": 30,
+          "player": "Серррый",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "13688546": 3
+          },
+          "name_reads": {
+            "Серррый": 3
+          }
+        },
+        {
+          "rank": 31,
+          "player": "ksenn",
+          "n_obs": 4,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "13595692": 2
+          },
+          "name_reads": {
+            "ksenn": 2
+          }
+        },
+        {
+          "rank": 32,
+          "player": "Khmel",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "13544882": 3
+          },
+          "name_reads": {
+            "Khmel": 3
+          }
+        },
+        {
+          "rank": 33,
+          "player": "MTC66",
+          "n_obs": 4,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "13528082": 2
+          },
+          "name_reads": {
+            "MTC66": 2
+          }
+        },
+        {
+          "rank": 34,
+          "player": "Razy",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "13466683": 3
+          },
+          "name_reads": {
+            "Razy": 3
+          }
+        },
+        {
+          "rank": 35,
+          "player": "Антихрист",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "13071714": 3
+          },
+          "name_reads": {
+            "Антихрист": 3
+          }
+        },
+        {
+          "rank": 36,
+          "player": "Пирожочекя",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "12970280": 3
+          },
+          "name_reads": {
+            "Пирожочекя": 3
+          }
+        },
+        {
+          "rank": 37,
+          "player": "HAIIPOJIOM",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "12923922": 4
+          },
+          "name_reads": {
+            "HAIIPOJIOM": 4
+          }
+        },
+        {
+          "rank": 38,
+          "player": "SoulQBee",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "12651734": 4
+          },
+          "name_reads": {
+            "SoulQBee": 4
+          }
+        },
+        {
+          "rank": 39,
+          "player": "G99999",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "12566368": 3
+          },
+          "name_reads": {
+            "G99999": 3
+          }
+        },
+        {
+          "rank": 40,
+          "player": "Yzjeyabella",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "12401450": 3
+          },
+          "name_reads": {
+            "Yzjeyabelła": 1,
+            "Yzjeyabella": 2
+          }
+        },
+        {
+          "rank": 41,
+          "player": "Танюша35",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "12101754": 3
+          },
+          "name_reads": {
+            "Танюша35": 3
+          }
+        },
+        {
+          "rank": 42,
+          "player": "штерн",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "12088810": 3
+          },
+          "name_reads": {
+            "штерн": 3
+          }
+        },
+        {
+          "rank": 43,
+          "player": "fantazer99",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "11720136": 3
+          },
+          "name_reads": {
+            "fantazer99": 3
+          }
+        },
+        {
+          "rank": 44,
+          "player": "Rzurzu",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "11460720": 3
+          },
+          "name_reads": {
+            "Rzurzu": 3
+          }
+        },
+        {
+          "rank": 45,
+          "player": "Tommy002",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "11364450": 4
+          },
+          "name_reads": {
+            "Tommy002": 4
+          }
+        },
+        {
+          "rank": 46,
+          "player": "EdVo",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "11255166": 4
+          },
+          "name_reads": {
+            "EdVo": 4
+          }
+        },
+        {
+          "rank": 47,
+          "player": "GökBörü54",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "11139886": 3
+          },
+          "name_reads": {
+            "GökBörü54": 3
+          }
+        },
+        {
+          "rank": 48,
+          "player": "mihail96rus",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "11116820": 4
+          },
+          "name_reads": {
+            "mihail96rus": 4
+          }
+        },
+        {
+          "rank": 49,
+          "player": "Jalae",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "11083521": 3
+          },
+          "name_reads": {
+            "Jalae": 3
+          }
+        },
+        {
+          "rank": 50,
+          "player": "-Beda--",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "10820540": 4
+          },
+          "name_reads": {
+            "-Beda--": 2,
+            "--Beda--": 2
+          }
+        },
+        {
+          "rank": 51,
+          "player": "MiriaFwalk",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "10653116": 4
+          },
+          "name_reads": {
+            "MiriaFwalk": 4
+          }
+        },
+        {
+          "rank": 52,
+          "player": "ThePunisher000",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "10530768": 4
+          },
+          "name_reads": {
+            "ThePunisher000": 4
+          }
+        },
+        {
+          "rank": 53,
+          "player": "ЕвгенийАфоня",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "10510844": 4
+          },
+          "name_reads": {
+            "ЕвгенийАфоня": 4
+          }
+        },
+        {
+          "rank": 54,
+          "player": "~DarkAngel~",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "10393840": 4
+          },
+          "name_reads": {
+            "~DarkAngel~": 4
+          }
+        },
+        {
+          "rank": 55,
+          "player": "eXec",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "10305396": 3
+          },
+          "name_reads": {
+            "eXec": 2,
+            "еХес": 1
+          }
+        },
+        {
+          "rank": 56,
+          "player": "Brotherman",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "9533990": 3
+          },
+          "name_reads": {
+            "Brotherman": 3
+          }
+        },
+        {
+          "rank": 57,
+          "player": "DimaLowTab",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "9425630": 4
+          },
+          "name_reads": {
+            "DimaLowTab": 4
+          }
+        },
+        {
+          "rank": 58,
+          "player": "Лакха",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "9360623": 3
+          },
+          "name_reads": {
+            "Лакха": 3
+          }
+        },
+        {
+          "rank": 59,
+          "player": "3rd",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "9257340": 4
+          },
+          "name_reads": {
+            "3rd": 4
+          }
+        },
+        {
+          "rank": 60,
+          "player": "JamesSullivan",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "9179814": 4
+          },
+          "name_reads": {
+            "JamesSullivan": 4
+          }
+        },
+        {
+          "rank": 61,
+          "player": "Lekar",
+          "n_obs": 5,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "9126698": 2
+          },
+          "name_reads": {
+            "Lekar": 2
+          }
+        },
+        {
+          "rank": 62,
+          "player": "xandao3p",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8991484": 4
+          },
+          "name_reads": {
+            "xandao3p": 4
+          }
+        },
+        {
+          "rank": 63,
+          "player": "MixaNik",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8988226": 4
+          },
+          "name_reads": {
+            "MixaNik": 4
+          }
+        },
+        {
+          "rank": 64,
+          "player": "XyroN",
+          "n_obs": 5,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8934588": 2
+          },
+          "name_reads": {
+            "XyroN": 2
+          }
+        },
+        {
+          "rank": 65,
+          "player": "Aristo22",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8855880": 3
+          },
+          "name_reads": {
+            "Aristo22": 3
+          }
+        },
+        {
+          "rank": 66,
+          "player": "TIGRIS",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8780017": 4
+          },
+          "name_reads": {
+            "TIGRIS": 4
+          }
+        },
+        {
+          "rank": 67,
+          "player": "LINK",
+          "n_obs": 5,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8668452": 2
+          },
+          "name_reads": {
+            "LINK": 2
+          }
+        },
+        {
+          "rank": 68,
+          "player": "scAry",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8543820": 4
+          },
+          "name_reads": {
+            "scAry": 4
+          }
+        },
+        {
+          "rank": 69,
+          "player": "smitovsk",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8531740": 3
+          },
+          "name_reads": {
+            "smitovsk": 3
+          }
+        },
+        {
+          "rank": 70,
+          "player": "KotyaraBalamut",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8442042": 3
+          },
+          "name_reads": {
+            "KotyaraBalamut": 3
+          }
+        },
+        {
+          "rank": 71,
+          "player": "LadyMarvel",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8422897": 4
+          },
+          "name_reads": {
+            "LadyMarvel": 4
+          }
+        },
+        {
+          "rank": 72,
+          "player": "Zhuravl",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8382620": 3
+          },
+          "name_reads": {
+            "Zhuravl": 3
+          }
+        },
+        {
+          "rank": 73,
+          "player": "nikax",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8371764": 3
+          },
+          "name_reads": {
+            "nikax": 3
+          }
+        },
+        {
+          "rank": 74,
+          "player": "Apparatchik",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8364426": 3
+          },
+          "name_reads": {
+            "Apparatchik": 3
+          }
+        },
+        {
+          "rank": 75,
+          "player": "Dewellswings",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "8267894": 3
+          },
+          "name_reads": {
+            "Dewellswings": 3
+          }
+        },
+        {
+          "rank": 76,
+          "player": "ZiGGLar-Khan-28",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7922900": 2
+          },
+          "name_reads": {
+            "ZiGGLar-Khan-28": 2
+          }
+        },
+        {
+          "rank": 77,
+          "player": "Barosanu",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7895522": 3
+          },
+          "name_reads": {
+            "Barosanu": 3
+          }
+        },
+        {
+          "rank": 78,
+          "player": "10KAREL10",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7859195": 2
+          },
+          "name_reads": {
+            "10KAREL10": 2
+          }
+        },
+        {
+          "rank": 79,
+          "player": "CarLoverArt",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7858870": 2
+          },
+          "name_reads": {
+            "CarLoverArt": 2
+          }
+        },
+        {
+          "rank": 80,
+          "player": "Эльвира-DARK",
+          "n_obs": 4,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7823516": 2
+          },
+          "name_reads": {
+            "Эльвира-DARK": 2
+          }
+        },
+        {
+          "rank": 81,
+          "player": "JOKERTAN",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7738244": 3
+          },
+          "name_reads": {
+            "JOKERTAN": 3
+          }
+        },
+        {
+          "rank": 82,
+          "player": "DuôNuC",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7663900": 4
+          },
+          "name_reads": {
+            "DuôNue": 1,
+            "DuôNuC": 3
+          }
+        },
+        {
+          "rank": 83,
+          "player": "Benjy111",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7508882": 3
+          },
+          "name_reads": {
+            "Benjy111": 3
+          }
+        },
+        {
+          "rank": 84,
+          "player": "Лёха88",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 0.75,
+          "points_reads": {
+            "7487784": 4
+          },
+          "name_reads": {
+            ". exa88": 1,
+            "в Лёха88 R": 1,
+            "Jexa88这": 1,
+            "Лёха88": 1
+          }
+        },
+        {
+          "rank": 85,
+          "player": "mvera",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7441550": 4
+          },
+          "name_reads": {
+            "mvera": 4
+          }
+        },
+        {
+          "rank": 86,
+          "player": "robOn8er",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7419834": 3
+          },
+          "name_reads": {
+            "robOn8er": 3
+          }
+        },
+        {
+          "rank": 87,
+          "player": "MoreVolnuetsya",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7397008": 4
+          },
+          "name_reads": {
+            "MoreVolnuetsya": 4
+          }
+        },
+        {
+          "rank": 88,
+          "player": "GaladrielMorgoth",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7317299": 3
+          },
+          "name_reads": {
+            "GaladrielMorgoth": 3
+          }
+        },
+        {
+          "rank": 89,
+          "player": "T92",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7267650": 4
+          },
+          "name_reads": {
+            "T92": 4
+          }
+        },
+        {
+          "rank": 90,
+          "player": "antono1",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7225840": 4
+          },
+          "name_reads": {
+            "antono1": 4
+          }
+        },
+        {
+          "rank": 91,
+          "player": "JoboL",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7210962": 3
+          },
+          "name_reads": {
+            "JoboL": 3
+          }
+        },
+        {
+          "rank": 92,
+          "player": "Macee",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7209458": 3
+          },
+          "name_reads": {
+            "Macee": 3
+          }
+        },
+        {
+          "rank": 93,
+          "player": "34savages",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "7019874": 3
+          },
+          "name_reads": {
+            "34savages": 3
+          }
+        },
+        {
+          "rank": 94,
+          "player": "MSG-Rev",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "6842168": 3
+          },
+          "name_reads": {
+            "MSG-Rev": 3
+          }
+        },
+        {
+          "rank": 95,
+          "player": "Klio",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "6458326": 4
+          },
+          "name_reads": {
+            "Klio": 4
+          }
+        },
+        {
+          "rank": 96,
+          "player": "CRUtheCAR",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "6447522": 3
+          },
+          "name_reads": {
+            "CRUtheCAR": 3
+          }
+        },
+        {
+          "rank": 97,
+          "player": "Zverrr",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "6434730": 3
+          },
+          "name_reads": {
+            "Zverrr": 3
+          }
+        },
+        {
+          "rank": 98,
+          "player": "Trickzor",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "5775540": 3
+          },
+          "name_reads": {
+            "Trickzor": 3
+          }
+        },
+        {
+          "rank": 99,
+          "player": "Azalik",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "5502534": 3
+          },
+          "name_reads": {
+            "Azalik": 3
+          }
+        },
+        {
+          "rank": 100,
+          "player": "xCruelx",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "5488430": 4
+          },
+          "name_reads": {
+            "xCruelx": 4
+          }
+        },
+        {
+          "rank": 101,
+          "player": "KatiKatiNeBoysa",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "5340346": 4
+          },
+          "name_reads": {
+            "KatiKatiNeBoysa": 4
+          }
+        },
+        {
+          "rank": 102,
+          "player": "S7r3s",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "5298766": 4
+          },
+          "name_reads": {
+            "S7r3s": 2,
+            "s7r3s": 2
+          }
+        },
+        {
+          "rank": 103,
+          "player": "SZ37",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "5245150": 4
+          },
+          "name_reads": {
+            "SZ37": 4
+          }
+        },
+        {
+          "rank": 104,
+          "player": "NANY",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "5194622": 4
+          },
+          "name_reads": {
+            "NANY": 4
+          }
+        },
+        {
+          "rank": 105,
+          "player": "Koulbloodid",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "5030744": 3
+          },
+          "name_reads": {
+            "Koulbloodid": 3
+          }
+        },
+        {
+          "rank": 106,
+          "player": "DrifterFF66",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "4564042": 4
+          },
+          "name_reads": {
+            "DrifterFF66": 4
+          }
+        },
+        {
+          "rank": 107,
+          "player": "LouD70",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "4540622": 3
+          },
+          "name_reads": {
+            "LouD70": 3
+          }
+        },
+        {
+          "rank": 108,
+          "player": "AstralZ+)Oo°",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "4513890": 4
+          },
+          "name_reads": {
+            "AstralZ+)Oo°": 2,
+            "AstralZ+)Oò°": 2
+          }
+        },
+        {
+          "rank": 109,
+          "player": "AlexandrU",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "4479006": 4
+          },
+          "name_reads": {
+            "AlexandrU": 4
+          }
+        },
+        {
+          "rank": 110,
+          "player": "KiCkz",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "4205172": 3
+          },
+          "name_reads": {
+            "KiCkz": 3
+          }
+        },
+        {
+          "rank": 111,
+          "player": "patryk8619",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "4096152": 4
+          },
+          "name_reads": {
+            "patryk8619": 4
+          }
+        },
+        {
+          "rank": 112,
+          "player": "RobboUK",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3814150": 3
+          },
+          "name_reads": {
+            "RobboUK": 3
+          }
+        },
+        {
+          "rank": 113,
+          "player": "алина1111111",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3706452": 4
+          },
+          "name_reads": {
+            "алина1111111": 4
+          }
+        },
+        {
+          "rank": 114,
+          "player": "RedSectorA",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3590856": 3
+          },
+          "name_reads": {
+            "RedSectorA": 3
+          }
+        },
+        {
+          "rank": 115,
+          "player": "Fury73",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3540178": 3
+          },
+          "name_reads": {
+            "Fury73": 3
+          }
+        },
+        {
+          "rank": 116,
+          "player": "ElkaD",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3232812": 3
+          },
+          "name_reads": {
+            "ElkaD": 3
+          }
+        },
+        {
+          "rank": 117,
+          "player": "DarioG",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3211674": 3
+          },
+          "name_reads": {
+            "DarioG": 3
+          }
+        },
+        {
+          "rank": 118,
+          "player": "Robsss666666",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3180290": 3
+          },
+          "name_reads": {
+            "Robsss666666": 3
+          }
+        },
+        {
+          "rank": 119,
+          "player": "Kenzo2001",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3174410": 4
+          },
+          "name_reads": {
+            "Kenzo2001": 4
+          }
+        },
+        {
+          "rank": 120,
+          "player": "SilverBlood",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3171770": 3
+          },
+          "name_reads": {
+            "SilverBlood": 3
+          }
+        },
+        {
+          "rank": 121,
+          "player": "АрхиВаТор",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "3104112": 4
+          },
+          "name_reads": {
+            "АрхиВаТор": 4
+          }
+        },
+        {
+          "rank": 122,
+          "player": "MEHTOL",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2942175": 4
+          },
+          "name_reads": {
+            "MEHTOL": 4
+          }
+        },
+        {
+          "rank": 123,
+          "player": "YouDNTKnwMe",
+          "n_obs": 5,
+          "n_clean": 5,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2856230": 5
+          },
+          "name_reads": {
+            "YouDNTKnwMe": 5
+          }
+        },
+        {
+          "rank": 124,
+          "player": "AdrianGuardado",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2662086": 4
+          },
+          "name_reads": {
+            "AdrianGuardado": 4
+          }
+        },
+        {
+          "rank": 125,
+          "player": "Torro75",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2638688": 4
+          },
+          "name_reads": {
+            "Torro75": 4
+          }
+        },
+        {
+          "rank": 126,
+          "player": "OliKielce",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2634150": 3
+          },
+          "name_reads": {
+            "OliKielce": 2,
+            "Olikielce": 1
+          }
+        },
+        {
+          "rank": 127,
+          "player": "Gürkan",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2589094": 4
+          },
+          "name_reads": {
+            "Gürkan": 4
+          }
+        },
+        {
+          "rank": 128,
+          "player": "Hyperdermic",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2549064": 4
+          },
+          "name_reads": {
+            "Hyperdermic": 4
+          }
+        },
+        {
+          "rank": 129,
+          "player": "PanTofelek",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2543110": 3
+          },
+          "name_reads": {
+            "PanTofelek": 3
+          }
+        },
+        {
+          "rank": 130,
+          "player": "TonyLoco",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2487568": 4
+          },
+          "name_reads": {
+            "TonyLoco": 4
+          }
+        },
+        {
+          "rank": 131,
+          "player": "JSP💪",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2434760": 3
+          },
+          "name_reads": {
+            "JSP💪": 3
+          }
+        },
+        {
+          "rank": 132,
+          "player": "dante121",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2353530": 2
+          },
+          "name_reads": {
+            "dante121": 2
+          }
+        },
+        {
+          "rank": 133,
+          "player": "jjbeast",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2331526": 3
+          },
+          "name_reads": {
+            "jjbeast": 3
+          }
+        },
+        {
+          "rank": 134,
+          "player": "eBosh",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2325968": 2
+          },
+          "name_reads": {
+            "eBosh": 2
+          }
+        },
+        {
+          "rank": 135,
+          "player": "bboppo",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2324906": 3
+          },
+          "name_reads": {
+            "bboppo": 3
+          }
+        },
+        {
+          "rank": 136,
+          "player": "MrElite",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2319984": 2
+          },
+          "name_reads": {
+            "MrElite": 2
+          }
+        },
+        {
+          "rank": 137,
+          "player": "PiggysPops",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2288224": 3
+          },
+          "name_reads": {
+            "PiggysPops": 3
+          }
+        },
+        {
+          "rank": 138,
+          "player": "Chillen",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2282852": 4
+          },
+          "name_reads": {
+            "Chillen": 4
+          }
+        },
+        {
+          "rank": 139,
+          "player": "Encantador",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "2095460": 3
+          },
+          "name_reads": {
+            "Encantador": 3
+          }
+        },
+        {
+          "rank": 140,
+          "player": "HazeWhisper",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1920348": 4
+          },
+          "name_reads": {
+            "HazeWhisper": 4
+          }
+        },
+        {
+          "rank": 141,
+          "player": "ColinNZ",
+          "n_obs": 3,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1823050": 3
+          },
+          "name_reads": {
+            "ColinNZ": 3
+          }
+        },
+        {
+          "rank": 142,
+          "player": "Bezerkers",
+          "n_obs": 4,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1750196": 2
+          },
+          "name_reads": {
+            "Bezerkers": 2
+          }
+        },
+        {
+          "rank": 143,
+          "player": "Calendula",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1749056": 2
+          },
+          "name_reads": {
+            "Calendula": 2
+          }
+        },
+        {
+          "rank": 144,
+          "player": "namexyz",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1746636": 2
+          },
+          "name_reads": {
+            "namexyz": 2
+          }
+        },
+        {
+          "rank": 145,
+          "player": "TemoisDaGreat",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1477012": 2
+          },
+          "name_reads": {
+            "TemoisDaGreat": 2
+          }
+        },
+        {
+          "rank": 146,
+          "player": "Rostidlo",
+          "n_obs": 3,
+          "n_clean": 2,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1411186": 2
+          },
+          "name_reads": {
+            "Rostidlo": 2
+          }
+        },
+        {
+          "rank": 147,
+          "player": "ИАртур",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1252300": 3
+          },
+          "name_reads": {
+            "ИАртур": 3
+          }
+        },
+        {
+          "rank": 148,
+          "player": "Kasa98",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1222572": 3
+          },
+          "name_reads": {
+            "Kasa98": 3
+          }
+        },
+        {
+          "rank": 149,
+          "player": "чегурность",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "1056230": 3
+          },
+          "name_reads": {
+            "чегурность": 3
+          }
+        },
+        {
+          "rank": 150,
+          "player": "KILLMUNGER",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "971330": 3
+          },
+          "name_reads": {
+            "KILLMUNGER": 3
+          }
+        },
+        {
+          "rank": 151,
+          "player": "partas",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "907278": 4
+          },
+          "name_reads": {
+            "partas": 4
+          }
+        },
+        {
+          "rank": 152,
+          "player": "TheSkinWalker",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "884734": 4
+          },
+          "name_reads": {
+            "TheSkinWalker": 4
+          }
+        },
+        {
+          "rank": 153,
+          "player": "Ginger2",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "872274": 3
+          },
+          "name_reads": {
+            "Ginger2": 3
+          }
+        },
+        {
+          "rank": 154,
+          "player": "Cikita",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "839996": 4
+          },
+          "name_reads": {
+            "Cikita": 4
+          }
+        },
+        {
+          "rank": 155,
+          "player": "nyc130",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "815376": 3
+          },
+          "name_reads": {
+            "nyc130": 3
+          }
+        },
+        {
+          "rank": 156,
+          "player": "ROBsss3V666",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "742632": 4
+          },
+          "name_reads": {
+            "ROBsss3V666": 4
+          }
+        },
+        {
+          "rank": 157,
+          "player": "LeChU",
+          "n_obs": 5,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "692304": 4
+          },
+          "name_reads": {
+            "LeChU": 4
+          }
+        },
+        {
+          "rank": 158,
+          "player": "03472485924",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "649812": 3
+          },
+          "name_reads": {
+            "03472485924": 3
+          }
+        },
+        {
+          "rank": 159,
+          "player": "Nikolai2312",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "646235": 4
+          },
+          "name_reads": {
+            "Nikolai2312": 4
+          }
+        },
+        {
+          "rank": 160,
+          "player": "VictorY",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "637536": 3
+          },
+          "name_reads": {
+            "VictorY": 2,
+            "Victory": 1
+          }
+        },
+        {
+          "rank": 161,
+          "player": "LIth",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "625968": 3
+          },
+          "name_reads": {
+            "LIth": 3
+          }
+        },
+        {
+          "rank": 162,
+          "player": "Maihealu",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "603752": 4
+          },
+          "name_reads": {
+            "Maihealu": 4
+          }
+        },
+        {
+          "rank": 163,
+          "player": "Meekhun55",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "511688": 3
+          },
+          "name_reads": {
+            "Meekhun55": 3
+          }
+        },
+        {
+          "rank": 164,
+          "player": "Biondo",
+          "n_obs": 4,
+          "n_clean": 4,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "399920": 4
+          },
+          "name_reads": {
+            "Biondo": 4
+          }
+        },
+        {
+          "rank": 165,
+          "player": "Jer2026",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "393750": 3
+          },
+          "name_reads": {
+            "Jer2026": 3
+          }
+        },
+        {
+          "rank": 166,
+          "player": "NCC-1701",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "352430": 3
+          },
+          "name_reads": {
+            "NCC-1701": 3
+          }
+        },
+        {
+          "rank": 167,
+          "player": "Mona267",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "312498": 3
+          },
+          "name_reads": {
+            "Mona267": 3
+          }
+        },
+        {
+          "rank": 168,
+          "player": "Калаш1",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "304000": 3
+          },
+          "name_reads": {
+            "Калаш1": 3
+          }
+        },
+        {
+          "rank": 169,
+          "player": "ZOZAK",
+          "n_obs": 4,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "272800": 3
+          },
+          "name_reads": {
+            "ZOZAK": 3
+          }
+        },
+        {
+          "rank": 170,
+          "player": "FSBTYCHAFSB",
+          "n_obs": 5,
+          "n_clean": 3,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "167998": 3
+          },
+          "name_reads": {
+            "FSBTYCHAFSB": 3
+          }
+        },
+        {
+          "rank": 171,
+          "player": "MurkinSeason",
+          "n_obs": 9,
+          "n_clean": 5,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "97095": 5
+          },
+          "name_reads": {
+            "MurkinSeason": 5
+          }
+        },
+        {
+          "rank": 172,
+          "player": "LokoFeN",
+          "n_obs": 10,
+          "n_clean": 8,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "86400": 8
+          },
+          "name_reads": {
+            "LokoFeN": 8
+          }
+        },
+        {
+          "rank": 173,
+          "player": "WeaponX",
+          "n_obs": 9,
+          "n_clean": 9,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "62560": 9
+          },
+          "name_reads": {
+            "WeaponX": 9
+          }
+        },
+        {
+          "rank": 174,
+          "player": "ddingdongbel",
+          "n_obs": 9,
+          "n_clean": 8,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "22152": 8
+          },
+          "name_reads": {
+            "ddingdongbel": 8
+          }
+        },
+        {
+          "rank": 175,
+          "player": "turkito",
+          "n_obs": 8,
+          "n_clean": 8,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "4000": 8
+          },
+          "name_reads": {
+            "turkito": 8
+          }
+        },
+        {
+          "rank": 176,
+          "player": "BaraBro333",
+          "n_obs": 8,
+          "n_clean": 7,
+          "points_agree": 1.0,
+          "name_agree": 1.0,
+          "points_reads": {
+            "4000": 7
+          },
+          "name_reads": {
+            "BaraBro333": 7
+          }
+        }
+      ],
+      "captured_at": "2026-11-20T07:01:43-02:00"
     }
   },
   "week": "2026-11-21",

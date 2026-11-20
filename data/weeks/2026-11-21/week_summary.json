@@ -12,10 +12,10 @@
   },
   "status": "in_progress",
   "live_tabs": [],
-  "captured_at_server": "2026-11-19T16:37:43-02:00",
+  "captured_at_server": "2026-11-20T07:01:42-02:00",
   "capture_window_server": [
     "2026-11-17T14:34:26-02:00",
-    "2026-11-19T16:37:43-02:00"
+    "2026-11-20T07:01:42-02:00"
   ],
   "captured_at_approximate": false,
   "snapshots": {
@@ -33,28 +33,33 @@
       "at": "2026-11-19T16:37:43-02:00",
       "source": "screenshots",
       "approximate": false
+    },
+    "thu": {
+      "at": "2026-11-20T07:01:42-02:00",
+      "source": "screenshots",
+      "approximate": false
     }
   },
   "score": {
     "home": 0,
-    "opp": 5
+    "opp": 7
   },
-  "wins_remaining": 8,
-  "decided": null,
+  "wins_remaining": 6,
+  "decided": "opp",
   "leading_live": {},
   "total_wins": 13,
   "wins_to_clinch": 7,
   "weekly_points": {
-    "home": 1114173739,
-    "opp": 1373893283
+    "home": 1523216782,
+    "opp": 2310980466
   },
   "official_points": null,
   "quota": 11400000,
   "home_quota": {
-    "met": 44,
+    "met": 60,
     "near": 2,
-    "below": 53,
-    "members": 99,
+    "below": 35,
+    "members": 97,
     "left": 0
   },
   "stages": [
@@ -137,18 +142,26 @@
       "day": "thu",
       "stage": 4,
       "wins": 2,
-      "status": "pending",
-      "home_points": 0,
-      "opp_points": 0,
-      "home_players": 0,
-      "opp_players": 0,
-      "winner": null,
-      "margin": 0,
-      "home_share": null,
-      "home_top10_share": null,
-      "home_median": 0,
-      "mvp_home": null,
-      "mvp_opp": null
+      "status": "final",
+      "home_points": 421403382,
+      "opp_points": 861290446,
+      "home_players": 89,
+      "opp_players": 79,
+      "winner": "opp",
+      "margin": 439887064,
+      "home_share": 32.85,
+      "home_top10_share": 34.1,
+      "home_median": 3180290,
+      "mvp_home": {
+        "player": "Austen",
+        "points": 20855760,
+        "rank": 6
+      },
+      "mvp_opp": {
+        "player": "TristanBorm",
+        "points": 40530621,
+        "rank": 1
+      }
     },
     {
       "day": "fri",
@@ -215,7 +228,7 @@
         "live": false
       },
       "thu": {
-        "rows": 0,
+        "rows": 176,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
