@@ -1,0 +1,97 @@
+{
+  "runs": [
+    {
+      "started_server": "2026-11-17T14:32:59-02:00",
+      "ended_server": "2026-11-17T14:34:28-02:00",
+      "started_utc": "2026-11-17T16:32:59+00:00",
+      "tabs": [
+        "mon"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 127,
+      "frames_dir": "p2mp/2026-11-21/20261117-143259"
+    },
+    {
+      "started_server": "2026-11-18T07:00:23-02:00",
+      "ended_server": "2026-11-18T07:01:39-02:00",
+      "started_utc": "2026-11-18T09:00:23+00:00",
+      "tabs": [
+        "tue"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 131,
+      "frames_dir": "p2mp/2026-11-21/20261118-070023"
+    },
+    {
+      "started_server": "2026-11-19T07:00:42-02:00",
+      "ended_server": "2026-11-19T07:02:21-02:00",
+      "started_utc": "2026-11-19T09:00:42+00:00",
+      "tabs": [
+        "wed"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 139,
+      "frames_dir": "p2mp/2026-11-21/20261119-070042"
+    },
+    {
+      "started_server": "2026-11-19T07:06:32-02:00",
+      "ended_server": "2026-11-19T07:07:52-02:00",
+      "started_utc": "2026-11-19T09:06:32+00:00",
+      "tabs": [
+        "wed"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 129,
+      "frames_dir": "p2mp/2026-11-21/20261119-070632"
+    },
+    {
+      "started_server": "2026-11-19T16:35:46-02:00",
+      "ended_server": "2026-11-19T16:37:45-02:00",
+      "started_utc": "2026-11-19T18:35:46+00:00",
+      "tabs": [
+        "wed"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 124,
+      "frames_dir": "p2mp/2026-11-21/20261119-163546"
+    },
+    {
+      "started_server": "2026-11-20T07:00:28-02:00",
+      "ended_server": "2026-11-20T07:01:44-02:00",
+      "started_utc": "2026-11-20T09:00:28+00:00",
+      "tabs": [
+        "thu"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 126,
+      "frames_dir": "p2mp/2026-11-21/20261120-070028"
+    },
+    {
+      "started_server": "2026-11-21T07:00:26-02:00",
+      "ended_server": "2026-11-21T07:01:56-02:00",
+      "started_utc": "2026-11-21T09:00:26+00:00",
+      "tabs": [
+        "fri"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 130,
+      "frames_dir": "p2mp/2026-11-21/20261121-070026"
+    }
+  ],
+  "live_tabs": [],
+  "last_capture_server": "2026-11-21T07:01:56-02:00"
+}
