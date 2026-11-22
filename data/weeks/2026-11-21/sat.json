@@ -25,19 +25,19 @@
   },
   {
     "rank": 4,
+    "player": "Aleksanrus",
+    "alliance": "[OFF] OnlyForFans",
+    "alliance_tag": "OFF",
+    "alliance_name": "OnlyForFans",
+    "points": 10796155
+  },
+  {
+    "rank": 5,
     "player": "MMKey",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
     "alliance_name": "OnlyForFans",
     "points": 10286995
-  },
-  {
-    "rank": 5,
-    "player": "Aleksanrus",
-    "alliance": "[OFF] OnlyForFans",
-    "alliance_tag": "OFF",
-    "alliance_name": "OnlyForFans",
-    "points": 10009280
   },
   {
     "rank": 6,
@@ -401,6 +401,14 @@
   },
   {
     "rank": 51,
+    "player": "Meekhun55",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 3548486
+  },
+  {
+    "rank": 52,
     "player": "Bobr1501",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -408,7 +416,7 @@
     "points": 3491078
   },
   {
-    "rank": 52,
+    "rank": 53,
     "player": "PiggysPops",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -416,20 +424,12 @@
     "points": 3489861
   },
   {
-    "rank": 53,
+    "rank": 54,
     "player": "MoreVolnuetsya",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
     "alliance_name": "OnlyForFans",
     "points": 3445837
-  },
-  {
-    "rank": 54,
-    "player": "Meekhun55",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 3440900
   },
   {
     "rank": 55,
@@ -465,7 +465,7 @@
   },
   {
     "rank": 59,
-    "player": "полынь",
+    "player": "полыНЬ",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
     "alliance_name": "OnlyForFans",
@@ -497,7 +497,7 @@
   },
   {
     "rank": 63,
-    "player": "DuôNuC",
+    "player": "DuôNue",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
@@ -809,7 +809,7 @@
   },
   {
     "rank": 102,
-    "player": "就nexa883",
+    "player": "就Jexa883",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
     "alliance_name": "OnlyForFans",
@@ -1185,6 +1185,14 @@
   },
   {
     "rank": 149,
+    "player": "Robsss666666",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 1364939
+  },
+  {
+    "rank": 150,
     "player": "TheSkinWalker",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1192,7 +1200,7 @@
     "points": 1352841
   },
   {
-    "rank": 150,
+    "rank": 151,
     "player": "Пирожочекя",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1200,20 +1208,12 @@
     "points": 1327287
   },
   {
-    "rank": 151,
+    "rank": 152,
     "player": "Cikita",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 1322193
-  },
-  {
-    "rank": 152,
-    "player": "Robsss666666",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 1300804
   },
   {
     "rank": 153,
@@ -1321,6 +1321,14 @@
   },
   {
     "rank": 166,
+    "player": "dante121",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 848071
+  },
+  {
+    "rank": 167,
     "player": "FSBTYCHAFSB",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1328,7 +1336,7 @@
     "points": 780470
   },
   {
-    "rank": 167,
+    "rank": 168,
     "player": "WeaponX",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1336,7 +1344,7 @@
     "points": 699253
   },
   {
-    "rank": 168,
+    "rank": 169,
     "player": "partas",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1344,7 +1352,7 @@
     "points": 690911
   },
   {
-    "rank": 169,
+    "rank": 170,
     "player": "ddingdongbel",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1352,7 +1360,7 @@
     "points": 660000
   },
   {
-    "rank": 170,
+    "rank": 171,
     "player": "LadyMarvel",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1360,7 +1368,7 @@
     "points": 645445
   },
   {
-    "rank": 171,
+    "rank": 172,
     "player": "MurkinSeason",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1368,7 +1376,7 @@
     "points": 513946
   },
   {
-    "rank": 172,
+    "rank": 173,
     "player": "Калаш1",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1376,7 +1384,7 @@
     "points": 395496
   },
   {
-    "rank": 173,
+    "rank": 174,
     "player": "Lexipro",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1384,7 +1392,7 @@
     "points": 378731
   },
   {
-    "rank": 174,
+    "rank": 175,
     "player": "NCC-1701",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1392,7 +1400,7 @@
     "points": 332014
   },
   {
-    "rank": 175,
+    "rank": 176,
     "player": "Ginger2",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1400,7 +1408,7 @@
     "points": 177870
   },
   {
-    "rank": 176,
+    "rank": 177,
     "player": "Kenzo2001",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1408,7 +1416,7 @@
     "points": 145440
   },
   {
-    "rank": 177,
+    "rank": 178,
     "player": "43вольф",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1416,7 +1424,7 @@
     "points": 141654
   },
   {
-    "rank": 178,
+    "rank": 179,
     "player": "Biondo",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1424,7 +1432,7 @@
     "points": 121000
   },
   {
-    "rank": 179,
+    "rank": 180,
     "player": "Alexandrovna",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1432,7 +1440,7 @@
     "points": 73429
   },
   {
-    "rank": 180,
+    "rank": 181,
     "player": "serega8",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1440,7 +1448,7 @@
     "points": 59140
   },
   {
-    "rank": 181,
+    "rank": 182,
     "player": "Katrina",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1448,7 +1456,7 @@
     "points": 14832
   },
   {
-    "rank": 182,
+    "rank": 183,
     "player": "hammaz",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",

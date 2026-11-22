@@ -15,10 +15,10 @@
     "sat",
     "week"
   ],
-  "captured_at_server": "2026-11-21T23:46:16-02:00",
+  "captured_at_server": "2026-11-21T23:55:37-02:00",
   "capture_window_server": [
     "2026-11-17T14:34:26-02:00",
-    "2026-11-21T23:46:16-02:00"
+    "2026-11-21T23:55:37-02:00"
   ],
   "captured_at_approximate": false,
   "snapshots": {
@@ -48,12 +48,12 @@
       "approximate": false
     },
     "sat": {
-      "at": "2026-11-21T23:44:19-02:00",
+      "at": "2026-11-21T23:52:27-02:00",
       "source": "screenshots",
       "approximate": false
     },
     "week": {
-      "at": "2026-11-21T23:46:16-02:00",
+      "at": "2026-11-21T23:55:37-02:00",
       "source": "screenshots",
       "approximate": false
     }
@@ -68,14 +68,14 @@
   "total_wins": 13,
   "wins_to_clinch": 7,
   "weekly_points": {
-    "home": 2049471921,
-    "opp": 3338759698
+    "home": 2050491713,
+    "opp": 3339546573
   },
   "official_points": null,
   "quota": 11400000,
   "home_quota": {
-    "met": 70,
-    "near": 3,
+    "met": 71,
+    "near": 2,
     "below": 21,
     "members": 94,
     "left": 4
@@ -211,14 +211,14 @@
       "stage": 6,
       "wins": 4,
       "status": "final",
-      "home_points": 206571515,
-      "opp_points": 383072814,
-      "home_players": 92,
+      "home_points": 207591307,
+      "opp_points": 383859689,
+      "home_players": 93,
       "opp_players": 90,
       "winner": "opp",
-      "margin": 176501299,
-      "home_share": 35.03,
-      "home_top10_share": 25.1,
+      "margin": 176268382,
+      "home_share": 35.1,
+      "home_top10_share": 25.0,
       "home_median": 2036149,
       "mvp_home": {
         "player": "Kiki008",
@@ -280,7 +280,7 @@
         "live": false
       },
       "sat": {
-        "rows": 182,
+        "rows": 183,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
@@ -300,9 +300,9 @@
     },
     "checksum": {
       "exact": 178,
-      "joined": 6,
-      "left": 10,
-      "live": 1
+      "joined": 5,
+      "left": 12,
+      "live": 2
     },
     "checksum_issues": []
   },

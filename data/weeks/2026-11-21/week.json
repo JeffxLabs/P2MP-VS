@@ -81,7 +81,7 @@
   },
   {
     "rank": 11,
-    "player": "полынь",
+    "player": "полыНЬ",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
     "alliance_name": "OnlyForFans",
@@ -133,7 +133,7 @@
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
     "alliance_name": "OnlyForFans",
-    "points": 53808838
+    "points": 54595713
   },
   {
     "rank": 18,
@@ -257,7 +257,7 @@
   },
   {
     "rank": 33,
-    "player": "eXec",
+    "player": "eXeс",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
     "alliance_name": "OnlyForFans",
@@ -537,7 +537,7 @@
   },
   {
     "rank": 68,
-    "player": "Лёха88?",
+    "player": "就nexa88过",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
     "alliance_name": "OnlyForFans",
@@ -969,19 +969,19 @@
   },
   {
     "rank": 122,
+    "player": "Robsss666666",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 18579730
+  },
+  {
+    "rank": 123,
     "player": "JOKERTAN",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
     "alliance_name": "OnlyForFans",
     "points": 18577044
-  },
-  {
-    "rank": 123,
-    "player": "Robsss666666",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 18515595
   },
   {
     "rank": 124,
@@ -1193,6 +1193,14 @@
   },
   {
     "rank": 150,
+    "player": "dante121",
+    "alliance": "[P2MP] NowaPolandia",
+    "alliance_tag": "P2MP",
+    "alliance_name": "NowaPolandia",
+    "points": 11942828
+  },
+  {
+    "rank": 151,
     "player": "MEHTOL",
     "alliance": "[OFF] OnlyForFans",
     "alliance_tag": "OFF",
@@ -1200,7 +1208,7 @@
     "points": 11459214
   },
   {
-    "rank": 151,
+    "rank": 152,
     "player": "VictorY",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
@@ -1208,20 +1216,12 @@
     "points": 11290467
   },
   {
-    "rank": 152,
+    "rank": 153,
     "player": "Nikolai2312",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
     "points": 11262942
-  },
-  {
-    "rank": 153,
-    "player": "dante121",
-    "alliance": "[P2MP] NowaPolandia",
-    "alliance_tag": "P2MP",
-    "alliance_name": "NowaPolandia",
-    "points": 11094757
   },
   {
     "rank": 154,
@@ -1249,7 +1249,7 @@
   },
   {
     "rank": 157,
-    "player": "LIth",
+    "player": "Lith",
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
@@ -1309,7 +1309,7 @@
     "alliance": "[P2MP] NowaPolandia",
     "alliance_tag": "P2MP",
     "alliance_name": "NowaPolandia",
-    "points": 8867996
+    "points": 8975582
   },
   {
     "rank": 165,
