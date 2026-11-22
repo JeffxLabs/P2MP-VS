@@ -135,23 +135,23 @@
       "name": "OnlyForFans",
       "server": ""
     },
-    "status": "in_progress",
+    "status": "final",
     "score": {
       "home": 0,
-      "opp": 9
+      "opp": 13
     },
     "decided": "opp",
     "weekly_points": {
-      "home": 1845027204,
-      "opp": 2955142559
+      "home": 2048987155,
+      "opp": 3338759698
     },
-    "members": 97,
-    "captured_at_server": "2026-11-21T07:01:55-02:00",
+    "members": 94,
+    "captured_at_server": "2026-11-21T23:33:48-02:00",
     "capture_window_server": [
       "2026-11-17T14:34:26-02:00",
-      "2026-11-21T07:01:55-02:00"
+      "2026-11-21T23:33:48-02:00"
     ],
     "captured_at_approximate": false,
-    "data_version": "b3498fb598"
+    "data_version": "aa4a6248c3"
   }
 ]

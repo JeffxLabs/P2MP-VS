@@ -10,12 +10,15 @@
     "name": "OnlyForFans",
     "server": ""
   },
-  "status": "in_progress",
-  "live_tabs": [],
-  "captured_at_server": "2026-11-21T07:01:55-02:00",
+  "status": "final",
+  "live_tabs": [
+    "sat",
+    "week"
+  ],
+  "captured_at_server": "2026-11-21T23:33:48-02:00",
   "capture_window_server": [
     "2026-11-17T14:34:26-02:00",
-    "2026-11-21T07:01:55-02:00"
+    "2026-11-21T23:33:48-02:00"
   ],
   "captured_at_approximate": false,
   "snapshots": {
@@ -43,29 +46,39 @@
       "at": "2026-11-21T07:01:55-02:00",
       "source": "screenshots",
       "approximate": false
+    },
+    "sat": {
+      "at": "2026-11-21T23:31:42-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "week": {
+      "at": "2026-11-21T23:33:48-02:00",
+      "source": "screenshots",
+      "approximate": false
     }
   },
   "score": {
     "home": 0,
-    "opp": 9
+    "opp": 13
   },
-  "wins_remaining": 4,
+  "wins_remaining": 0,
   "decided": "opp",
   "leading_live": {},
   "total_wins": 13,
   "wins_to_clinch": 7,
   "weekly_points": {
-    "home": 1845027204,
-    "opp": 2955142559
+    "home": 2048987155,
+    "opp": 3338759698
   },
   "official_points": null,
   "quota": 11400000,
   "home_quota": {
-    "met": 65,
-    "near": 4,
-    "below": 28,
-    "members": 97,
-    "left": 0
+    "met": 70,
+    "near": 3,
+    "below": 21,
+    "members": 94,
+    "left": 4
   },
   "stages": [
     {
@@ -197,18 +210,26 @@
       "day": "sat",
       "stage": 6,
       "wins": 4,
-      "status": "pending",
-      "home_points": 0,
-      "opp_points": 0,
-      "home_players": 0,
-      "opp_players": 0,
-      "winner": null,
-      "margin": 0,
-      "home_share": null,
-      "home_top10_share": null,
-      "home_median": 0,
-      "mvp_home": null,
-      "mvp_opp": null
+      "status": "final",
+      "home_points": 206086749,
+      "opp_points": 383072814,
+      "home_players": 92,
+      "opp_players": 90,
+      "winner": "opp",
+      "margin": 176986065,
+      "home_share": 34.98,
+      "home_top10_share": 25.2,
+      "home_median": 2036149,
+      "mvp_home": {
+        "player": "Kiki008",
+        "points": 7256311,
+        "rank": 17
+      },
+      "mvp_opp": {
+        "player": "Ksuhaha",
+        "points": 24965853,
+        "rank": 1
+      }
     }
   ],
   "integrity": {
@@ -259,26 +280,29 @@
         "live": false
       },
       "sat": {
-        "rows": 0,
+        "rows": 182,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
         "missing_names": 0,
         "unresolved": {},
-        "live": false
+        "live": true
       },
       "week": {
-        "rows": 194,
+        "rows": 185,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
         "missing_names": 0,
         "unresolved": {},
-        "live": false
+        "live": true
       }
     },
     "checksum": {
-      "exact": 192
+      "exact": 178,
+      "joined": 5,
+      "left": 10,
+      "live": 2
     },
     "checksum_issues": []
   },
