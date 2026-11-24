@@ -153,5 +153,36 @@ window.VS_MANIFEST = [
     ],
     "captured_at_approximate": false,
     "data_version": "20409541b9"
+  },
+  {
+    "id": "2026-11-28",
+    "home": {
+      "tag": "P2MP",
+      "name": "NowaPolandia",
+      "server": "S117"
+    },
+    "opponent": {
+      "tag": "Sold",
+      "name": "Soldiers",
+      "server": ""
+    },
+    "status": "in_progress",
+    "score": {
+      "home": 0,
+      "opp": 1
+    },
+    "decided": null,
+    "weekly_points": {
+      "home": 521296073,
+      "opp": 574909716
+    },
+    "members": 93,
+    "captured_at_server": "2026-11-24T07:02:06-02:00",
+    "capture_window_server": [
+      "2026-11-24T07:02:06-02:00",
+      "2026-11-24T07:02:06-02:00"
+    ],
+    "captured_at_approximate": false,
+    "data_version": "4e8b1386a9"
   }
 ];
