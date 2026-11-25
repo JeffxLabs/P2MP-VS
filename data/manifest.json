@@ -169,20 +169,20 @@
     "status": "in_progress",
     "score": {
       "home": 0,
-      "opp": 1
+      "opp": 3
     },
     "decided": null,
     "weekly_points": {
-      "home": 521296073,
-      "opp": 574909716
+      "home": 920511931,
+      "opp": 994345792
     },
-    "members": 93,
-    "captured_at_server": "2026-11-24T07:02:06-02:00",
+    "members": 94,
+    "captured_at_server": "2026-11-25T07:01:35-02:00",
     "capture_window_server": [
       "2026-11-24T07:02:06-02:00",
-      "2026-11-24T07:02:06-02:00"
+      "2026-11-25T07:01:35-02:00"
     ],
     "captured_at_approximate": false,
-    "data_version": "4e8b1386a9"
+    "data_version": "e26a780d88"
   }
 ]

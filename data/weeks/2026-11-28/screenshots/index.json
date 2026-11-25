@@ -576,5 +576,583 @@
    ],
    "taken_at_server": "2026-11-24T07:02:06-02:00"
   }
+ ],
+ "tue": [
+  {
+   "file": "tue/00011_tue_p1_top0.webp",
+   "ranks": [
+    1,
+    6
+   ],
+   "taken_at_server": "2026-11-25T07:00:42-02:00"
+  },
+  {
+   "file": "tue/00015_tue_p1_s00_003.webp",
+   "ranks": [
+    6,
+    11
+   ],
+   "taken_at_server": "2026-11-25T07:00:44-02:00"
+  },
+  {
+   "file": "tue/00016_tue_p1_s00_004.webp",
+   "ranks": [
+    7,
+    12
+   ],
+   "taken_at_server": "2026-11-25T07:00:45-02:00"
+  },
+  {
+   "file": "tue/00017_tue_p1_s00_005.webp",
+   "ranks": [
+    8,
+    13
+   ],
+   "taken_at_server": "2026-11-25T07:00:45-02:00"
+  },
+  {
+   "file": "tue/00020_tue_p1_s00_008.webp",
+   "ranks": [
+    13,
+    17
+   ],
+   "taken_at_server": "2026-11-25T07:00:46-02:00"
+  },
+  {
+   "file": "tue/00021_tue_p1_s00_009.webp",
+   "ranks": [
+    14,
+    19
+   ],
+   "taken_at_server": "2026-11-25T07:00:47-02:00"
+  },
+  {
+   "file": "tue/00024_tue_p1_s00_012.webp",
+   "ranks": [
+    18,
+    23
+   ],
+   "taken_at_server": "2026-11-25T07:00:48-02:00"
+  },
+  {
+   "file": "tue/00025_tue_p1_s00_013.webp",
+   "ranks": [
+    20,
+    25
+   ],
+   "taken_at_server": "2026-11-25T07:00:48-02:00"
+  },
+  {
+   "file": "tue/00026_tue_p1_s00_014.webp",
+   "ranks": [
+    21,
+    26
+   ],
+   "taken_at_server": "2026-11-25T07:00:49-02:00"
+  },
+  {
+   "file": "tue/00028_tue_p1_s00_016.webp",
+   "ranks": [
+    24,
+    29
+   ],
+   "taken_at_server": "2026-11-25T07:00:49-02:00"
+  },
+  {
+   "file": "tue/00029_tue_p1_s00_017.webp",
+   "ranks": [
+    25,
+    30
+   ],
+   "taken_at_server": "2026-11-25T07:00:50-02:00"
+  },
+  {
+   "file": "tue/00031_tue_p1_s00_019.webp",
+   "ranks": [
+    28,
+    33
+   ],
+   "taken_at_server": "2026-11-25T07:00:51-02:00"
+  },
+  {
+   "file": "tue/00033_tue_p1_s00_021.webp",
+   "ranks": [
+    31,
+    35
+   ],
+   "taken_at_server": "2026-11-25T07:00:52-02:00"
+  },
+  {
+   "file": "tue/00034_tue_p1_s00_022.webp",
+   "ranks": [
+    32,
+    37
+   ],
+   "taken_at_server": "2026-11-25T07:00:52-02:00"
+  },
+  {
+   "file": "tue/00036_tue_p1_s00_024.webp",
+   "ranks": [
+    35,
+    40
+   ],
+   "taken_at_server": "2026-11-25T07:00:53-02:00"
+  },
+  {
+   "file": "tue/00038_tue_p1_s00_026.webp",
+   "ranks": [
+    38,
+    43
+   ],
+   "taken_at_server": "2026-11-25T07:00:54-02:00"
+  },
+  {
+   "file": "tue/00039_tue_p1_s00_027.webp",
+   "ranks": [
+    39,
+    44
+   ],
+   "taken_at_server": "2026-11-25T07:00:54-02:00"
+  },
+  {
+   "file": "tue/00041_tue_p1_s00_029.webp",
+   "ranks": [
+    42,
+    47
+   ],
+   "taken_at_server": "2026-11-25T07:00:55-02:00"
+  },
+  {
+   "file": "tue/00043_tue_p1_s00_031.webp",
+   "ranks": [
+    45,
+    49
+   ],
+   "taken_at_server": "2026-11-25T07:00:56-02:00"
+  },
+  {
+   "file": "tue/00044_tue_p1_s00_032.webp",
+   "ranks": [
+    47,
+    51
+   ],
+   "taken_at_server": "2026-11-25T07:00:56-02:00"
+  },
+  {
+   "file": "tue/00045_tue_p1_s00_033.webp",
+   "ranks": [
+    48,
+    52
+   ],
+   "taken_at_server": "2026-11-25T07:00:56-02:00"
+  },
+  {
+   "file": "tue/00047_tue_p1_s00_035.webp",
+   "ranks": [
+    51,
+    55
+   ],
+   "taken_at_server": "2026-11-25T07:00:57-02:00"
+  },
+  {
+   "file": "tue/00049_tue_p1_s00_037.webp",
+   "ranks": [
+    53,
+    58
+   ],
+   "taken_at_server": "2026-11-25T07:00:58-02:00"
+  },
+  {
+   "file": "tue/00050_tue_p1_s00_038.webp",
+   "ranks": [
+    55,
+    60
+   ],
+   "taken_at_server": "2026-11-25T07:00:59-02:00"
+  },
+  {
+   "file": "tue/00052_tue_p1_s00_040.webp",
+   "ranks": [
+    58,
+    63
+   ],
+   "taken_at_server": "2026-11-25T07:00:59-02:00"
+  },
+  {
+   "file": "tue/00054_tue_p1_s00_042.webp",
+   "ranks": [
+    61,
+    66
+   ],
+   "taken_at_server": "2026-11-25T07:01:00-02:00"
+  },
+  {
+   "file": "tue/00055_tue_p1_s00_043.webp",
+   "ranks": [
+    63,
+    68
+   ],
+   "taken_at_server": "2026-11-25T07:01:01-02:00"
+  },
+  {
+   "file": "tue/00056_tue_p1_s00_044.webp",
+   "ranks": [
+    64,
+    69
+   ],
+   "taken_at_server": "2026-11-25T07:01:01-02:00"
+  },
+  {
+   "file": "tue/00059_tue_p1_s00_047.webp",
+   "ranks": [
+    69,
+    73
+   ],
+   "taken_at_server": "2026-11-25T07:01:02-02:00"
+  },
+  {
+   "file": "tue/00060_tue_p1_s00_048.webp",
+   "ranks": [
+    70,
+    74
+   ],
+   "taken_at_server": "2026-11-25T07:01:03-02:00"
+  },
+  {
+   "file": "tue/00061_tue_p1_s00_049.webp",
+   "ranks": [
+    72,
+    76
+   ],
+   "taken_at_server": "2026-11-25T07:01:03-02:00"
+  },
+  {
+   "file": "tue/00062_tue_p1_s00_050.webp",
+   "ranks": [
+    73,
+    78
+   ],
+   "taken_at_server": "2026-11-25T07:01:04-02:00"
+  },
+  {
+   "file": "tue/00064_tue_p1_s00_052.webp",
+   "ranks": [
+    77,
+    81
+   ],
+   "taken_at_server": "2026-11-25T07:01:05-02:00"
+  },
+  {
+   "file": "tue/00066_tue_p1_s00_054.webp",
+   "ranks": [
+    79,
+    84
+   ],
+   "taken_at_server": "2026-11-25T07:01:05-02:00"
+  },
+  {
+   "file": "tue/00068_tue_p1_s00_056.webp",
+   "ranks": [
+    82,
+    87
+   ],
+   "taken_at_server": "2026-11-25T07:01:06-02:00"
+  },
+  {
+   "file": "tue/00070_tue_p1_s00_058.webp",
+   "ranks": [
+    85,
+    89
+   ],
+   "taken_at_server": "2026-11-25T07:01:07-02:00"
+  },
+  {
+   "file": "tue/00072_tue_p1_s00_060.webp",
+   "ranks": [
+    88,
+    92
+   ],
+   "taken_at_server": "2026-11-25T07:01:08-02:00"
+  },
+  {
+   "file": "tue/00073_tue_p1_s00_061.webp",
+   "ranks": [
+    89,
+    94
+   ],
+   "taken_at_server": "2026-11-25T07:01:08-02:00"
+  },
+  {
+   "file": "tue/00074_tue_p1_s00_062.webp",
+   "ranks": [
+    91,
+    96
+   ],
+   "taken_at_server": "2026-11-25T07:01:09-02:00"
+  },
+  {
+   "file": "tue/00075_tue_p1_s00_063.webp",
+   "ranks": [
+    93,
+    98
+   ],
+   "taken_at_server": "2026-11-25T07:01:09-02:00"
+  },
+  {
+   "file": "tue/00077_tue_p1_s00_065.webp",
+   "ranks": [
+    97,
+    101
+   ],
+   "taken_at_server": "2026-11-25T07:01:10-02:00"
+  },
+  {
+   "file": "tue/00078_tue_p1_s00_066.webp",
+   "ranks": [
+    98,
+    103
+   ],
+   "taken_at_server": "2026-11-25T07:01:11-02:00"
+  },
+  {
+   "file": "tue/00079_tue_p1_s00_067.webp",
+   "ranks": [
+    100,
+    105
+   ],
+   "taken_at_server": "2026-11-25T07:01:11-02:00"
+  },
+  {
+   "file": "tue/00081_tue_p1_s00_069.webp",
+   "ranks": [
+    103,
+    108
+   ],
+   "taken_at_server": "2026-11-25T07:01:12-02:00"
+  },
+  {
+   "file": "tue/00082_tue_p1_s00_070.webp",
+   "ranks": [
+    105,
+    109
+   ],
+   "taken_at_server": "2026-11-25T07:01:13-02:00"
+  },
+  {
+   "file": "tue/00084_tue_p1_s00_072.webp",
+   "ranks": [
+    108,
+    112
+   ],
+   "taken_at_server": "2026-11-25T07:01:13-02:00"
+  },
+  {
+   "file": "tue/00085_tue_p1_s00_073.webp",
+   "ranks": [
+    109,
+    114
+   ],
+   "taken_at_server": "2026-11-25T07:01:14-02:00"
+  },
+  {
+   "file": "tue/00087_tue_p1_s00_075.webp",
+   "ranks": [
+    113,
+    117
+   ],
+   "taken_at_server": "2026-11-25T07:01:15-02:00"
+  },
+  {
+   "file": "tue/00088_tue_p1_s00_076.webp",
+   "ranks": [
+    114,
+    119
+   ],
+   "taken_at_server": "2026-11-25T07:01:15-02:00"
+  },
+  {
+   "file": "tue/00089_tue_p1_s00_077.webp",
+   "ranks": [
+    116,
+    121
+   ],
+   "taken_at_server": "2026-11-25T07:01:16-02:00"
+  },
+  {
+   "file": "tue/00091_tue_p1_s00_079.webp",
+   "ranks": [
+    119,
+    123
+   ],
+   "taken_at_server": "2026-11-25T07:01:17-02:00"
+  },
+  {
+   "file": "tue/00092_tue_p1_s00_080.webp",
+   "ranks": [
+    121,
+    125
+   ],
+   "taken_at_server": "2026-11-25T07:01:17-02:00"
+  },
+  {
+   "file": "tue/00093_tue_p1_s00_081.webp",
+   "ranks": [
+    123,
+    127
+   ],
+   "taken_at_server": "2026-11-25T07:01:17-02:00"
+  },
+  {
+   "file": "tue/00095_tue_p1_s00_083.webp",
+   "ranks": [
+    125,
+    130
+   ],
+   "taken_at_server": "2026-11-25T07:01:18-02:00"
+  },
+  {
+   "file": "tue/00097_tue_p1_s00_085.webp",
+   "ranks": [
+    128,
+    132
+   ],
+   "taken_at_server": "2026-11-25T07:01:19-02:00"
+  },
+  {
+   "file": "tue/00099_tue_p1_s00_087.webp",
+   "ranks": [
+    131,
+    136
+   ],
+   "taken_at_server": "2026-11-25T07:01:20-02:00"
+  },
+  {
+   "file": "tue/00101_tue_p1_s00_089.webp",
+   "ranks": [
+    133,
+    138
+   ],
+   "taken_at_server": "2026-11-25T07:01:21-02:00"
+  },
+  {
+   "file": "tue/00102_tue_p1_s00_090.webp",
+   "ranks": [
+    135,
+    139
+   ],
+   "taken_at_server": "2026-11-25T07:01:21-02:00"
+  },
+  {
+   "file": "tue/00103_tue_p1_s00_091.webp",
+   "ranks": [
+    136,
+    141
+   ],
+   "taken_at_server": "2026-11-25T07:01:22-02:00"
+  },
+  {
+   "file": "tue/00105_tue_p1_s00_093.webp",
+   "ranks": [
+    140,
+    144
+   ],
+   "taken_at_server": "2026-11-25T07:01:23-02:00"
+  },
+  {
+   "file": "tue/00107_tue_p1_s00_095.webp",
+   "ranks": [
+    142,
+    147
+   ],
+   "taken_at_server": "2026-11-25T07:01:24-02:00"
+  },
+  {
+   "file": "tue/00108_tue_p1_s00_096.webp",
+   "ranks": [
+    144,
+    149
+   ],
+   "taken_at_server": "2026-11-25T07:01:24-02:00"
+  },
+  {
+   "file": "tue/00111_tue_p1_s00_099.webp",
+   "ranks": [
+    148,
+    153
+   ],
+   "taken_at_server": "2026-11-25T07:01:25-02:00"
+  },
+  {
+   "file": "tue/00112_tue_p1_s00_100.webp",
+   "ranks": [
+    150,
+    155
+   ],
+   "taken_at_server": "2026-11-25T07:01:26-02:00"
+  },
+  {
+   "file": "tue/00113_tue_p1_s00_101.webp",
+   "ranks": [
+    151,
+    155
+   ],
+   "taken_at_server": "2026-11-25T07:01:26-02:00"
+  },
+  {
+   "file": "tue/00115_tue_p1_s00_103.webp",
+   "ranks": [
+    155,
+    159
+   ],
+   "taken_at_server": "2026-11-25T07:01:27-02:00"
+  },
+  {
+   "file": "tue/00116_tue_p1_s00_104.webp",
+   "ranks": [
+    156,
+    160
+   ],
+   "taken_at_server": "2026-11-25T07:01:27-02:00"
+  },
+  {
+   "file": "tue/00117_tue_p1_s00_105.webp",
+   "ranks": [
+    158,
+    162
+   ],
+   "taken_at_server": "2026-11-25T07:01:28-02:00"
+  },
+  {
+   "file": "tue/00118_tue_p1_s00_106.webp",
+   "ranks": [
+    159,
+    164
+   ],
+   "taken_at_server": "2026-11-25T07:01:28-02:00"
+  },
+  {
+   "file": "tue/00121_tue_p1_s00_109.webp",
+   "ranks": [
+    163,
+    167
+   ],
+   "taken_at_server": "2026-11-25T07:01:29-02:00"
+  },
+  {
+   "file": "tue/00122_tue_p1_s00_110.webp",
+   "ranks": [
+    164,
+    169
+   ],
+   "taken_at_server": "2026-11-25T07:01:30-02:00"
+  },
+  {
+   "file": "tue/00128_tue_p1_bottom.webp",
+   "ranks": [
+    164,
+    169
+   ],
+   "taken_at_server": "2026-11-25T07:01:35-02:00"
+  }
  ]
 }

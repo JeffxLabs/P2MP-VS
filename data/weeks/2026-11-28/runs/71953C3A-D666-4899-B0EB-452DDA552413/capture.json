@@ -1,0 +1,32 @@
+{
+  "runs": [
+    {
+      "started_server": "2026-11-24T07:00:55-02:00",
+      "ended_server": "2026-11-24T07:02:07-02:00",
+      "started_utc": "2026-11-24T09:00:55+00:00",
+      "tabs": [
+        "mon"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 126,
+      "frames_dir": "p2mp/2026-11-28/20261124-070055"
+    },
+    {
+      "started_server": "2026-11-25T07:00:24-02:00",
+      "ended_server": "2026-11-25T07:01:36-02:00",
+      "started_utc": "2026-11-25T09:00:24+00:00",
+      "tabs": [
+        "tue"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 128,
+      "frames_dir": "p2mp/2026-11-28/20261125-070024"
+    }
+  ],
+  "live_tabs": [],
+  "last_capture_server": "2026-11-25T07:01:36-02:00"
+}
