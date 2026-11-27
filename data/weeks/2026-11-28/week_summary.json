@@ -12,10 +12,10 @@
   },
   "status": "in_progress",
   "live_tabs": [],
-  "captured_at_server": "2026-11-25T07:01:35-02:00",
+  "captured_at_server": "2026-11-27T07:02:52-02:00",
   "capture_window_server": [
     "2026-11-24T07:02:06-02:00",
-    "2026-11-25T07:01:35-02:00"
+    "2026-11-27T07:02:52-02:00"
   ],
   "captured_at_approximate": false,
   "snapshots": {
@@ -28,28 +28,38 @@
       "at": "2026-11-25T07:01:35-02:00",
       "source": "screenshots",
       "approximate": false
+    },
+    "wed": {
+      "at": "2026-11-27T07:01:54-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "thu": {
+      "at": "2026-11-27T07:02:52-02:00",
+      "source": "screenshots",
+      "approximate": false
     }
   },
   "score": {
     "home": 0,
-    "opp": 3
+    "opp": 7
   },
-  "wins_remaining": 10,
-  "decided": null,
+  "wins_remaining": 6,
+  "decided": "opp",
   "leading_live": {},
   "total_wins": 13,
   "wins_to_clinch": 7,
   "weekly_points": {
-    "home": 920511931,
-    "opp": 994345792
+    "home": 2054139201,
+    "opp": 2317349901
   },
   "official_points": null,
   "quota": 11400000,
   "home_quota": {
-    "met": 29,
+    "met": 58,
     "near": 1,
-    "below": 64,
-    "members": 94,
+    "below": 36,
+    "members": 95,
     "left": 0
   },
   "stages": [
@@ -107,35 +117,51 @@
       "day": "wed",
       "stage": 3,
       "wins": 2,
-      "status": "pending",
-      "home_points": 0,
-      "opp_points": 0,
-      "home_players": 0,
-      "opp_players": 0,
-      "winner": null,
-      "margin": 0,
-      "home_share": null,
-      "home_top10_share": null,
-      "home_median": 0,
-      "mvp_home": null,
-      "mvp_opp": null
+      "status": "final",
+      "home_points": 393604037,
+      "opp_points": 521309606,
+      "home_players": 91,
+      "opp_players": 81,
+      "winner": "opp",
+      "margin": 127705569,
+      "home_share": 43.02,
+      "home_top10_share": 25.3,
+      "home_median": 3704714,
+      "mvp_home": {
+        "player": "Nemesis999",
+        "points": 12786973,
+        "rank": 10
+      },
+      "mvp_opp": {
+        "player": "Baz5939",
+        "points": 19477442,
+        "rank": 1
+      }
     },
     {
       "day": "thu",
       "stage": 4,
       "wins": 2,
-      "status": "pending",
-      "home_points": 0,
-      "opp_points": 0,
-      "home_players": 0,
-      "opp_players": 0,
-      "winner": null,
-      "margin": 0,
-      "home_share": null,
-      "home_top10_share": null,
-      "home_median": 0,
-      "mvp_home": null,
-      "mvp_opp": null
+      "status": "final",
+      "home_points": 740443553,
+      "opp_points": 801274183,
+      "home_players": 88,
+      "opp_players": 77,
+      "winner": "opp",
+      "margin": 60830630,
+      "home_share": 48.03,
+      "home_top10_share": 34.2,
+      "home_median": 5708442,
+      "mvp_home": {
+        "player": "Fury73",
+        "points": 41357716,
+        "rank": 2
+      },
+      "mvp_opp": {
+        "player": "ZhekaSkillDoc",
+        "points": 42396298,
+        "rank": 1
+      }
     },
     {
       "day": "fri",
@@ -193,7 +219,7 @@
         "live": false
       },
       "wed": {
-        "rows": 0,
+        "rows": 172,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
@@ -202,7 +228,7 @@
         "live": false
       },
       "thu": {
-        "rows": 0,
+        "rows": 165,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
@@ -229,7 +255,7 @@
         "live": false
       },
       "week": {
-        "rows": 175,
+        "rows": 185,
         "contiguous": true,
         "points_descending": true,
         "missing_points": 0,
@@ -239,7 +265,7 @@
       }
     },
     "checksum": {
-      "exact": 175
+      "exact": 185
     },
     "checksum_issues": []
   },
