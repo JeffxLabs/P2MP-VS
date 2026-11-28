@@ -177,12 +177,12 @@ window.VS_MANIFEST = [
       "opp": 2723653180
     },
     "members": 95,
-    "captured_at_server": "2026-11-28T07:01:35-02:00",
+    "captured_at_server": "2026-11-28T07:06:39-02:00",
     "capture_window_server": [
       "2026-11-24T07:02:06-02:00",
-      "2026-11-28T07:01:35-02:00"
+      "2026-11-28T07:06:39-02:00"
     ],
     "captured_at_approximate": false,
-    "data_version": "a976aa2023"
+    "data_version": "020a3f1349"
   }
 ];
