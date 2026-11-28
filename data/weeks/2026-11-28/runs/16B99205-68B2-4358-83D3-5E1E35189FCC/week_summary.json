@@ -1,0 +1,286 @@
+{
+  "id": "2026-11-28",
+  "home": {
+    "tag": "P2MP",
+    "name": "NowaPolandia",
+    "server": "S117"
+  },
+  "opponent": {
+    "tag": "Sold",
+    "name": "Soldiers",
+    "server": ""
+  },
+  "status": "in_progress",
+  "live_tabs": [],
+  "captured_at_server": "2026-11-28T07:01:35-02:00",
+  "capture_window_server": [
+    "2026-11-24T07:02:06-02:00",
+    "2026-11-28T07:01:35-02:00"
+  ],
+  "captured_at_approximate": false,
+  "snapshots": {
+    "mon": {
+      "at": "2026-11-24T07:02:06-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "tue": {
+      "at": "2026-11-25T07:01:35-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "wed": {
+      "at": "2026-11-27T07:01:54-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "thu": {
+      "at": "2026-11-27T07:02:52-02:00",
+      "source": "screenshots",
+      "approximate": false
+    },
+    "fri": {
+      "at": "2026-11-28T07:01:35-02:00",
+      "source": "screenshots",
+      "approximate": false
+    }
+  },
+  "score": {
+    "home": 0,
+    "opp": 9
+  },
+  "wins_remaining": 4,
+  "decided": "opp",
+  "leading_live": {},
+  "total_wins": 13,
+  "wins_to_clinch": 7,
+  "weekly_points": {
+    "home": 2437913440,
+    "opp": 2723653180
+  },
+  "official_points": null,
+  "quota": 11400000,
+  "home_quota": {
+    "met": 73,
+    "near": 4,
+    "below": 18,
+    "members": 95,
+    "left": 0
+  },
+  "stages": [
+    {
+      "day": "mon",
+      "stage": 1,
+      "wins": 1,
+      "status": "final",
+      "home_points": 521296073,
+      "opp_points": 574909716,
+      "home_players": 93,
+      "opp_players": 78,
+      "winner": "opp",
+      "margin": 53613643,
+      "home_share": 47.55,
+      "home_top10_share": 29.6,
+      "home_median": 3876662,
+      "mvp_home": {
+        "player": "Rzurzu",
+        "points": 21159396,
+        "rank": 3
+      },
+      "mvp_opp": {
+        "player": "Старая",
+        "points": 59617188,
+        "rank": 1
+      }
+    },
+    {
+      "day": "tue",
+      "stage": 2,
+      "wins": 2,
+      "status": "final",
+      "home_points": 399215858,
+      "opp_points": 419436076,
+      "home_players": 91,
+      "opp_players": 78,
+      "winner": "opp",
+      "margin": 20220218,
+      "home_share": 48.77,
+      "home_top10_share": 27.5,
+      "home_median": 3482925,
+      "mvp_home": {
+        "player": "SoulQBee",
+        "points": 13421366,
+        "rank": 2
+      },
+      "mvp_opp": {
+        "player": "Koso",
+        "points": 16762304,
+        "rank": 1
+      }
+    },
+    {
+      "day": "wed",
+      "stage": 3,
+      "wins": 2,
+      "status": "final",
+      "home_points": 393604037,
+      "opp_points": 521309606,
+      "home_players": 91,
+      "opp_players": 81,
+      "winner": "opp",
+      "margin": 127705569,
+      "home_share": 43.02,
+      "home_top10_share": 25.3,
+      "home_median": 3704714,
+      "mvp_home": {
+        "player": "Nemesis999",
+        "points": 12786973,
+        "rank": 10
+      },
+      "mvp_opp": {
+        "player": "Baz5939",
+        "points": 19477442,
+        "rank": 1
+      }
+    },
+    {
+      "day": "thu",
+      "stage": 4,
+      "wins": 2,
+      "status": "final",
+      "home_points": 740443553,
+      "opp_points": 801274183,
+      "home_players": 88,
+      "opp_players": 77,
+      "winner": "opp",
+      "margin": 60830630,
+      "home_share": 48.03,
+      "home_top10_share": 34.2,
+      "home_median": 5708442,
+      "mvp_home": {
+        "player": "Fury73",
+        "points": 41357716,
+        "rank": 2
+      },
+      "mvp_opp": {
+        "player": "ZhekaSkillDoc",
+        "points": 42396298,
+        "rank": 1
+      }
+    },
+    {
+      "day": "fri",
+      "stage": 5,
+      "wins": 2,
+      "status": "final",
+      "home_points": 383774239,
+      "opp_points": 406303279,
+      "home_players": 89,
+      "opp_players": 79,
+      "winner": "opp",
+      "margin": 22529040,
+      "home_share": 48.57,
+      "home_top10_share": 25.8,
+      "home_median": 3835937,
+      "mvp_home": {
+        "player": "Rzurzu",
+        "points": 13299486,
+        "rank": 1
+      },
+      "mvp_opp": {
+        "player": "Mol4yn",
+        "points": 12571998,
+        "rank": 2
+      }
+    },
+    {
+      "day": "sat",
+      "stage": 6,
+      "wins": 4,
+      "status": "pending",
+      "home_points": 0,
+      "opp_points": 0,
+      "home_players": 0,
+      "opp_players": 0,
+      "winner": null,
+      "margin": 0,
+      "home_share": null,
+      "home_top10_share": null,
+      "home_median": 0,
+      "mvp_home": null,
+      "mvp_opp": null
+    }
+  ],
+  "integrity": {
+    "tabs": {
+      "mon": {
+        "rows": 171,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "tue": {
+        "rows": 169,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "wed": {
+        "rows": 172,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "thu": {
+        "rows": 165,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "fri": {
+        "rows": 168,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "sat": {
+        "rows": 0,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      },
+      "week": {
+        "rows": 187,
+        "contiguous": true,
+        "points_descending": true,
+        "missing_points": 0,
+        "missing_names": 0,
+        "unresolved": {},
+        "live": false
+      }
+    },
+    "checksum": {
+      "exact": 187
+    },
+    "checksum_issues": []
+  },
+  "notes": []
+}

@@ -39,8 +39,21 @@
       "profile": "p2mp",
       "frames": 245,
       "frames_dir": "p2mp/2026-11-28/20261127-070026"
+    },
+    {
+      "started_server": "2026-11-28T07:00:24-02:00",
+      "ended_server": "2026-11-28T07:01:37-02:00",
+      "started_utc": "2026-11-28T09:00:24+00:00",
+      "tabs": [
+        "fri"
+      ],
+      "live_tabs": [],
+      "device": "127.0.0.1:5565",
+      "profile": "p2mp",
+      "frames": 126,
+      "frames_dir": "p2mp/2026-11-28/20261128-070024"
     }
   ],
   "live_tabs": [],
-  "last_capture_server": "2026-11-27T07:02:54-02:00"
+  "last_capture_server": "2026-11-28T07:01:37-02:00"
 }
